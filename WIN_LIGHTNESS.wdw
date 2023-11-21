@@ -1,0 +1,165 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_LIGHTNESS
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_LIGHTNESS
+ identifier : 0x21f95c9b379b58dc
+ internal_properties : CAAAAAgAAAAZBL5cpIEpVlk7c510PcPgmoHLnxS9z0NPYkUB/xN4xN2H5mQRffzGqRsQ1lsAERawqJjY13Z+eKk5svC76ELLaID5BTjTiRfimwlFgP2QLT+5GURT6XUbnCfcGJBtc3WqF5rUNPIlxGtGHvilXlBZX26ecMdOFCAzVDaY9qBoPkEkuT3oMnLyoWTu1hrZd28TaI8GzrW0NEa1OOyvHSisl/avo6TXHUZ7+uMXck8a5iwIwZNQUsMgK7G2VWGBQ0k57WaLul0RloO3Qp82tvmYQemAaoB/7LuW6+Qno/G1n0nD0eaT5ZznWso6GyKowMz//FZmYGGcKyplbfmFkp6b6Rl1m9bivG5hvvMkm3Xg1UgEnAXEdXV2sI6iGomACOD0t87LV8FqxzF/q0Ep3yz4tOcII4XAiSBJFRYP6MqAiMfFeK6QQfYuWY89mo7nBhEXbINn4jdiamWXlXvBEPowKQxRmMAMpu3+S3/W5+IqYkFXToGYvYNa3as6C3T5pTKQCGPHznO/U+6n2Ua57OXFZRLZFCVej1gnAsYvfg0g/mG0BMv30iys/eljhJFwlcd0vHOQXQZ84Zv3ElvAJ6nFrRJY3RrpT4Cq1wOsz0Gu7OiWdtPir2JwzcHf8N7TtEjIAiqZ41Wp9PHFnWL7fNO1TIn2jAY7Y1h5PbfKp+ydEb4FJNv72UqHBI1Tn4oTu/KsuTPGXRcGKjKE8acdakK+osUvmA8MTUPplhDx48Bj430Ak0QBfuzjjhOLSPjyqNkkv1dZC1tgV2Qhipo1VP+8vUMX7lyrjE1C9Zz81wTf3kquwpkfH2nKIdGhXsERYw/j2xfbRgzSHuxSFcYzFF5U42HaMj+6OnEZVtYYd1rzVbgIRmBCJo0x2QgQ
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : BTN_Auto
+    identifier : 0x21f95c9b379c58dc
+    internal_properties : CAAAAAgAAABCRz2cNN3RsNWZQlBJtIGyaBUa/8vQrLXoJr5EA7TiCXME62He2+DJBSoX67r3xT8Qt7dFhaT36b1+TJu7NK51hB8Focx+MxtUDKGmbfYWQ9ddMB1yl27YdR2xyn4Pa5oxZUz1m9XvACpqaGuQapE+pYEn9+NBinkYd7HVZZ8QzpXf7b6+z3PZmsjkFVupv5YYJAXaqDfBeQIhwYG0LMX21h0f0SAcraB/+a8Ne1CuGJO1Til4I4eZ9vGOWxZkjpvcZoX+HEQuMJR1XVcdgB5wDyEWkReJF4V7qML01u24qrYtWK7m6Q1csdbacK55va3Xbfltdvf1Q543j9mKcuCWS/jYmyInlbemG8g+xnQw1etCNyYUMHjrnw5OgXOI2qHkxvwQ5lJUllv9EJlulhIkg4Hi8U8JBdCrTWdhysAJqB1FJg9kRQXV+M913T95yVKHDz9YRqm3L9RvRZI9twCrDtYdCjqvtHoOggaWxvKHtoefD2kJVSx09rZh6uI3B8vFYyjLpMY4dlPPOwOe1BnLpFK5Ex918f7xf5HtzyxJJV6nbtBYp9J8ddS3MGGT6JJ8FMJt92rxatUFhz7oiIZ31AYxe9HinUESN8LIonrri5wyGqTy1IHxTu0LUdVHxn56c4h1k+Ubx/lAgaxfr/F+WcDFYd89vHGj7MaLUU0jiEnkaR6EY4b7piQYQQI+fyWoPmrBPacuR44E9nbtekkmUISzWdFr4sfwfWhu9BCmMTAsRAv6ZqVX4Eh9azi0DVr3jfm8bLNSgaNyrBhbrT6B+XJaUlcZRFrpth7otWtVWVce3qa9QP+LgJOIElj2GepFkwSrx+m8NGLGx4kpndKWowV924RYfRsnZyH9H1j3VzfZotb0k8AGai4xgOALpI17qaZOd+9MiXig
+    properties :
+     x : 79
+     y : 275
+     width : 162
+     height : 74
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         BrightnessModify(brightnessAuto)
+         
+         // Display the lightness
+         STC_Lightness = "Auto"
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Lightness
+    identifier : 0x21f95c9b379d58dc
+    internal_properties : CAAAAAgAAAC4clTLiWKQv3ogVoO2HB/f4aWgBNK+aRHb2AlYOnFo9aVLNFY6Huh/rCEbPdwJZiUzn77z9Xft8FZqIUWuyQb67Vm03ViqBib6E5QA/ASepkhJ9FU0rATBV9VMjaDksjq/+4XUCoYn8Aoc7JnSSTdj0gh0xqO9yT1lOexH0wpW/IGoT5b3g12GLNq3AahPwEhk0eAcxv9wXzteXXK0iBHzQx9TEh2ymuHITlre0nsNr58JyX9pwfrhnTyzB3PNHJk//Fg9xGE01pC3Ze5aVgOL33uKDr2EDVr4cPqlQ571igLxxznXyg9YjOSe62FS8Ygg0bU5B13rNpxuFxj15nkEieeRx8hFvKqjXGOl0WojGPbCYCEJli2O8wjcQ8KW1HSC5teMIkkGLA23ETwBfY8ywYsJ99GReEbV7AcnVe+J7ViR9dygC8G1341cdw==
+    properties :
+     x : 121
+     y : 230
+     width : 78
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : SLD_LIGHTNESS
+    identifier : 0x21f95c9b379e58dc
+    internal_properties : CAAAAAgAAABC+eA16U0fN7mHY31E5PLD7i7mksnFz5VnypJBYFtiSAMpcOgXWaPOex962KN/G9IZtS+ExVAwQ4erItlSAkyaghJoWpPqYCivVGpYAdaPc1gEdRjywCA9TJ/Sl5PtcqKALXrBRTLqv1v7LIfoht3uJ0Uj13fKaxT4HEle7CN8/kxeLCsBuNovJEARujs0J2T3WQDYIL2+6swKe4myk/tDgoYnziEf2vsltv6DOxhqJkkoGxKVi3Vz16avsf3syUceBKdWoPoF+wWwoNCudfS9oCOfq96miGAEGhc3qtgjPbQ4Ze7FQNtQIGPkxkFEAUx/v7scd6xkDROz9LqovCtPtCGA8Riodwq5TVAR9GqZV7gAxUUwS961pk8S4accsxRASUqMbfCxg1JVxuwvncViX3nMM49DtBDq9Rskd+gDfp4xN9CjdtJdA3hEUiW8vQK8MZPvB9ZE7NcS2MvZ3BhGicwEcxlesXiBVKcD8ddSZ1U+m/mNxQjQ0ycCMG5RUK1mvR8FiU8GU5OuANeGpk3O
+    properties :
+     x : 35
+     y : 168
+     width : 250
+     height : 60
+    type : 12
+    code_elements :
+     type_code : 20
+     p_codes :
+      -
+        code : |1-
+         
+         // Modify the lightness
+         BrightnessModify(MySelf)
+         
+         // Display the lightness
+         STC_Lightness = MySelf
+        type : 28
+  -
+    name : STC_NoName1
+    identifier : 0x21f95c9b379f58dc
+    internal_properties : CAAAAAgAAACz10FVslZE0Nb2pMNlPUPX52RI/bhhmi+pFj7WNZ/WNlRQFKk46ebJsXomYGdzNyRbmttGnX5ZE98kuv0PDkLSUfYZBmmqCFbaj2exWO7k1RZVwY/nuZvcGYMCcFQQmbGK5USe2RNmI489xE/QYD/XYQbIdq7sx8IWSh4sBSLQDOIVR1YhpOLBMB/fxVlHy1GNImNp3qWLjhjX4KL4W1B6vazDifU59J8iBZyhYpoI2P0yzsnDeXRkBPT8xG8uIkSECWsUvoA6LN07wPEuFWMK6HyjfY9Xjbr3dvlYg8tFuTdOrsory2fgT4bhBi/n96vBfkROJd5ZFE8yIAHL0/cnBkD2WqII/FokTmBSHQsHFalRt3qduta1s2ZmtdTuVdAhedkOBSPoCYredMHw4tAXjyD9Ps9UmC3slOIPAm3ZpJwG/lXo2U4Kk1/jc/gn4sM/XVKnx9ZqRsf/LwOQrVhRNomq+0XVzKbdaaSDXgu/dDeerg==
+    properties :
+     x : 10
+     y : 146
+     width : 300
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95c9b37a058dc
+  internal_properties : CAAAAAgAAABNKbTCYWqaBLqpXP3r6eGvlbyjP6LZTvojkkVaaPHkskBX4k7U4El4cJ1YtY5xONfVRaZXR4dmxr5RR9rfDWxZ+QCWiyRjr6RbaTtCeW6LXFWrMD9REYlhHeTgD0Saci9vVaJfj99KewMBORFraFWBO7uJnjiuDJYa0V+aYHUThjTM4BE/g3uN41xBhZkXqRiBULxYleOf3ZzBbA3FIrInuVCilpTlO2v8IAtMMc2oZi3Z7di7Zk6+d2VvX/LrOJ9QCgAUnDJr+sWGuJpRfDWSYReq42qFH1nzTBjvevLdcVEa2JHIsezRsSdMec7xdoz8hS+V4DA4zpytG1hyhTRx+Y+KOHELBdYJkIGYyFMXrAfM9uwVD7G68qz+ecBgWoxlw8ewKpCt23AtvA8EuDFhJzrG
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+   -
+     code : |1+
+      
+      // Retrieve the current lightness
+      SLD_LIGHTNESS = BrightnessGet()
+      
+      // Display the lightness
+      if BrightnessAuto() then
+      	STC_Lightness = "Auto"
+      else
+      	STC_Lightness = SLD_LIGHTNESS
+      end
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600ab8bae
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

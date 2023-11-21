@@ -1,0 +1,315 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_LED
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_LED
+ identifier : 0x21f95c9a373255b0
+ internal_properties : CAAAAAgAAAAOyRVLBO9h4U5mCU37GQ224bPzPdGo/w/jZBBwj0rQb7KdbasvuwCPUSQz/sNMgZkjOtVjn/r7EP47MuzaUsVkaX1Sd6AqFeSsaEH0fWGmg5ongBfH29eVfW13ZQJuUo2+kufzHc7YHHfPgf+xghlgaRtZ2CiXTGFiJa11xV1cMx+nDj2VqU2MMLniSIua53bNKjnleYIMOcOxWhl3tbbpXELODzxQM6U8YFI33+rh7rxMYE2aCw5MIKAk0OclBKunwEG8PEPGgjdhI87+esUAIiCBS1qv/IU/5kuEhY9IcQ9WwlNkVOYSUpsl1KFnWdwZSiDpoAFMRCSjQr/TBmPT04kRLJy0SmOna6gevHjkWhXvjhM4WWIiRiFxViCSrajDzS+ImZFDbE/oDKo6hVRk6lhmvpGrP1jEzVRBdDMBsKBwNMesIMrdW+23t/nU1XUj7nw1KfeOH88wYiR4laJarBa+eFYd3AVMSOs2xJ+RME9mWTa26gYvt6QrqD+l9y/xKxB8atT2/POFuHmiuyGcju0EZEostrC50h9yoaFbOJ733cE3RdWB4PX7EYqZRgE1DOOl+KdwpxzbfGH7ZkSgmK7SlOpuOpydt4D7VxzOC6JG+5UdAJvCxdSPgI8c4kTq7quHA7zH7jlua08RhK0ca23E9D+CFUr/caCP8yZHoihIciW+LjKECSZWfQ1kZYQVzMlvgr0z1U31lJE3FKnhnjICUvOwVEe5rudE4ex3TpDONcX6XqdMrYE16aVx21Q2FzrE1iearHy3+OA9Eskv87jDo4D5+Mn20nZTZwbbaS4WKJ+zX9R8CJiL6irhEFtrQTn80kmjdlOLNvkDJeM4lkpRe6PulbzJ7NzaTkn7/79cSIi0sFY5HhCNob20voasVmQCt99hUkfjsSmwT4PP1EOFfYk=
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : BTN_LED
+    identifier : 0x21f95c9a373355b0
+    internal_properties : CAAAAAgAAAD6pvjoTS7RhKR9m0aHQf7uxSd+F0AYA+/D0yw6ULt0MFF/cRjRhnvxUCZ59r6FuXaiBm1kAgyDHAuRjbKNeFLUASsOtmr4A39AQNSRagnQHTiRyyKbenE3l8LJmn3vwpzSlc+99B+JHSXnhKlZNp690DFJweZrTjodAShb7z5C0ly4IaAL8BTFSpRQn408UmRXyDpX6pAhxvr5jtLkuPkb8UgyvPgRifzYtRRRdfLH9fbYnRE9do28HfHaiQUFq4mff//uGXwVdRLj6gr7AjaQsWjcr0cm+/CsdD1DE4QVEMiYXCgzmzHC0vaX2rnrFxJHY7qrqFJP4K4cBVb8zNDRZxt6SNprkQFwz+YxRjj+bOSNIacA1/0xZT+5SuRpoRRTS5L+SrbkzILNGZ6ZUgwBSPyjy04N/K7MHzNgfTcCHb8TvrHRlFcmb5FOCvWy161aNFGUDVUnXHFJecY1Zy54VVJHUEP4iV7BnnqqGvZV/8qfCVcMkN+48X7LEJzdr3AA37hjj4WJmITlZx+8ZomCPSbtbw6cqui8KQOzSVIZgoPpesRXAsV0YqSZpl03VqVRFiZB3Me8iBohfUC4mGgOMQL/Lay96C9RhUacKhL9Xrmq/AKX6ZSzJa03La0ndKkhY+idKpg458B8Z3bbA1PXrNonRwZY13te1sj5l5+LEXDYdRoNHNNJMfIwKXg4y9w9gDo5ZjhNd9dcSmr7Ec+Y8KFcgHqaxNziE4+KWpP+BrHzbdhVTvXChLdbdvoIpM0JdDie5HqQwUvyCxd1v1ryhkdFr1ebigGLK5OvwcPIPQYbNapxngFtiUzHn2XRiJvq5bc9h10wu0ltT13xBAmsg5wWuBQ2YqzeZB4ofAGS7cdG3+HgueQHc1Z1jQXLSi9cqByQdOPf+iSu7afENZVW
+    properties :
+     x : 12
+     y : 227
+     width : 135
+     height : 52
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Local variable
+         nColor		is int
+         nDuration	is int
+         bBlink		is boolean
+         
+         // Retrieve the requested color
+         nColor		= COMBO_Color.StoredValue
+         
+         // Retrieve the requested lighting duration
+         nDuration	= EDT_LEDDuration
+         
+         // Do we want to make the LED flash
+         bBlink		= CBOX_Flashing
+         
+         //Switch the LED on
+         LEDSwitchOn(nColor,nDuration,bBlink)
+         
+         // Information
+         ToastDisplay(<§$0000§>,toastLong)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : COMBO_Color
+    identifier : 0x21f95c9a373455b0
+    internal_properties : CAAAAAgAAAAx9k+S79mFbtouMeTFPJCuc6Zw5/YwzPy2xxUV9dVVtXeqjdMkGUvbj7eFicKD47ig94et1Yqv4lBV7wTPgjeR0AS6jZ10/PxfquwHGfKucFM4yFcb9Y/4imKOENN6cZMBT6R5j/E8C/75gB39rC2FJYjpqzsry3YgtR5se6F/2I2F+c7DZYLFvWdRtNBncXTf/g7ek5fTMbS1iUTVyd8TBS/npuqIPSUFOW4RXVqjp09YVwXQJZdrytU7J1iBRS5vLHmZlwHpYCJnRFcy5jIIBfmmkdpC76KiB1I4fSzhMi4KUkQaIhWf3BfTSLPjSNhp2bH2Nu4kDirU0CLQoINW2/+4jRvPQoGT1f2JX5/SDyr3gus48xt4piTlDRG/cN0GkdLjYYbGBXqzc0Mm7glzPyN1RA81rX9LBZ+e0FHZTvYPDU8ebMGrARB3O4SjfmSePaATuyNUSrXIsyhSqHukibIksMu5dhtcY/YSHtcZ8QsNJlAhPjnz0UHEJuGhRQKQkozYSOfZxzR1VFh/1YhfdeNdhHKf98u2Ods5xCJky+JOdLvnAeorPAcVe59lXe8inn5JBaM+/0h3FdsSfkAxGRaSqzrd20O9058jIIijLhyyp3j3MJ+mLaY/iyaRdT/civM7KpUMh4TggGe/eoYmmCRPWPP8ZLde+qHoD2dGq9J1uKI5hk8rWV9OPpym1dCNOM0gY0BUUi/Wb2M1GJU1J3mNw51gf5QBlWcAC+E6WLnUBGS9Qk9qz4eYUw/AZ3n0KKDj0Zxs8qEapEvkBqwZMVHUbeDiU+txRpKoANYe2DtqS1L/Vbf4VvRiBNme1JMH1FE3PAFqQj51nPpoxRWb/DbhW01yX66k92G0llmHwfy3FatJ0KFLUwHUEjbR8RZcD0/h1objud5kLSCJSNRj65OAexeAnAxS+xfQUEkYWtJnbsBdmIromgf0vUF+wdbjhtOne+M+JwagnABRzXdkieqfms8hY2nXFP0ZZpOJRxN4rkzUYy/MbY+EwEfKMPLKcp/Rtzaw7gr57X5x/HwWhnPTMEcvVMmX28IQlMExRx2oTFJd35qpx4nkG17E7lvfJY76bzK99S6LxbthkDEtUAM3TtXN5N4W2VcfegIbNBV9Wvfun0GDNsBCZX5MDKh8XQcwsROvbwwN3YQcUvnPq11Eg3zB0sNsJF28P7EFd12DYqt32RRedfsLTwAuz5EjqRccSL2OwWkswhncC2J4ptH7qXeeCosr40GERZToQqbk1iQ9OqqyYI5kzlquY7dGTYvwrEk78XOR/N3kVHiASg3K7QTGlpkUFLJdn71Q/OpSlNe4pUOwkbC73Qx5gbhP92HD+VxXrp1Z2AY5KtgRbbDDYd26v98kPnymnMwml826/zBVFdhNw5l7NP3rpR0vJKahyx+1liFcJZ0JfnKWylQy2r1gZ8hjq+MBiia37vsspupKNSQvgfn7EOk3+oBbNeWSZM4c31dKOPpUtN8fedsQrVNma+h6uoaiG5jlO9xn5sUyPEIOgvLmYwTyTSMoYOGEF4hpboW7PHy5hMYGPnyyazSBgMm9tfPKE6esw/aYYOzyrZKEeOlZZH/Uwq02/eI70CdwQtzYV52NNa9d6d4sE/bArphe9XWcA4LM/hu9W5hKMXuCYCktp88cRb6cgYLirAqRv1XNNfA/rJzrwDFbxyhWgSwiERwjUDW/vgl7NCUt2uINQeTFS4fng9zdzewwZHts9fXfrJph7Q4t
+    properties :
+     x : 11
+     y : 14
+     width : 294
+     height : 74
+    dropdown :
+     internal_properties : CAAAAAgAAAACAlTZ6LF7WqMpzFnU+7KZIGGl7+2mcsIgvgwzVqbOGCLsAS6HsCFowRrhd1Kl6HnTQ2WJDsU9zKviB6HeQteQR9uvLK5OfJwASBpHc8GP56ANStwbftWhRNeiBvnePtSQqdalNO1LqBPgfJuRA9CkuEhYwDof4h0hsgsJn1NawzhNzyAC2WzShmOaa97bK+Jza4hlLcD+9NeKrk7wv3kRzrlHQLmw3TAabOsFaZXyrDOIIzVo9WpAQ0fWseQuuzz3AFmwY9noaiC4rfGREdiJhgjvlB4psAZHQN3Mne2gIXsDdf71KjniFB//DOdHE+aZMnZwFsOssy9Dr28761PLqqeeyRGo2r61+2E1DUiHA2bMdgt9aeOytFDtr/PaqJM9b5guYveMS3DbVx2wkadvXyeMl1UFT66ApHUhEREi17u9QNQScorHdO6dtfuJlnHV2BLU1MHbtRggw0T83VrI8xB0jbFGJgeo8sPPFm2J/mbZ7v5bSP0Obec3lMKYoF1w73BVkyaJ4w7D273E9S5KkNEZ4/XdRwB1dg59mSU4DguRkkmaSc/wDY3mDgffOZ/LNncBrYf3oGfz05uBnKC7vTaKSeONaHPtQS4b4Djpb7qb3d3NqKzaq9y4BuaXIjwThuCzSi1SaeiV2915
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         
+         ListAdd(COMBO_Color,<§$0001§> + gLink(LightRed))
+         ListAdd(COMBO_Color,<§$0002§> + gLink(LightGreen))
+         ListAdd(COMBO_Color,<§$0003§> + gLink(LightBlue))
+         ListAdd(COMBO_Color,<§$0004§> + gLink(LightCyan))
+         ListAdd(COMBO_Color,<§$0005§> + gLink(LightMagenta))
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 17
+        enabled : false
+  -
+    name : EDT_LEDDuration
+    identifier : 0x21f95c9a373555b0
+    internal_properties : CAAAAAgAAADk12tymtehzsKKuENrMrV7LoF7U09lZ3FJ01BHtNJpO3l2w41bWZt6V7sEjNVuwbokSABZw8maEmoiUfBW5cKOqXDBskZpllZYLeHfNgu5YLg1cYiXTiX7/LMUIEEJxSETSXCLfd0gUcyFJfTQCoYPwwvfnzRe7qqGnyj5Y3VFbwYYTiZOm1hvzg0zCnf7yQywfceIvtyrFvFC2wyNmsSeS2pQwEyYidbIXuOyDrziP5Mv4HAOyn1ji9wL70bbqxmTo3Eg2p+E2XTKvc+YUzKxnk4hPaXkldQLu7IzmdcWcTbmVgKcluvp2W/kL/U2WiMOAQeYbXOGXcvMnmFrqgAA1RvE1ORKQofQ9XLwLDN9XgMAHjyTDCvuGwmONyl0yeRwp86Lawanju7EBIpXfk/k/5R2wF0wiq66w8ILCBsNFKBHPc7C5eMAZ6IPaUPA30XltCaEgIe8Wf6Z/2Xd4Bhh1ychQwt54z8hbn10d274E+Q9nqBMogfyzOiWnl9EPDg1c6UFBo9en5l69QA6ivOTiASFYgb7H1xn4kKJCao7RgpxM+iRzgfnzBhg3nsLEtdTL4N08yZTQ/KkDd9sQcDJF/UOsBlW0rhbGT1E+UhVv5JSfezxhBDQVi6NzNzQebS3Rivc/JshLvOvsxQv5fUIJlHmQNm5By3HNXC89/PybwuaWUP0DqRrdquUjdqzpwF9roOCdwuxuFQ9m5vO1R4cjZiJ/lygq4tO16kfGXTKvTDEa4J2mzUyA06QhdT81atjRiph2I2i0ysclVlmIzg6x635/IYsSrDcBNc73XegioVZT05jogAJr/xYeVZduFTPfNNtT0rmbsnbLk7ltielyIim+g27YnX5pHo75qBXLQY0hR4LGgUse7d49+AAY0FWFrsj3vPyw2Qi0cA/C1hvR+uwGd4nZR1nr3CcVfBPOMxqltgSazbukRFZchaXtF/wStm6Jg+sN9NmR4WJeHvbL5esFwPya4EGvSViV+UXneu22xMLTkxypVI2ygm/oUwnr1kn3JJhid9D5MwNTW0Ym/N66Ks7n8BJ4+s3RIVjNGGRwSaSaLgv+/LjCRpfLTZwjouQ8vMvKgad3MKG0GzWwbkOXWVelL06U3TYt3eEr2A8pL+X3ZEe1BazUlKXZfWbwz70MBwf9EW5dhOklwiDf3sHZk72W49t+IAhvf3xfQudmTXP0sFxTs5JQ8S3H+FQq8+XhfBXo1g5GpVGO3pPzOGhJpZHRrVIMSyTywxJxI3ENczdfL/GyMHYJlXnEQ==
+    properties :
+     x : 11
+     y : 96
+     width : 294
+     height : 71
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : CBOX_Flashing
+    identifier : 0x21f95c9a373655b0
+    internal_properties : CAAAAAgAAACR9ie6y9tRyABoCOAe5y2/Ntf0MZMYjKD4gJINM3I2Ge8dG37sLK2x24K1nx2Wblqlp42+aRhS4opetmUIRGPGgNaEHeHDgXNRZyKQG6oDcc8kYmfUmtKdHceWQmnsSCjV/A1Ta9tzamrwmKSPC5OmD0ghbqpomEdtfZIn7uYCfsjI9mpD+shLc6SiS/aGRz9885mWegqqYqRx3PHf0T5+7g9IHPm+eyocHijh0wN+iZ0ZyRzx1bsknKfN3g03YRiv5+9k/SFo0epO2WVrbjJ5vN+ndNki/+ueiDBwoZdIsVD3Qajt6QI3tkco41JQwCWsDMOt61PJZVfO1e4oGpv7XVyUj+CzXAesy2t8NfzvRhEb5YteGZ7ryUmnH0y91nnvicqmxlfeiWYAXBB7YlxBDYFYCmjdRs2MpGrzPhbQFnda+kxy84w/9LcybTCuAp8kOpkSMdiEgfXBxh+uTAF1QbLMjPvv+N1HKqCbgqpt2tPazDFl9U09jsXTJnU+I18XVFJeuJtpWBFGSA9iXgkK8Wl1C0NB3ab8ZlrXfeoNejiifYaiQnTdfTLRwuE3bIi3tZpwlG2bIHsLQm6WFzvcweXxRCweGFOn8ZaRYFhNsWOYNpUuC9UufZL8SRr/i70PvYa/hpHRQWXaqZIzB8Ki1GlFfuJy9lhpVqUSg85jlHakFPO/V5vO3II+aG7V/fcNwdfqkZn8tJaDTVEa5O65hEk53bW9m8wsCF1rKTCw6vo+L/1r/AW9F8YofFIFZEzUIs6QH/OpTSD4UcIOzrwo3mPyKYJnBOrz/MTcSukjLT2elI2UyRv+3FQ/VNrcuGCr7ns6cfTCFACgStsu5ryJuqE9SW+waOO5t8b/Utyqjv7Tik9OWqlgVgJu0mc3/3G9ASwQA32a1cF+tmFFe5Nlx963QcgU3LLQsW8OC3ijSC8fb/ivBkrgF5iQ
+    properties :
+     x : 3
+     y : 175
+     width : 198
+     height : 44
+    options :
+     -
+       internal_properties : CAAAAAgAAABWQkYTmq+z9UQkfZNuIsyB1KBwT71xkFIyPdK3VcThUvthjtXh7D4W3jOW37nz1xiViJcPfm/9dX1pTHof6VVqEFxudlhY5ZKAaYMV0cPeJBp98JW2IOck5ahgwWl28TnoHEKUeOJT12K6Kb3rRObMm9HXhtL+n9UUbYIJ
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes : []
+  -
+    name : BTN_LEDSwitchOff
+    identifier : 0x21f95c9a373855b0
+    internal_properties : CAAAAAgAAABY75ZTi5SyscDr9PslrnPD7L+P5fHadmsvWzNnJYf64+soPvx8WvHucWrO47+mbmpKbfZU/NF6cW8zDPk640W9BJK272cJZsueA9Pne2JCxU/mIXJKbLWi6Y8hHDv9hUFakFAx8daLGRDrHOWGQE7neHDySqEjJuwscNvUXhHgqc3Y4cMPm4GLSaY6edzzMWwB2i1/2UR9/EKluAPSb0rG2yu9f3YrXkXCnmjaLjLd1TpOWDgpPYuMgZ5rUnQDzCV9Hi148/OXqWpYtCcK6VxboQL/HCLboNAFMHtuZxi9LrAKGco+BVdABbPPr51RYEEQ713ZBm47MnuoYLHi/84qH2EVISAJV3pjYw+jKHeQ09aMNITXPCBPFYhZy93Y8j+fqwByfNxtLKg0APnWhCSrM213LtYvhO2JOqcT1RsBwCe5ewvu/Eg31io5nzP09mUZZJ/Mq2ylG7/0FYedo3p6vQEf+wZQ2uLLo9CBSsIRY3K0v4ovrGQykXdXLVI71UQaxDwsEG24kKYqm1yarCPwoVFrTON+yaRm3jXQRRI9MgkgiG14LFy0mr0FoW8JbLN7KZryTWelpBIQW9HiGsKep32BtEut+QcRFEYTSGgjnltR5F0Klw8NvYK7IDcZHvu3HLDQ1fg5h7T3U93ZUbk98n//hEvGQs04D+5+89ez9xTJ20Ug3CwLxal2bCQo66pFcVj41WIcvxmtiEmzN5y0HFoMJdar4+M9cfbI6Y96mt2LoqDS2SM3od/JdFiIP3kwniHnZs5u58IXNvuIZCs/df10RR2QHFZmHgWSwvI+d5MYj7peNPRALB2LUnnZVqAzzUM5gPupbYSAaJ/s7iFaL4MQGSsW6EIPl5aRBoWO23//6eqF3cV7WFrWZuvWtb0NzLdsOUafAO4=
+    properties :
+     x : 170
+     y : 227
+     width : 135
+     height : 52
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         // Switch the LED off
+         LEDSwitchOff()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Static1
+    identifier : 0x21f95c9a373955b0
+    internal_properties : CAAAAAgAAAA4o2aHZKgXhkilyXKfeCML9Q2QOxzc3y3JUlJBo4zoHf6uIxXJI3yqhFPTrS1s2ANckQxWlkSYCKTYrsH7soOfdzLGYkozxSRQQUr1gCdKjb1ly1bBoiAYdpNAL90nbYkhU2ZfINFTPdkRLlEHaicZsyKANu39Hc8OKjkgAshhOryncEUnPXW296I+v3ALUF8RdvrYAvRFCdg3gRgWAeG+ckUp93qHt5YXeVnwmsVoltXqq8Shk0tBjHPYR3lwPE8HZQLe7AP7+OZvUm/FZwk+1rFllUeHXZ006kScqFzXuAb0umz6qslACiqiLMnEYfqQp8jRK/WeQyO2eacMp6d7tXmqnioBenQsD8YJAkhogX8aiCXo0s/7EsMrkSQzKT0jleItcuZvfRT5I5enu0/8HSkFP3ZbdghYQT3Z7SCoguJ/qpOruzoINtkpRCr96qzkLYT+SJmW//RQ
+    properties :
+     x : 2
+     y : 379
+     width : 316
+     height : 21
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : IMG_Image2
+    identifier : 0x21f95c9a373a55b0
+    internal_properties : CAAAAAgAAAD50ESyl/NhBamRtJIxQ6jw2kAE3NDBTR/FleRX31kkVdDju3dhb22l9SMGncr04a2mdDZOwoemyMzY7UPpBqo1mAdoaMsqtPpTqqhKJpgqZfQKxQkLIsqAdrhak22wSSRgf0RVXvz87lAoZUr8ZThdnVOUZEYZ6Ey0m/2OxZtz4n2CPM6+RVdZZbhRVx6Tqi8MYkmvymCoW6ccCCkAzbl8TWK6fitojoXNpIyVognFvc7eP3Z7ZZhb7sDmQEwRsZxclD1eiJ5DJ0XNK5ldzoeTdmObv5yEb1/nMDVoeaHktVGE9bC5TzsuWl9oUGzT/0WrKrqgDJhmfaoCy/i3hZ7f4Dsy2ERom9ExRpEb6TYSEI6E87A9MkQZ9zn6oQxk2qMC4p12FEv7WDO7Dy0C4u7s4Y9Fm9Hvb9HvIFGlz5XFQbf/oD0auOAHyk1vSFl617o4pitRgZw7WQX+pYSYTDh002KYJNd0joC8eFG4sgZQM42mFv9GNOPTdpMu9yNpON0FFNCdWEFuqZEIX6HXcMdBAa3AnC3VUWBW26+Du8Zq17RwQpS/uEyHn4AkQlq8jyyDSxDguqr8H1ZvLMiMEczb7F3kDhUOERs0dr0tCzorthWo4owHI6g0mO1/VVKyH8r5k1koQUCaq6lWDZm0IULkca+XnHPrTOfaZVjR1qIF2PXadBIC+Hedo9mrYPjsjKTE3Rpq4m550X5mpO5Xtb2IBRbR6xScK6tIhVbLNZjrR4sznT0yOjBf5u6PmtoC9XMIo4tiaMnOZ7pIVq9ay1E9yrzWU48RAV9Ukof1iCGING8iMUKERsCyQ6nAb+8oR8YY4ajXlKd+Ha3sJGlvu/Z1
+    properties :
+     x : 110
+     y : 287
+     width : 96
+     height : 96
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95c9a373b55b0
+  internal_properties : CAAAAAgAAAC4vBmRED0pgzf4Y0Ta+AS0rlkCbHPwOc0osUioTrhv8TXiyJzVPSYxetO58EydPpOAFvtKf2njrZ2i1CdeFUZF7zeCVGwzqicLXRlwM8ClIwtFfH7/348netBOP/JotCshgeYzs6eQL4uXAVsbAME750nHJNpSduYG68t4NDGfINCKJpuJf/WVs3o5Ny17Sa6Z6l62r39JqVgkxb7ua9vIsFePX002yjhBB3jBrsK9fzzo0oEM17VHgEhIoDuk8VDbhfmJud/WR0qFvb+GKYZrsO7jhMtySjKoHy7RpGAvoMStdyGMsaS5LXmc1BJ5kgbHIqMeTlN7UxECgHnfGeVAWtrR7sgXDFHYQFKln/qKSni/Rb8wSGEfK5X7UJe9h78+aGgzlREs6El+OY6z5QKwlK+z
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      // Detect the change of bump
+      SensorDetectBeginShake("DetectBeginningOfBumps",snrSensitivityHigh)
+      SensorDetectEndShake("DetectEndOfBumps",snrSensitivityHigh)
+     type : 11
+   -
+     code : |1+
+      
+      
+      
+      // Stop the detection
+      SensorDetectBeginShake("")
+      SensorDetectEndShake("")
+     type : 12
+  procedures :
+   -
+     name : DetectBeginningOfBumps
+     procedure_id : 1295168184379790768
+     type_code : 14
+     code : |1-
+      // Summary: Called when a bump is detected. Make the phone vibrate
+      // Syntax:
+      //DetectBeginningOfBumps ()
+      procedure DetectBeginningOfBumps() 
+      
+      // Trigger a vibration of 60 seconds
+      VibrationTrigger(60000)
+     type : 458752
+   -
+     name : DetectEndOfBumps
+     procedure_id : 1295168184379856304
+     type_code : 14
+     code : |1-
+      // Summary: Called when the end of a bump is detected. Stop making the phone vibrate
+      // Syntax:
+      //DetectEndOfBumps (<nDuration> is int)
+      //
+      //
+      procedure DetectEndOfBumps(nDuration is int) 
+      
+      // Stop the vibration
+      VibrationStop()
+      
+      ToastDisplay(<§$0006§> + IntegerPart(nDuration/1000) + <§$0007§>)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1f4d076b021d63aa
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : "On some phones, the screen must be put in stand-by mode in order for the LED to switch on."
+     index : 0
+   -
+     text :
+      en-GB : Red
+     index : 1
+   -
+     text :
+      en-GB : Green
+     index : 2
+   -
+     text :
+      en-GB : Blue
+     index : 3
+   -
+     text :
+      en-GB : Cyan
+     index : 4
+   -
+     text :
+      en-GB : Pink
+     index : 5
+   -
+     text :
+      en-GB : "End of bump of "
+     index : 6
+   -
+     text :
+      en-GB : " seconds."
+     index : 7
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

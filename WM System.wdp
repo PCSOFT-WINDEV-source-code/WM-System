@@ -1,0 +1,263 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WM System
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android application
+    internal_properties : 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
+    configuration_id : 17772019411866953477
+    type : 15
+    generation_directory : .\Exe\Android application
+    version : {}
+    language : 2
+  -
+    name : iOS application
+    internal_properties : CAAAAAgAAAAaSuwENHNz5AQRTZcDtrCNgQWWkdb7q0LuFssDzFNHnqIeLqccm9tq8RBYbroqJPYw6sIAe4qUfGSLhYN+IO9AKdiDbwVGSQl3e092MBq/B/JXSwucR9+/WgHi0l+s3WgXlnPQ3SYRmK55tmBTN0PQtHIyijj0VBFEkErpsyZo3eYIs6+HCCYLUnvban7JmrUU0JrzLqiRXBXrHxZ4wfzEEPTXJldW20QOl+lG+1OvPdAZ690uWg8jlHjy930yTzKZQ5hIcp/f/hSBw1HBXDCxUdMgiKq6eEhAFgzQz+0LW75ym6oou3UZ5dy7R0cI1jNAkDDRrSC+JoWJE0GfX+5XhvOIc4X2f4OHCZcuZjvzqT3GufmlqPdwrL7XPvEZIXPPDkTZwyLSEnH487NT+85odMWKUgZpRz1aqJElcSUP+YzJPW7sbr7jYRiOe0g9S0wcUKtEIGuZZAVZ2QDCr3vZ1gMBqcgEig0KCHc7uwz5xP2inzlENwc9cWOWe/faAikQYeMY89cVQjyi80DORvS2b8WWHUsS1PJD1EuftGAPdAd4EYqQrWnC0GhdL0Ctcxpu1rfGFiRB5FNJE02MNlVIEsvKzB5/fpn3dmU+Ns056MFL6w3BZqglX3rXHstnHCNkT5OIBJc9g8KfgV0g0HZ/ivL1birhRoPFnEmq8j8SArE4l5Su0VjareHsgsCVKcaW7UJPmEUlOJtqp2Aar2m8kXs4WQ2gtWBHua7d6XRLEJ+4qRWiKIwc8tDMcWDDtCMFPKlkUp1oYiU1ecuiirgoFIq5v4a40Uwz4RvpIypQlxoHx/vHfP0Kxr8xy5rpFNMW28vk+OyeIK5XrTa210ecvuvp8nfLlKVXG5FKikPioQ6yLs/GdWFsZzdSPkdDFqDgILpcYCBwt6FAUghp0UMNtz0nsk1yqrDk24DW6fOigasj2M1Bo8IopbhtV/HUnaaVAmQk+mbhAPR1pKUpKO5oBsSW+awqwiM+ks5hU1Pt+6McrQH7pnvhPd3Gf2Blh9hGUOUlID3drTY86Hh4n4LAb/LqJUpm/yP5lx7udKW/iquY9+5jzwQpHj6aeuwUfhl1sdUnkIcdSLnHtygzNt4IANHdgI4yq80UjmWDflyO9BTQgTzONxyTqZCGJQx6/NynFfItDWQuOMnCY/jPDtiXleAyM9irtZ+P/U+N223h4zU2UXG2L4akw5rzM2HsOlH1OipdN8fOhQZ4cHI23PwMAPwMDK5h+t/+hrnrwol/QtRPK7iDPumMwsjQrvZpbgb6+rkzNpkHMlq5VlG+5A7CX4W60oFgKQW1pwCwi337c0Sk3lGN4JvskNBdn1q+faxrxjU986liwTrL92dVroc/WQTmfqrsMnhvBJsPNklwwAQtHhSpq+nDMw+niYaiIO7yncSVL4bbmHC42PzsJjU4orbO/JAlKvhYcZfrszxHPj9QSpuxL3uN0wPEzErZD9tJzC905KLnMHfviIKUGRA8UfCko7qda+TLLknDnkWcmvJene+IQWxDArusSvXPhXXWMwvZlJceFPPIWFOfHQAwMssuejkpU5cfxc7ndBMxVU5+Fxuq65XMsTvZpKM6kiySZkBzRY+7u2bcsp9ir2VjlzAZO6ALWnR34I98oss/Qk9Mu/IvschFZwqD3F2nN71ChBPonMMnZPe1ZynlRJa8t9WggA82PXP34i+QtScoDxdjC9o9RRXpBjhizhD+1OobSCf2l9mHXyIyCNBg7yKBnws7A5Xa7EH94YPbFEymSESlNDGqQ6zcopFHeB2OG8z0tFzemUBnGGZvLX37mQZ0CvExeQCusQOyH6v/AVlaR2CdPyuX11yIlXzW3RJfy2TFUQ0MaYzFEBW0RTS98XyxWapsLqCC+v5RushrbQWOFUjoZgRaMZD3qfDyieZomGlb7m/0+kHruUss7biXuZnPsCXLqrQPvySxgSMfbvALSvLfMrNi6BrdiR6EdGrGP07Pn1+Yh7MUFMCouRtejvLAsjgLLmMdcZvrXbcza6vXP4udYWGrRKG6PzK/fn0qhdGEsRcZNI4YPtULVikcwrceUJ4jqIYPan2S+35H4dqVZDtcYQ5J4OmZnor6qdiicdRkBadpH7CPVdN3rWkq2lHnSd6tazoLU0Cyv2QwYjfTw0/BnXoZdHHzeBOeY+kjKt8lJAv6+5roG37pqz+I9jKXG3vp8G3WCu+ZyqTIX3S/G2DsgN3jheWjB6434N8ukzWvJFlNGIgpnR/ky27At78YmHITNtfS4AAa2kjc7Xy6VwBEXkjtiaeaDMt7iSdkh/7Klrb1YsFd8SbAdNncYGD8OKXR8d+mZIZGPA35GsydYX+cinxfX4XAS5UOEmj95FTvP7gbBufIOYyvdtyCWzmEjhkrpU3aZSmnJ3OWVRene8Coo+hQTSk7GVS9ZRf93qDhMLnkXxObhrGA8qLlpU5O3X25zhJCuKA1NztRNFsH3fi7yYegPB09dTpE0KB8tHypv/noumjrv2W65lsZ9+60xsVk1ygeAhCJbRvqRBtg7f1mA+KgyJNcsOYLeuSwrXQsjBSokzip8BPykbwXdiHW5/iWrROiCFQBpYHyk07c6gHvBG5tsullcIWYIQTUnHkgA6MJyNvKiP9FewaMV3xn9RVVFv5Ct16OrC3wxgwqt+QRbyCD2a7v56vUhHlxxeFsyf5Vs+Oey9SA9jEhGUUMogY8fpLF+lReygkbrDN2EfBc8SqO2s/Ax/Bm7XQkKZZZ2XxqBcs2rzOnQfE2+GM3W4HDA70s+AbrK5Bts385EfJGtKqGqJXdyJO/so4iY1RUMJYagGB1vjoEVwD/S4kbEMVEXTk/CB/JkJF/M41xjevqWl0vYTACTQigMDR8yDQSjIJlc4k86EMkOfTHGW4yEgknAVH0U9YlXfrFTiTGI0YL++rxn2ohWTySAoLvUYNLiDH2jbs6fD7RbAmXrcknasLknWGO7W8/kInsfpq4/7N4bAAqN2RdJG26XRG2xa3lCHnaHzNGfFKMUf/u0La61J7EkkOTShBlJHImu4XCzw1ibCZGnFGosGrC0XVPsFTbBM1s9Mq9ss67pGYhboAVq8wBxWRwAkmlaP7nWRe6Xyej9BNzUmtDvRtMAY++XDhf5Hw9S12Xh+N9mgdR59fcahAUb00REGc03zqZNQ4Cvo89/dGchElfa+NhAivyYMEw8dec+pQPD2Th3nbm6tcicDiYwTrpcJXOuV6vp4z8/M5Fy+SKNlmZscG7Ltj5H3ezdHAq8N04ln0QUf/5f+/sghJQQVg/XhNsX/HyeMw101KWRoHt85RyFLMDTLEM2C37VE3NO8He7Im0nU9Jj0ZmRDy5sA3CkddiLQRgqA8lM1cvd7f9JGxp39hn9CWro3iBloR2dpXR2TzgFRHHUXwTg6aXmKrvnOHnutZU9N4LBQk7684hX7P1deNo/yrqHnStMrNB+wvNJU4i906t4+0wDnoKIxr4ZY2uiWym+NnkzP0U2lwzDTeaXJiVdP25o/wx9lIuLBkhkWHMUdP969gtrdZKRQFBUpeKpQD6CChb7dKCMomQiNaPAciia5IWSmZwTbWSxvyMCmTIIbnCLo/QvmSNfNZZFruQSztQ4MIDDfB7OROc/JiICFgZ2ruEpH9Nwkridl3xqQ9a+8Jb3SH5NeZmOXUWFcNzHnqakrAmsnaRR4fOGueifqh+g/b3/2JMjbumaNoP1zrMiflOEiJqcDgjNK53/qXvWuQQii0X/U0c/t5uis3QaBAOtdrmJsXdMpXW9FbyKEv0caPd49s8Qrkf1vMAp+zWocA4pA5Zxw3GFqqVezdGcmIzzLPWOtlo6Vd1xzvcWruDCApO4u4nbybXolPmtfgtQEbxWXqENGncwpD46EC/eUEpxClc5r3DXHH/eULf2zZgzUkq/tJDC8X2SYeBtnu+/UMycjhPoYSrQbVhr1Vr19d3Yi6ynvQDbFcG4ON3V6R/jIoMWHNVXTMVVO6/aA8a8bM+UJmmhnFJgz+/vW1rN8rgh1f8Ngxn2DuuVnDM3v5Oj11u6maDx1c1MO7D3HpJxK1+7MSlj/dlNXKJv58tM/Oz3G0a0OW6E9IM1Lw5UaN/BNdkFLbkbupjAJYeGxL0+6snb0Kls8jDZfK1L240KrvmibQVXzE+v764lD7j8w7orRX38WVFvZ3n+nyU19dfOsy0zOxlIwlcwrIFt+uTrxfMZZbEBMzV5nVRQULU9sF0xbQn3uRhFREdAVO7y0LHxXjXR0qsHEOg4cUPrYc3nuOv3ist4Gh+exkqI6rSUO1otfdPpmMpgjdctUY8Oflv3uZf/gTGWsALnNUFyCa7Xxg/7HGZd4r0ebZARcR0jlL1VhSSuxHTExwNtcZdB1xMTy6ktI/el7xBApbHhso6Q0eDdFQFTu2tylcIBF/zT+oDQFD5a+GF/vxsDrWsS5EPStEhRe0E3HMdHTws8caVIZZ9z+TPHX7MnSg0wwAX75q6LyuEbMssumUMjx3rn2xl0+ji3yQupj66rgBTrXuXx8JJsd1fIjvDsziqihRHZ3kH4N7wpew3L+xO96N6/c2mpTmBjNwrjS2vE2UngQ/Fa7x6nwQcuJsV3i25SbKRDZbHZOKi4uTI7jLTgDanSpF4e6+Suhdv8WaE/NQ9K2ht2zPffg2Z4Pt8lYqXV7+D06DFXiCqRv4JGQ3H+tWQmuhvEhzIye9JpEJq22zUpNchagV2eXtVQBMs0WP2kHKdDeca/645a1SHYP2gKxcUzAgwrh+OI/Tqnp9uAAZlm9kLyCtiz2XAbXzut1VSKFlw9puLZLZqq9jnNwOzYkWzUpcQI3iQWVl1GAd/gNrenxjofQBYKD7KmODG7jz9oXc4dvLZHcOZ3E0dfi57dlkEgrZZwF1WqX9q9mbF4BdQ/Nz8jPVregCVVa3sQcSpc5eVobOcvT66loeW+BU8Cw3fPHCthFYSoLO4PAGbdwbvdZs515aIWxioprfefxBkspAfi+Yd4v4nWelaUJyPkro9aE08r4nUcnhnzckX3X2J54+cIEdAgzFMpIc6/glZDxbhep5fLE3IuFI81vnNA1jIKAciRRQteoQed5wcnhARz7BbIcEZxEwBYbs8MdoriJKEnnS+ZuhcEHJhwYYzBOPM8fyqwVoyZLhnTWZT7YF+b1oMspQdKrSqBJbMJchLF+reSZD+23ZnOWqJErZ8j9oSeVdwi1O6PuWL8aZIrif0+WTff9/eof66pj2cVWoe6f4sbuLJBut3ZyseuFCJXkkYUz5uPYcEfwtFSa6CQF62F4q/vTKXeK5Ec1A+2wEmMlJz+3wqFzupFbI8FMqVRpu/vBNXXgaX0Sq9sW/2H35Y3AqnQ1XVoggq/BEuJkE1Bd4TfFhz+zdregjPmDO0ffkAcGkIO3Vg8bmGunDEnh95PJat3qr+q4fZ78GNih1AhP+MYoiiJ7aXRl2WeS7xTGxKwRZpF3Nzv0QWCokQwlze4tHMcrXUmGKu2KuuVs2isrMhY5LB9Dyu376oBt1auyK6S6/JTECLjwYCg3SB290duABS8rXG3Q==
+    configuration_id : 12274923855068489796
+    type : 18
+    generation_directory : .\Exe\iOS application
+    version : {}
+    language : 2
+ elements :
+  identifier : 0x4f4cc19301889077
+  elements :
+   -
+     name : IW_Sliding
+     identifier : 0x4f4cc80e01fce1e9
+     internal_properties : CAAAAAgAAABO1Kb6SXY+cYVQdCq0anIIfm11XX1XPWdSStSoFxiEfESOX4J1jNKGJgH7xU2Df3Fb2w==
+     physical_name : .\IW_Sliding.wdw
+     type : 8
+   -
+     name : WIN_HOME
+     identifier : 0x4f4cc80f020de41b
+     internal_properties : CAAAAAgAAABPy6f7SHU9boRfdyq0ikI/l6TiqizWjcK2NbuByHenAQs1wJR2jNOJJQD6xk6CfnJa2g==
+     physical_name : .\WIN_HOME.wdw
+     type : 2
+   -
+     name : WIN_BT
+     identifier : 0x4f4cfcbd3df6ae1d
+     internal_properties : CAAAAAgAAAAuNAYaqdZeEWXw6HkA9EkiVMdze1dIsuJOT0GzDxCEVOgm18cuF7YmhqEb5a0j39E7Ow==
+     physical_name : .\WIN_BT.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 12274923855068489796
+        excluded : true
+   -
+     name : COL_TOOLS
+     identifier : 0x4f4cd0171e4545ad
+     internal_properties : CAAAAAgAAADYtoCcK1DYg+sikgWrhfzeeHknPwELnpF2gV3nxFs5h6FRGK2HlyCMOBONayulXVO9RQ==
+     physical_name : .\COL_TOOLS.wdg
+     type : 7
+   -
+     name : WIN_DEVICE
+     identifier : 0x4f4ccde50d04af5f
+     internal_properties : CAAAAAgAAAAJBXEVks9nCHL5Ug4j/eXPy1jGjkDqUINOq7eNPMNTTbd5IA/iK+rPf6oU7LQs1MQMFA==
+     physical_name : .\WIN_DEVICE.wdw
+     type : 2
+   -
+     name : WIN_CONNECTIVITY
+     identifier : 0x4f4ccc4b0c4d6f27
+     internal_properties : CAAAAAgAAAANCWW5BnM7ZJ5VjTwUIGMJYSx4aHyGWPdK6O5WR/iaVuJuu7Saspl7KwbwyEi4QLAYGA==
+     physical_name : .\WIN_CONNECTIVITY.wdw
+     type : 2
+   -
+     name : WIN_MULTIMEDIA
+     identifier : 0x4f4ccc0c0bec775a
+     internal_properties : CAAAAAgAAABm7E5SUQ4myT24EOAe6qDFRAUTG71PwD+2VZ2nhLtRh7lJ7RrNfq4OvmlTrXVrF4lz8w==
+     physical_name : .\WIN_MULTIMEDIA.wdw
+     type : 2
+   -
+     name : WIN_TOASTS_NOTIFS
+     identifier : 0x4f4cc87602c87615
+     internal_properties : CAAAAAgAAACJhfGVEk/niPJ5Tcu+L4zNX3w68kQmijmOP7eNLOMr3W+BtjCFvRlP/yqUbDSsVESMlA==
+     physical_name : .\WIN_TOASTS_NOTIFS.wdw
+     type : 2
+   -
+     name : WIN_VIDEO
+     identifier : 0x4f4cec9024057bb5
+     internal_properties : CAAAAAgAAADMSiRwz/S87weOqgJtEfzo6vnhafnTbx2ysiBsU9w4sBja/4x06Lh41H95R88B+e/ZWQ==
+     physical_name : .\WIN_VIDEO.wdw
+     type : 2
+   -
+     name : WIN_CAMERA
+     identifier : 0x4f4cee9a291073af
+     internal_properties : CAAAAAgAAADBvTltWgcvwCphi7d541OV6boEVFL0R72Of3+FyCd3gX99cPMuO49X91JMtHx0DPzETA==
+     physical_name : .\WIN_CAMERA.wdw
+     type : 2
+   -
+     name : WIN_MULTITOUCH
+     identifier : 0x4f4cf0062fa8019f
+     internal_properties : CAAAAAgAAADkYszo14ykR782BhiIJKDwaD9n7+dJTHxSOr6OPcLSDjY4Zyp9shTgTOfRL/fpkQfxcQ==
+     physical_name : .\WIN_MULTITOUCH.wdw
+     type : 2
+   -
+     name : WIN_WIFI
+     identifier : 0x4f4cfd373fef88a9
+     internal_properties : CAAAAAgAAABm7E5SUQ4myT24wd88v39+gPf/N48oWdyvtLRJEQ4G+sokRTO7jJsOvmlTrXVrF4lz8w==
+     physical_name : .\WIN_WIFI.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 12274923855068489796
+        excluded : true
+   -
+     name : WIN_NFC
+     identifier : 0x4f4cfdef43415660
+     internal_properties : CAAAAAgAAAByyKr+TTpyrdGc9dvkbS2BcmMpQYvVI0FOi6uRDuGrfY9HOa2T8E9C4k23AYF/e21X3w==
+     physical_name : .\WIN_NFC.wdw
+     type : 2
+   -
+     name : WIN_COMPASS
+     identifier : 0x4f4d03e559a09fdc
+     internal_properties : CAAAAAgAAACrp5P3NHE5YogEwOZRk+lI1ULYCNo8bdu2MfkLMv0Zl2GjX8DttLEWWfTuykqGcmautg==
+     physical_name : .\WIN_COMPASS.wdw
+     type : 2
+   -
+     name : WIN_VOLUME
+     identifier : 0x4f4d06a85fd0689a
+     internal_properties : CAAAAAgAAADqYNI29bL6JUnFgPISjg8PUjOZQZuF4VuO9zvJFhlztRff250yNWNTmrUviQnHsyXvdw==
+     physical_name : .\WIN_VOLUME.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 12274923855068489796
+        excluded : true
+   -
+     name : WIN_LIGHTNESS
+     identifier : 0x4f4d071362110dbf
+     internal_properties : CAAAAAgAAAAzD2u/jPmx6hDc7NSyjGnF/ej01HhC7jpyYkr6o5x+ekaKF+YkBr0uoYx2QsI+Oq4WHg==
+     physical_name : .\WIN_LIGHTNESS.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 12274923855068489796
+        excluded : true
+   -
+     name : WIN_LED
+     identifier : 0x4f4d077863fa974d
+     internal_properties : CAAAAAgAAACd+fWpFkPr9O4mYqMFd7X9VyQSClwenXW0u4p9XMPLLe/RXrk+ZUO0OxaAeDioUECIiA==
+     physical_name : .\WIN_LED.wdw
+     type : 2
+     configurations :
+      -
+        configuration_id : 12274923855068489796
+        excluded : true
+   -
+     name : WIN_INTERNET
+     identifier : 0x4f4d086867ff3e4c
+     internal_properties : CAAAAAgAAABTr4ufLBkRyjC8TcXZhCKGSzSW9kz2Tau2GfETDjHtC/nnZ0e5rhqOwWxWomKeWk62vg==
+     physical_name : .\WIN_INTERNET.wdw
+     type : 2
+   -
+     name : WIN_ACCELEROMETER
+     identifier : 0x4f4d04835c130a45
+     internal_properties : CAAAAAgAAADnY8/T0I2lRrw4ZaQ6ZHJLsezYGDy2a0RTKw7+T9DCTqomIekrcVK6PejSLvbqlgrycg==
+     physical_name : .\WIN_ACCELEROMETER.wdw
+     type : 2
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ data_directory : <RepExeOuRepDonneesCommun>
+ languages :
+  - en-GB
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ code_elements :
+  internal_properties : CAAAAAgAAACh99vuwbRXvEdYxXdVL184L+CRRLUXxbSbbx13euj49adSuwvpRWWRqAshrOEDKdV669XPUBoY0VShAP91IG7t
+  type_code : 0
+  p_codes :
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android application
+     identifier : 0x4f4cc1d803ee9d24
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : iOS application
+     identifier : 0x4f4cc19301899077
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : Actions
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_TOASTS_NOTIFS
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_MULTIMEDIA
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_CONNECTIVITY
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_DEVICE
+          explorer_type : element
+          type : 2
+        -
+          name : Multimedia
+          explorer_type : custom_folder
+          children :
+           -
+             name : WIN_VIDEO
+             explorer_type : element
+             type : 2
+           -
+             name : WIN_CAMERA
+             explorer_type : element
+             type : 2
+           -
+             name : WIN_MULTITOUCH
+             explorer_type : element
+             type : 2
+        -
+          name : WIN_BT
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_NFC
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_WIFI
+          explorer_type : element
+          type : 2
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

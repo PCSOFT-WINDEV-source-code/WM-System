@@ -1,0 +1,697 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_WIFI
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_WIFI
+ identifier : 0x21f95ca33d7e7780
+ internal_properties : CAAAAAgAAAB1efoydvGc/A7aJStlLRYxzFMw1jM0lN0ugWenrkk7h/3Bm0NXJjFAeioKwsTihvJJV00a8kbXNngE5VAL4wIUWTjDD96A058YeX40p0yyaKOgfDijdA+sqh5fXah9mUUQkfs4/DIoqDNWNbzqoWRnAmOdw4pCNODqNK94/SMIqhHf1xkw30zTyEUNyi6pbEV7vPkXjqkaNwcK9CsmxYO9+a+PYo9IuuxDGp5rF0PhOCa3P3Zsi6MUHFJqLe5RLN61fI9W8lBuBorwR29fyurv39whLoPQX9sFduYWId94UBISamcnptX2+oXUQKlSvVddq3V8OeNmBScM6fHGQpG4xQmq8KHtBwTy7aHOoZ4L/vxrzNM1mt6D3j7WtOdjNyOVnOsUfPCCsKtfPT5t8HtIwWe2XJPPHdBi8PiBw5C65tr8Nyl2uqdthjkWcnDiqFNrqSLuzD6s6XWVXrof/3J8/yOsEQY9EoTwkzBtRdNansNCD2Akds3Jn+dLfBiI/9Ro6Qr2QLrlwnAfoq8/pccPHfnWcwuhq7ndVu+cOIY4ssd7Ada1SwDVDa9cmUcbl/H8NZyd2U0CCF0PAdKgCCnBx1Ff8m6i1eXM036VHdT6pNrnHb64opDlx8nawcSK5BT+b10qI6ozs+kTBPMDE9WnDOIF/SJ0a50dY2QR0eVxuQx6d3a7+Mi2ZG8AcI4swbjwJu6xOWSI6+reVKK9G4aekJi023e5CVpbTk1Yd0t0nMIJYgZ0bOhss6ggHtHer6UXQuvrew0W7gVFQjV4UV6THqLYDfPWzQGyH/PkiOhFDYeWpsnC/F5hxnacclxaJm1nkRnb+Mod4Usd0lNGZoBkBuqsZSa/2F1oYqEq
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : LOOP_AvailWifiNetworks
+    identifier : 0x21f95ca33d817780
+    internal_properties : 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
+    properties :
+     y : 74
+     width : 320
+     height : 421
+    controls :
+     -
+       name : STC_SSID
+       identifier : 0x21f95ca33d8a7780
+       internal_properties : CAAAAAgAAABHpk/B1pJHqDQrSN83u7UYga9cKwQ9FPi6+nHz82rAppZvxIjsG8pe8Rm6iYEqp4LpLJEeXbaDYukxewnBzN2KIR84NjwnFKyefGDOpw1fe+bvAi4PxmN8ufyW6/VglaiRvDA9u/jqf4L9L/+NPEVGEMXrZMpe3vwTTnK4tmo0LIOSl3ny2GQcZNpHT+mAT//yqr3GujU1mtBg5rGr8IGgi52ds8gQ6RMYwRkrlLtP0J+BSnmm7t0AodAfy97rim5tgqhv1ej8IRerkSiu5wK3PbneLo1lE/iCTVq6yq8FjhKrxvnXixjDM3FAZPr4PECD9TlVNEp53RJyj6lKx9ywctEev7L06Tg/QkdFBJhLAUqt837xShuJQHeqRYdOBzE4EmoOitaffl+vsaFlJZpnjuevP8g2RRDsVI4vZdgDReJFWjt0n6RVauwCMhdIsOnaINt8VTLDHMqzZ6XHkcKFfmFvZ3Re3rO3xZQRNyloqw==
+       properties :
+        x : 8
+        y : 9
+        width : 257
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : STC_Security
+       identifier : 0x21f95ca33d8b7780
+       internal_properties : CAAAAAgAAACix+JTO5uLz2dVH2cvdb1g2ErfgaWmAw0MXc3/fGhjvGIufICIy8hHSDHWZV3UcOtevEokfoZQic6b+Di1fu8r5L2NuEZmCTAQvSGFN1jr0MFm2EXwP+W+RBGRKJN3JlErAYdHS8IWtR04NY4CRfNsoj6u0/WlTktN2fceKWd4oBcJ5LkLL/7wkkcSayO9TfCgkI7saAY4jApBxVtq86MW9SastKmMGTryEBCc9jC9osDRSv+ZCDR6jeDnVwN2UXe9pSD+RrqQlLe3wlY0ftaqYlhNedeQxBrW3OWyXubEVrGh8AMZJTgFaq5Y6EddBUPt3yKZn5U25nBHwCGYWwSeZ3BZru8twzICm/Ze1Kj8CshLGPZ8+LRk7vqTKuPR4cDe0yETzOgAd3RnANMYbyiJKYPCJOkEh6AoTcJAgGoZnBCOqKaVALHPb8K9m4ymu1TPCx0zAw==
+       properties :
+        x : 8
+        y : 35
+        width : 257
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : IMG_Power
+       identifier : 0x21f95ca33d8c7780
+       internal_properties : CAAAAAgAAAC7YJmwZesA/Olw4rf1uW42R6inQLNUlaNvuYe8NITu2wsQ/siFBpi/nupoeBcmDa7u2YvQc0Bgufu9/BO6he5ExhN8PTL9Q2TeCUxBGfmDjAH1qWXwI7Mg7xSu4igZZy0DEEVMUJaAedWib1a9lkp7P/8VO+W2/nauhuxY37GM8jx6r0u6fL6mwub77ybOHzfxoMpHn9hXzAzx/WuIGfwcdrLGUYhLq6dMwC9w3jMjidDGdVI+YzrxR5B4v40mFDE5NhwpfZkh2rz9TBxLiP9wsD+97QEcNAFwCkeGgvMmDfN/KIdZ/cYIJdlV2hD0JyeCx6nB4JmLfluvgw1zuDOKi95fR0oVDHRVwFT8rk6MwbHrDKcmGL2wOzyx719tBbrBvTYbeNYa8+3084nxTNSjfrjEDDxX6j/oORHoeaTRvcJnNHFtCzh8MGzQCYreBnKF38t5wOM5FfddcIjY6tFQ4AcmREO6uw63vUSVell+E4U5y+bGYozy/y8JOQM9+uNwCMb8CeC4FAz+EZNtdl3FumVAYFhUTW/n2Vc/e4LP+3HUdkQEtbp4VkyO3CBK1uqYVwZ2jwlwgj6SVne/ocwEdoDNETlYLBIl7BF7YlD0BeF6Ss9rl9kZEhubzXDkRrxg0pJx8/DP+o9Z2pwPNzTuPhsVlp/S8S638fUBcUXdHr44HB7esBLE+KhO2jESi/rN3zAFjZgi02pHxzMPxljdBZF4x60kxh6IcK7ONDUrWK2+iNMGPTsIE2GwZUM+p7tLW8RBHtBcU4cXn2MA8SQCkshd3V+lduWOaZRZ305GGhEazFt3LoVIN4oWmZzs4Rgf2M7Q3hwZeiNh/xptZA9xlqI=
+       properties :
+        x : 271
+        y : 22
+        width : 38
+        height : 38
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : IMG_Enabled
+       identifier : 0x21f95ca33d8d7780
+       internal_properties : CAAAAAgAAACXqyJzvCuqMKNMv/qIOg5HepWPayWvukI2hNG/a9+TWTWumOeSUF0uFg2J/Lsr8jmsePvbsVsLq+LJY1zKDzBopU+OmMTDTDANr9tdNnH6I24YmentIoHGTSw1XVeu5mtYEKdn56fXJyIGzcApiZQsEX4oA7gL3O0BZGs/pattSV8yljj+alUDZ/tSHUg0pA+opmTSdXkjXg1//lUv4F+drWH8PGXePr1FGNlxzvqvRAh52M6DYOHAb9JtRbGfMtaOiEI+CaLP4ZStf8OEMnw7foqXpaEnh38Ohm2zpXlCnkwTAX4s8jaFcdYJjMRM2QGGAIn5kEeOU9Q8jg7Bawfw1mHn4RjahW1UwBZMxSkN6SBxesnw4OEYsC+nMbGa3LAvV88+jPTVuyjpHnt7s2keuJgDW40pOD2yVYpVFmkcnaXfkH2EB9hy/gx2z8yKtULrfxLvVz2rgK+nhmgV8ZSSvJ+fNB44HLa1MCl50ktfHttWcsZNAD5rH8Vwaj/APba3+P7Ycx+Zka68DTIBDesunEmFukWRRFrguD5AAltKMFE2f/xTqUTffdYMZ6CdRt4ObPBi7AvFRIMMlL7vGv+tEeyIRC/wnss4Op00ARvXaSHz+SiyWW707n74ORZUEjcr6ZMIkdKbvfEvhhyuhpf9M8hFmSLvOcuPdBtzPEr/2o5vf6S8Lq/dxOtORpZk82BUiXAAlNdDAN0FORQjIDFeiRig2Zz/iNgzlP5ZYTDlR6yLam+E4UDLH7s4+iL8SjJOp6HIpi2oqGQznIVUivZGrs7B8QXwfUcpzLd8BjD7JGQejPbpKjnyZ4rEiGJkRctis4ibrLGF1igMHvO2LaSymbh0
+       properties :
+        x : 266
+        y : 6
+        width : 47
+        height : 11
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    columns :
+     -
+       name : ATT_SSID
+       identifier : 0x21f95ca33d827780
+       internal_properties : CAAAAAgAAABn578azcmfaBsT+OEXFY9zI9d5zPFFcEH/Hbjhq8lLH0p1EIsH3hAut9iJHjNalyUBg1EKHBNeTzsrX0qND2ydAALAgTzofb4VO4of0/X5swwSpzmWLOPkTl51dycdnmAo5sKdx2fwzm33TKAkMm/PPu095kX9T6Ofiw==
+       type : 3
+       content :
+        identifier : 0x2557a4ab0fb0ccf1
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Security
+       identifier : 0x21f95ca33d837780
+       internal_properties : CAAAAAgAAAB50AjkPuAqWzfnlvLzEU6YC3VFXtMVmqa+fDNHVFRuGkJw68G56lY6jL/fcKTiu1f5lw+0inCdqNpgaZ6X9wd+I7RN5lM0K3yKD4oL4JNGqFOo9oSjTvV2g4K7rQixK3W5xiFwDHf2tJw5PnLb4BZGtwWViz32ZwooooSLyq0=
+       type : 3
+       content :
+        identifier : 0x2557a4ab0fb2ccf1
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Power
+       identifier : 0x21f95ca33d847780
+       internal_properties : CAAAAAgAAADgZMj+/Nlbf2/NgX8gmZHWPj8ufOJzGGr57icqeJ2nqtZbzte/ftJEJGmXjNF9FMFMZMgR98WF4Sr0fu0lxODj9lcy7LMh4r0a/YA+ZITVCfoXYxw/uziD88AJTvQodnLMWS3a
+       type : 3
+       content :
+        identifier : 0x2557a4ab0fb4ccf1
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Identifier
+       identifier : 0x21f95ca33d857780
+       internal_properties : CAAAAAgAAACQlJguDMnrjx9dEc9wSSFGrq++7HLjqLrp/jd6iI232jq7NpePvorcjBmvbBmFlMHEXGy9G2kRtS4Q8gkBEByvOhsW/KMx8k3qDZAuFPRlmWqH06yvC4hTg1CZ/qSYhgJ8id2q
+       type : 3
+       content :
+        identifier : 0x2557a4ab0fb6ccf1
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_BSSID
+       identifier : 0x21f95ca33d867780
+       internal_properties : CAAAAAgAAADwdPiO7OlLb799ce+Q6YGmzs/eDBLDSNpJXtdaaO1X+h4bfnd/nnIklJnHjNE9FMEsVAB5X61dOYLMRiVdfJgLnu9qHIMR0q0K7fCOtFSFuQoncwxPqyjzY3C5ngQ4ZmLcaT3K
+       type : 3
+       content :
+        identifier : 0x2557a4ab0fb8ccf1
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Connected
+       identifier : 0x21f95ca33d877780
+       internal_properties : CAAAAAgAAADARChe3Pk7X4/t4Z/AufE2Xt9OnIJTOApZTscKWP1HyiKb5vevfgpcfMm/jLllFGEkrAQl41EJrWaIGgHZ6DS3InPuDJMBwp063eCehGT1KZq3g3zf21ij0+ApbtRIVlIsOQ36
+       type : 3
+       content :
+        identifier : 0x2557a4ab0fbaccf1
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_ImagePower
+       identifier : 0x21f95ca33d887780
+       internal_properties : CAAAAAgAAABSb+augANgDBHTxwXYcXPejI97FFmxPKLNN4RVcCs3efTQVmYnR3qrGM/cidOGEFQtGVhrDGirlH/4fWsrhXqZ359HoX2+EgJ7lqv32mcjq1l/MhEZdl7IaEFQZZbhljqfnX/jDisTcNXIdmK19KXP1TTFIhJU+Bv0P8c=
+       type : 3
+       content :
+        identifier : 0x2557a4ab0fbcccf1
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_ImageConnected
+       identifier : 0x21f95ca33d897780
+       internal_properties : CAAAAAgAAADsBZ8y6+VzYCJ1lKMYyRTNAiW5N8Zmc83prw9Ij2/dfGV7aiJT2b5F5I6FuMLG3e6Am29n7SZRo/o8w8M1AHzsFusGhtVAdNTtZUE6wK3B8OJrW14F+tYkICpEcui1ZvmSM+DgZD0h/DXlzIfjtbc+hIaMr6MIqzK9GDBj5w==
+       type : 3
+       content :
+        identifier : 0x2557a4ab0fbeccf1
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        code : |1+
+         
+         Refresh()
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+         // Display the power
+         nPower is int = ATT_Power
+         if nPower < -90 then
+         	ATT_ImagePower = IMG_P1
+         else
+         	if nPower < -75 then
+         		ATT_ImagePower = IMG_P2
+         	else
+         		if nPower < -60 then
+         			ATT_ImagePower = IMG_P3
+         		else
+         			ATT_ImagePower = IMG_P4
+         		end
+         	end
+         end
+         
+         
+         // Display an indicator of active connection
+         if ATT_Connected = "Connected" then
+         	ATT_ImageConnected = IMG_On
+         else
+         	ATT_ImageConnected = IMG_Off
+         end
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         
+         sIdentifier	is string
+         sPassword	is string
+         bRes		is boolean
+         
+         sIdentifier = ATT_Identifier
+         
+         if ATT_Connected <> "Connected" then
+         	//---------------------------------------------------------CONNECTION------------------------------------------------------
+         	
+         	switch Dialog(<§?1CA3307900B5898E§> , LOOP_AvailWifiNetworks[LOOP_AvailWifiNetworks].ATT_SSID)
+         		// Connect
+         		case 1
+         			if sIdentifier <> "" then
+         				// The network is part of the networks that are already configured
+         				bRes = WiFiConnect(sIdentifier) 
+         			else
+         				// The network is not part of the networks that are already configured, it must be added
+         				sSecurity is string
+         				
+         				// Retrieve the security
+         				if ATT_Security = <§$0002§> then
+         					sSecurity = wifiSecurityNone
+         				else
+         					sSecurity = ATT_Security
+         				end
+         				
+         				if sSecurity <> wifiSecurityNone then
+         					// The network is secured
+         					switch Input(<§$0003§>,sPassword)
+         						// OK
+         						case 1
+         							// Add the network into the phone
+         							// In this example, the network addition is not permanent therefore the "Permanent" parameter is set to False
+         							sIdentifier = WiFiAddNetwork(ATT_SSID, ATT_BSSID, sSecurity, sPassword, False)
+         						// Cancel
+         						case 2
+         					end
+         				else
+         					// Add the network into the phone
+         					// In this example, the network addition is not permanent therefore the "Permanent" parameter is set to False
+         					sIdentifier = WiFiAddNetwork(ATT_SSID, ATT_BSSID, sSecurity, "", False)
+         				end
+         				
+         				
+         				// If the network was successfully added, connect
+         				if sIdentifier <> ""  then
+         					bRes = WiFiConnect(sIdentifier)
+         				end
+         			end
+         			
+         			if bRes then
+         				Info(<§$0004§>)
+         			else
+         				Info(<§$0005§>)
+         			end
+         	end
+         	
+         else
+         	
+         	//---------------------------------------------------------DISCONNECTION------------------------------------------------------
+         	//1: Disconnect
+         	//2: Don't disconnect
+         	switch Dialog(<§?1CA34E7F01D0D205§>)
+         		// Disconnect
+         		case 1
+         			WiFiDeleteNetwork(sIdentifier)
+         			
+         			Refresh()
+         	end
+         	
+         end
+         
+         
+         // Refresh
+         Refresh()
+         
+         
+         
+         
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : BTN_Activate
+    identifier : 0x21f95ca33d8e7780
+    internal_properties : CAAAAAgAAADTUxRyrtCX2jPtiuXMDGVycjKN0hRTmXNgj/t5mSMw0IdXaL51dEv8E8RGSlCYDL9e/jfILus2oKGDOE4buXpJV0spZgdwdyN2iG9bbRkethZFedX1vc7xA8+utWGoZZ7yduAFZZlSbVrdDyLm+2k/azOtxhfA5d9PdQcVAZ12wC+vywLlnKFtvMzUstHneXhXjjQFf15ee/K1GK6Ekyhf9HcTx73WF/tZs6GqChGNtAXvoCGXBhbDgR69s4VIhvWrUXUQ5sJhbDARVuuYz+zCMv/I8TD4KOetaDB39cOn5lMGDhFVpG3yAgmUtZnz4t24wvjLB2hH2Xpy8KUOLsH32fgPEbeSfjle+qN+DN+HrfbsGBHlIVJzBjUeY1Z2HdWm2SU/vR64gZ8XsBPlKERnqRgOpqpGrGjigwRMBTXHzMmQJw4ynG6PNsRG73RY9PiuD/fZ8rn2v/bY7Wf3VM9n5kVR68ZMLP+P2wN3DHcYW5jnLHuANRgFiHuz5Yknpwz53n4c+sGfXIW2RHHpa7zD8rfsZYK3p6XvFqKfBi45L6LrkGEMqvje14m+4bVqO5f6CFCjDFxIthGSP6DFrrg5dL3muSB/S3E7CtOm5V4vE7jiMWRGga9b7y0lhsIGJ6okOvMC4/oS/kMjpOlxZn+tFYpTZi/KwtpYAOvX4Zp8yEckJuTnz5IbLbjJrXBNrnT5C6lauZtpnfIyn4zfdLwqmad88Y6IUNb8WEpn6IDT1IevgbwJ7IAwM1w7IrnqdYEXYDUpHBZ2mDUyB9i8ML4xsy0v8wEebM7keKR7ZzJdlfZZKUbxmf9vs1/xbNslmocLUE94jskXGjm/3u/MkbCFgUSimShT80Mh1/USgvsIH4lXlu71sXj7NxNTGu2plixePbmS4gq2wdzuhAFsR2de39iaksjVm4XRgfY000a78Jm0SA==
+    properties :
+     x : 55
+     y : 8
+     width : 210
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADHjg9RPa+YY59IBavUuCyF2GLAhrtQZxGrcNrEgJfLj6htUSEWjZuvLCekvb9CsZYXeyFPMkO4U+pDM0yFoV8u0r64cqkOIEr64638dIQHDijljDByDpC3MuMO+l7IQ9V6pvEZS35+BT86axAt8G420fiIGCIbGGyhGhqjMGFIyw==
+        code : |1-
+         
+         if WiFiStatus() = wifiDisabled then
+         	BTN_Activate		= <§$0006§>
+         	OPT_Option.State	= Grayed
+         else
+         	BTN_Activate		= <§$0007§>
+         	OPT_Option.State	= Active
+         end
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAA92bkn25nucVDMiSZY9BolyLgK6PdvJCnNrpx+Op1jodQBESHgr43TEj2y35GYbQzn+62L6Fmm2xiVFeKzizOMv6ODZ2a92+2bhFzdFxGg99X6rx0XXUPmT4DZZ82ZsBrD71D6JI2tTFyWzpm0eefdqM/FG6Zv9HViazUYtZ6ysQ==
+        code : |1-
+         
+         HourGlass(True)
+         
+         if WiFiStatus() = wifiDisabled then
+         	// Enable the Wifi
+         	WiFiActivate(True)
+         	
+         	//Changes the display of the button
+         	BTN_Activate = <§$0008§>
+         	while WiFiStatus() = wifiActivationInProgress or WiFiStatus() = wifiDisabled
+         		
+         	end
+         else
+         	// Disable the Wifi
+         	WiFiActivate(False)
+         	
+         	//Changes the display of the button
+         	BTN_Activate = <§$0009§>
+         	while WiFiStatus() = wifiDeactivationInProgress or WiFiStatus() = wifiEnabled
+         		Multitask(-5)
+         	end
+         end
+         
+         // Refreshes the window
+         Refresh()
+         
+         HourGlass(False)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_Off
+    identifier : 0x21f95ca33d8f7780
+    internal_properties : CAAAAAgAAADX+JMz84V6I+EpiRc4PgY0Gp71F1K2RiE1pTXEcikMZEGDc0e7h81OAJLOv9O3HySX01ziZ+St7pax/LA/9R5CB71ZhKsrxIfaIfaFwufCdPhDDNUs7eCD1Z3ibW/REmrHswHCaBI3/0OGIE6XXYbwoT+xG90AHy/zqvGN0Fy4r6+YEPobcgMCKz9flVGNoQy7sv+tK7EDsMxtS2kiqUaGKVCqnFHO0ZYXNn0vm/aeFTOpl0VJ+SOGiOjmInx4jAJ2k5F5oRdizpvlHPFA4TMoS7W45DW7uEdcURjtM42Px0aTaA+1scSoPDsHZ89H+rjlMkgGfE43ZZy6Ta6ooHUxmpX76STda6a66DCrNhVOg8vW7LeCcFtUu6+HLRyiGgr5t6Gc5YWVBF4vCqRrCDHwNVPsun+JOQh7TawjsvG3JjdPuFyIDZZD4WqPcjiI84Y7tMpMuVlQeVJPKQi8n0OP17hW8n2/5i5kNS0dfLD42gQU3+o8Ed6V45IllMLne+y7T562g3f9MKJZOqtn1tGl8b5Tv8Wwe3rRWT6gWsUGg1k136/XbKdJg8dLMve60a/gVil9dfsd2bDk7a+xYiMq6dMwQWI16RsbZK9qRZj85sAid9IuBSs8sVaNanN1GL//221ZDl1kcCeG5Es8VomgFe+2onXpSv40ebvDDZRWc4/Lf+PkNvTJapETZ4P/1Rety7j58dgL6I+D5G8pEphNuXqZ0M7ltYHhrrnq6efpT5iYhXcAjB+D2rtW7h6UFHCwWCQz75IuAOr0zy4tXreWM8jOzTk2KwHIwYaYl8lV9Mu4MoX32kA+6K7RnZbI/AGsNIj2nwGayJLS6m1xonu+He3GRPA=
+    properties :
+     x : -131
+     y : -2
+     width : 63
+     height : 11
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_On
+    identifier : 0x21f95ca33d907780
+    internal_properties : CAAAAAgAAADUvECb2g8ViDWm+RfN4QOiXEHcrsRLTSEPV4Mxr3hvhUnYJTf5K8SRjxav9IkXsjPeAlcdOWi7/Pga//YzGi7Nl8OIjWaMRdGdTM+Bfkzrj39SShh0DeW8dcaWutLkvwnlfeVhqMt3q0PGzOmuuZBU1ssIF7PY3Gn/jryvbsZuv0AjGLOn2TFsujTMLJtCXWMCn7/HqxVoNv+HDZECbJ4wW67enKMkuXNAIpPl8hj0ehcBYQMGsBxICzyxLx5qqaJyAWkheBpvGEqibQrIcVC3JrD0+8aNSrGY9kp4JPxdn6AZIuJO4Bx1iDPB92JyXufoRX9W+D/AHwlCZER9XNyey8GNgHasTAYWB0lxJDLhBKsQ/iPI+0VqlZa8IKRdBzOLMYGsySXxLm6WyHiJLUi4El0zPYgBy1+4yTGEq9v0bC3pGNvLkHzgewQCcX1OxAhoHQYob5YkAgilNNUmgSkL7ffF5WPPIPyIJmoMEwqwg43tXirhdUQX99bY1dYprhvXMkU7r8NAklNUG7F5qDsNKt4XMYQVMakL5qhKb+kzDYIeIgV4Vof4KDUCU0rnk1vNU1g40OtMm4TcPrTHW+OxCUTVwoCrvI3+MpqtOoMVdgmYshbCU5xdrNvb1acNPvTjNfEsJCHbv+CYDoswr67SxeAFQ2VhspIWnR4QWWgEeQDmWIgdsLZd6TogzrGFNOY/KLpWEqV87oiLO6wfwPA854vgBrunCjmBKwIjsi9ctdYgthurV8OOI+fun5SRgz5NnLP6ZT14b4Cawpfl6SUyHCJ/qFlOrxxXAaZyWAn7UTTMolI3s2kmTJypaoEFhQrJT9CxOtd5bZ5by6MnQA==
+    properties :
+     x : -206
+     y : -2
+     width : 63
+     height : 11
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_P2
+    identifier : 0x21f95ca33d917780
+    internal_properties : CAAAAAgAAADS+T8louQUyGzUf0XaeBT5akLg0p/G1+o8lnRYSAIVPrmq18YYDzHBcamEQBsrk3OASJ6iw02Mwuq6D6XTPCwvQhnicsW0gvShpKoUGMamSoRihZGRsLlaDCBqOjp5HtMJaGPsDY3P/SMTKD2Rgt0AtjzHV0YaI/mbVoR5pqX7fyZDCZlX+GRoUy6mF92KTYS3tY5sH0e1eDUng15v3MVjnFc1B4IxxC2bxc+wZDbpqkDGeSpOci06shV103ViTi8jBomRuHzkc8zqLmx+Nyd+OhYPM4O2zvjY3xlsn1u3mX4q8KlbXRjnn/QF7ctG6tKzMNGvE/FhJCXlmJAdfl+yILOLeyQQJGTDdsaEVzTdDFBzmLWjPKDMpfxVFLWGtl0KJqYvsNJJpd4XF7yJch5T5D5fZi01TXZ8oolDH7jLCQ21tNVolnod+z6Gdwi8QRoyA40btQexxZcfMFQ+RvVifFozvbD7NzpUb8k5dfF1S05vgJojqYHAS46KXEaeVLock5dHwb7FIno5ZLTaLY/oRuqFB1CaXIUnENX6WLW0vVVf9K0txVWeDrlq7LectYuEZXyEXrYgxTHoAJF3zalgB9CXM1bl1FlInpWDbiDAAocH87oTkZyvvASG7qkHANM8dxlWvWTgTgj1cG55zF2VnEIm+Tlpb+f4A+C99H790skjwlScojfXrz3xJQX/8w2vQPUPz3kOZM01c9/AXBRhfA3Y1L0rggYdYlkoyM3wTFsN56MY3F4NkJi5sLCck02ixaWY5ouMpSRC3HLrunxWx89mKC2FYyFuFLmoyKH9IDK0YLsiha9PCHl6dYZuxG6c7KPsATKDIKAfVz5E1t1e
+    properties :
+     x : -165
+     y : -54
+     width : 38
+     height : 38
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_P3
+    identifier : 0x21f95ca33d927780
+    internal_properties : CAAAAAgAAACvporg7VmLe5vnqpA3zUFMQ2tTvbpbOj0LRUsHaaMaTW5/mrlbWNzcAFiLfwiU4GJReeHFrq4jJcmZLkSwHY2OJz61FRghCU8oIyGTmccnSYVjCISkATKnspoMnCyX5sUhUIdwI5vdubXZ0l/D6E0iFnTzCxAM9UElUJqD8JsnvUbTHQWR2h7AUdSs3Vv0garLgd5EBb0r9FNRDdz1ljVN+OM9f2QbHpE17/UqrjQtcFgOPf4EgLPOUHN3hV9wIgWvosFZBooSp348lE4QLTN06h4XW92oyOBmuYd+cSEjL0qWHG15S647japXNwXkFtgLMLUzmS+neCOvwnr/NDt4PHdv32J+isRJaPjGOeI54viT+NVp2uaYSw5nPoecskPemnIjDrmd8S7r31BlVqKDmCJTWukRibJUXrk3y9w3WYevqi8i+Pi3pWhUUapa73CM1cNVn4k/b4GRF51Be4qffWvCZhlKct0tQHh6tPK2xIusS4+I/FBvFMch9VmLYZe9TO64gpWYfduaQ+WVkmCJo8/QjE31N9ygmfzjwwKRajpE53oiBAzFm8516baNtqyJYmepux0XOKaVy96yggrR+EEWvC8Ey1Q5T0TcAf2pq/Do0hNkZJ9GYTlh21iY7TidwNgXfqevrVWasxOkuTa+aZfxll7U3noJVCdWQzeinxaApXFR0UaCXCr8IjDsTBZ4+TwAiEg9G26u6lDz6c26OcIbEUIe8ZWATRR1nRgvDZpMpmTZExdE21NkzRUHLurBZMT5B6otxAdlf5dQJYtn9n6VeV5UtPA5L8SlTSxojYH7P1wD5AAe24wNmuMBq1fnt/YZ1mWwzxOCyoOBiaCj
+    properties :
+     x : -124
+     y : -54
+     width : 38
+     height : 38
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_P1
+    identifier : 0x21f95ca33d937780
+    internal_properties : CAAAAAgAAAC5kISy1zOhRelR9NJxg+t+7cVlVyT1kKeZ99W56yE039gBfOP9cirW1gItmQKSylxjUwufgBBRl6/z0GaS8/9YUQh/f7q7h8mmXbPNy/Vx818tQk7m/1L/voI4tAQH9ikRiE/QO7NN4eHxPl+LaC2GPrTDA4hcDelJkHZbQGufCZZjRYXGQmoa/SCsCd9A7xrZJyiGuWkTCodhaSgBOl9xzrHvQWQrGpc9d32iDhQz6EoYozTAbHNM/C+zFe+oQK19UBsjcsZS/ab8xFZozRnUxMiJtf3QDAoK+ad+UQmRhxBE+mOFj27xyR7rp/1cfMA9MtvZbTvPHr+vXnr/jOHIUi2FhYZKSo59WJxOCSrnohIliretBs5WH6bzBtek8AvsMMCJMSWJpd4XF7yJch5T5D5fZi09TUaMQvljT8iLWUVd3H3gLhJVAzaGdwi8QRoyA40btQexxZdfQaTO9rkKoAZr9bgHMxpwSxHB9ZHZm9oDELK75S1wF9JCxO62oKJoZ/fnsbIxkrblPLyijVOg+qbNjzjWEA1LPJ3S8O2gfdFTjN1tmQHOWnV67K+c+YNAGays5nIMNa2USEknPd0go+S/W+5REBn0ynXjjkjcWqOLc/IbrVj/KHiulpEnZEOIq8E+1RA0JtwREJ6ptGmtuGbeebnt8w/8BzgABSVQNbCas2PzGyzMVpTqPJJCKsTqa6racrojBWDYyKIFj4sY84RBs4zYP1fi586z09L1V0T22LKPpaXSVd3+a+tRZJwTNhYX5ZQTKrnX4XV2D6F56GiPf0SuCkZDOd5DI0ZW/xMVwdqBZo6sVTanAAnrQekZYShXlKf+nS1sJGmve7a1
+    properties :
+     x : -206
+     y : -54
+     width : 38
+     height : 38
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_P4
+    identifier : 0x21f95ca33d947780
+    internal_properties : CAAAAAgAAAACye9VMpTEuNyk79VqiIQJmpIQgu+2R5rspqRUBH4h4i32k0pUg72Ffe3oTCcn/+fU5FrmP+EIJiYOs+EPKLiTNqXOdsEYngidaN4w1BICnphOsXUttG7T8RgCUhJBxqtRkEvUJcUn1WsrQDXJikUY/mRvfz5S+7GjjtyR/u2jt47LkaEvsNwAO0Y+D5WSlRy/vfYUV39N8N0/uxYnxE17JB+db7qJHCXjPYdIPB7RAkjOgZImSgWSmm0NK41q9scr7nHZcJT8S/TipsSWn+9Wgj4XG/tuhrCgFzGEt+N/caayeFFTdRD/R+wd5cMOUop7ONkXK4kZXC2dsGg1xkcqCLvzo9xo/Dyrrp68TzwlZLhbQF3bdPhEDbTtLM1OPlVSru73CNbpFZa359QR4nazRNYXtvUd7e7sGmGjv+AL4Sk5IHFM8gZRJ+K6C+zATTZutyk3ebNdGVOLgBT+dtUSzLqjDbAr50qk/8kp5XHFyy5fgJoTiUEAq+76PObutGrsc4dXAa7VEkoJZKRKLf8IRnoFxwA6fKVn0KU6GCX0zYV/pD1t9eUunsnqHOecpetktdwkLvaApZHIcHEX3WnwVxBn4zZ15AmY7pXzHqBQgmdXU9rj0dwPHKQ2DomXIEOMt8km/VTQXnilkH7JLK1VnFLGGUkpr6eYY9CdFA6dQnljkkQ88menX20R9VWfAw2PEDUPv9lOJE21g58AjFQxzE2oxF170vQturHgCMUwbBtdt2uwTKbdeEjJUBjsK3VK7U0o9rM8PYT6pKrbYswmN79WIDWlC0EGZPkY8LH16Lo8+Osytd9/eOnqxdY+9B4sfDNckaLzkNDPh87UJg0O
+    properties :
+     x : -83
+     y : -53
+     width : 38
+     height : 38
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95ca33d977780
+  internal_properties : CAAAAAgAAADToyasE6JeSOKlIB0Tgf1fZYDLy5rlbmJP+q2RS7U8RHCpld8Q+mP+MYQuZdUWvxp/4WzB/u5wIigvAYC7IusoSlUeaAZ3KGMfqzlyF2w5mXdPWujdo72/LpbexWZ8KDktswzl0T86S9PxqRF7WJUR64s5PpjeLPbaUV9qwBUjRpTsIGGP4ytdc+xRhekHiYiRQEzYlfNfHfxJxNWNmiofYeg6ztytQ8P0yEMU+eXgnvUR5dBDjnbWr60HxxrD0Df4YphsRHpzUt1O8IK5NI3y+bsyN4a9nwl3oKGsd1s6O/GOsljbaFXICI6rA4EYTT2cfwCxuShWrL5/DfRSlmbHw0NKZUeQg8ZN9YdoWj/PDb0EAnKDPVwY0Mqg62rK8CaHMaEKzNrzMYY7ZllGcv+zmbRI
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x21f95ca33d957780
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Option
+     identifier : 0x21f95ca33d967780
+     internal_properties : CAAAAAgAAAC3rPSlevJI3qXVqUWs8belXOxFUTTg++MEl/W4V/j1IXO/nDIgulAtCKoKq8yUSGV8D7M0m4MT/uSg2++w9SkzUnUogxtckxOltyk1oazDdP1jl4gXcSvykiVhfcYWpyT+rNFZFB20M1EQhYo22vWTgo02H0wkir9AkS3t8MrG2rwOcPxpL1DSEtlEdo3661hE/0d2Nh89gOyz5gq2qlBl8mCZSaniKr6rZaMrojZTNsQoN3iFtB4SHA1kFIovgTmNWqSm3SrkPFGB0eV0CtttB9K/ExsoXp8=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          HourGlass(True)
+          
+          Refresh()
+          
+          HourGlass(False)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  internal_properties : CAAAAAgAAAD70d8wTn5SOr+TScsbo435FnCdjDOLsvYRvQ16MoAt0Loms9jPEQQ11Gqh6nKKafjLEHx57avRkbKsu/n71gdH3LZgYHVuK1KumdQYmt62JLfFlqxqxPQdDvH7XToX+asDKQg023HgQDnB7zv6C/7whSYegDlJ6s93UT/RTnRQG+6HMTydPiqWV8IPDfI3fQy8ldW0TCjSu8mMB3uB6XyuLzJnRjbmu6YdGmGdJeN8LtZi
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+      
+      
+      gsCurrentID is string
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+  procedures :
+   -
+     name : Refresh
+     internal_properties : CAAAAAgAAADmh+P8/LFbCkdhMfAY7YE6iVNLAspVVTPgNoMlxa5UJvigrMJ6XODnnNWyDZJd53kLPJhc8iCzhnLWTDYWRJJObSRt8dpETnqDMKpVYWJXvdzed2rF+ayfnnH3DA8tf9riRXcaxOSUY8SF1qbpnkWw1xm0cGU/Domz1mDLyOftdEE/Eov3peRl3HfsEahnVhAv0Jhk6BHtQVEuV1jTWy7ohoJrHA==
+     procedure_id : 1295168223037912960
+     type_code : 14
+     code : |1+
+      // Summary: Refreshes the window
+      
+      procedure Refresh() 
+      
+      if WiFiStatus() = wifiDisabled then
+      	BTN_Activate		= "Enable the Wifi"
+      	OPT_Option.State	= Grayed
+      else
+      	BTN_Activate		= "Disable the Wifi"
+      	OPT_Option.State	= Active
+      	
+      	// Retrieves the identifier of the current connection
+      	gsCurrentID			= WiFiConnectionInfo(wifiIdNetwork)
+      end
+      
+      DisplayWifiNetworks()
+      
+     type : 458752
+   -
+     name : DisplayWifiNetworks
+     internal_properties : CAAAAAgAAAC7kmPFAacsd9sTHIGKggrnsIMRzgve03CrAbthxwclYnJ3jWKtJGukYqpeq7EEIaTrv+ln/GV6jyA5/eZv95eE7cG1vawbtdtxapb7dXN6EYtIeZ8Rq3wV8YYQq3iYt7XTbRTLsu5DkrtuSVLvF1QeNVxQ6GKEIHy5clZvxP00Nw==
+     procedure_id : 1295168223037978496
+     type_code : 14
+     code : |1-
+      // Summary: Displays the available WIFI networks in the looper
+      // Syntax:
+      //DisplayWifiNetworks ()
+      //
+      //
+      procedure DisplayWifiNetworks() 
+      
+      // Delete the former networks
+      LooperDeleteAll(LOOP_AvailWifiNetworks)
+      
+      if WiFiStatus() = wifiEnabled then
+      	// Detect the available WIFI networks
+      	sList is string = WiFiDetectAccessPoint()
+      	for each string sAccessPoint of sList SEPAREE by CR
+      		// Retrieve the values
+      		sIdentifier	is string	= ExtractString(sAccessPoint,1, TAB)
+      		sSSID		is string	= ExtractString(sAccessPoint,2, TAB)
+      		sBSSID		is string	= ExtractString(sAccessPoint,3, TAB)
+      		sSecurity	is string	= ExtractString(sAccessPoint,4, TAB)
+      		sPower		is string	= ExtractString(sAccessPoint,5, TAB)
+      		sConnected	is string	= ""
+      		
+      		if sSecurity = wifiSecurityNone then
+      			sSecurity = <§$0000§>
+      		end
+      		
+      		// Are we connected to this network
+      		if gsCurrentID = sIdentifier and gsCurrentID <> "" then
+      			sConnected = <§$0001§>
+      		end
+      		
+      		// Add the network into the looper
+      		LooperAdd(LOOP_AvailWifiNetworks,sSSID + TAB + sSecurity + TAB + sPower + TAB + sIdentifier + TAB + sBSSID + TAB + sConnected)
+      	end
+      	LOOP_AvailWifiNetworks.Visible = True
+      else
+      	LOOP_AvailWifiNetworks.Visible = False
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1f4cfd2e01116533
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Not secured
+     index : 0
+   -
+     text :
+      en-GB : Connected
+     index : 1
+   -
+     text :
+      en-GB : Not secured
+     index : 2
+   -
+     text :
+      en-GB : Enter the password
+     index : 3
+   -
+     text :
+      en-GB : Connection established.
+     index : 4
+   -
+     text :
+      en-GB : Connection not established.
+     index : 5
+   -
+     text :
+      en-GB : Enable the Wifi
+     index : 6
+   -
+     text :
+      en-GB : Disable the Wifi
+     index : 7
+   -
+     text :
+      en-GB : Enabling in progress
+     index : 8
+   -
+     text :
+      en-GB : Disabling in progress
+     index : 9
+ dialogs :
+  -
+    identifier : 0x1ca3307900b5898e
+    internal_properties : CAAAAAgAAADDCUcEJeso/ZzYZja7wEwgna95NpDMaCbVKfyQCzQaV/8cMA==
+    label :
+     fr-FR : "Voulez-vous vous connecter à ce réseau WIFI %1 ? "
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Se connecter
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Ne pas se connecter
+       image : {}
+       value : 2
+  -
+    identifier : 0x1ca34e7f01d0d205
+    internal_properties : CAAAAAgAAAB5W/FG7gEoe5qYWHpJRoJsg1xMgVs72Rm4Sptz7vfgEbFG6g==
+    label :
+     fr-FR : Voulez-vous vous déconnecter?
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Se déconnecter
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Ne pas se déconnecter
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

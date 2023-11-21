@@ -1,0 +1,371 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ACCELEROMETER
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ACCELEROMETER
+ identifier : 0x21f95c9735334852
+ internal_properties : CAAAAAgAAABIiPR2HWt//0M3vqk9m02RW6UW98dC/Yrq4uOk5i5aER7mCygRPwMNonR2e2JXOCiO3MQWmQFR61KEvkudXyq9s3uqqqMQJ3NCrjP5rdKlGRkG0fN/7uTGylajs5xzSbhNcmXLG36kdKrwc+DaUiP8PRmMVntqf5C5YU9bvrnLzsCsbK7AxQ56w3otuTAQ4zKBsGMQg9AqS4g0hokqIjqCYs5oCy75kJ5SN/CAlEjER5xqPoEGqn8qJo6qMmL9rK3C/RN026WqLc7J63WTUxD5OjCCuusECq/Zge2cq2Fls2Py/8qXLtpmanGpgqjen50xtX4/hPJK115gw1xQH4QlJqUGziAM4fMEriXxe/mvI595ia4CmwZyGWZ43+YuIxEUzu+fCaktDTgkztBiX9Ndn88Afe7pkvNWRHSNL0fQBIDzcecrEZPDX/b079R+eH+Z/EVE2WplZAQRv1sE5VjhBX518kU376nBeYBN1VOGIB9Hkb11fh8bw0x7TMeGeTio4YXMUPGck6VLph80pJ8pxWWDghSNqBVlauduX3ThcQnaWZA6T3KBgbLkAJt1qRiaZGQjzloMrs55ksNnE8A9t0AtzpAratEhx+CpG23c+EGwlEN5F1GXN1J1RgyuKeTKTdGiSOB2oY1u+zjzkZV9ctMTIMdadFYnb03A3Ic49FcMwdU7lYTt8fVeZeaMZ3bqz+SJWzCK9ndUoIXp0MJYlPZ5XrhJJtvHwEXv6edgXfOSKXPf3kiZVd83vDKpF3JDMb2+tkbF3rhp3P1fjyhC+lB89Q6dutNxz3BH8EQybN2u2aGlnC0+bxrVuli/xvhwyX7fTrRPRdJGe9TGEk6m1Pvpg+1D3gw28ZA8G0fnwaALcaJCPYa6KdLGbUSOsRXowsb5Yhq5wTzOk0MV2wjV3r1w2nq8FYaYw5QP
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : EDT_Lateral
+    identifier : 0x21f95c9735344852
+    internal_properties : CAAAAAgAAACGFzljNx0QJHXdFFyf2XXVL5rsuJfhNrOfwhAdrnzjUu3Ncl1cHa0ry62VH8ZIBRgdlDqlAE6MKtG2r3O/M5XLViI6V0M/YXzh7BY4a8Kjkn1AU77WxJd0dCfy8nzKBH7sCjAFYpBRjy+lqZBK2ZUBA/kcNKVKyAL+bLX6gSEqA79ASndDx1JZXzQE5l32Ta9FNq1V4RGqAUKuoar1iwrHbSpBGGJ6oaD1/0DBzrf7g0CycsC6Eb+rTbGJ89cBUUPWUAuOo+m368t0pPWa/5BKR+RkSTKiIqvizXTjDhDDWOZOwgQ1vFQs3/yZ5Oofsj7bMkHOsrYSJL5eQhT6N71jyeXqtL0D2d7eD+PH9EBSvFWx1FFNgQ95IpJEJI87kfZHynsL8WCmuXB/yF2SqrBWdf7e3jdgOKf3pNcZCWFCKI+ompZ2EWp/L58VZxRF9LmBfhQ1Bp84ZXGPMmfLxr9Fl/GpZGJCmmCQz/LV+HOHrwxs14qIdRlawIViebosZ5arDyTSeOkARoXr0C7L6D1uNLSilwEVuPhnr3cPRVS8laC9FjkB1/pegob70LtUxAGrAAe8j4o4Opi8/k8MM6pdxAZ2Lrjfy2uebWppwgtYAxygGG8YYpsq17jGVvi55XqVKSZJ9cgEjpzowoKjCAIVzcwA7dgQlTPiHiYOQ33qz6J+tb6jHmRNsoW8Dw+r2f8bVVR3GuObS1d02Ld6jC1NyXbalTHu3/vGFzpoXRRwbwp3UlnB7dXuAOStmdzNKJhsMC9V74w26SCFJlJ1++XI4aGVv0M9Em5nvGPqGxSk5TzNjCObH7o9sSDoJJaqRs9FuQaF6SGF6wpL2XtnnxSBWGXISHFMb0BK+F/hSpDb9OfPBO9aTqFLKiTe8UekHDBMgyJBUDZfPupHHv1+aX8uzhY2HZOUC5DTDyNS5yKbIVboatysAS9VyJt7qmMwrAdYmMgEG2jZwSbwz2cDA+CPq2KwE5CX0MIWT7LGa7aLW8sf628Cr87h8c5B4Hicuo+DkbBQe1zxqkgIS3D5w5l4Cgaze0Z8LE3fyYl9wc2RFljNPEg5PkO+UmeCi6PS2WK/lc/vj65+GUiPEBQVsg==
+    properties :
+     x : 9
+     y : 8
+     width : 94
+     height : 48
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : EDT_Longitudinal
+    identifier : 0x21f95c9735354852
+    internal_properties : CAAAAAgAAAC0z6oHx0KobjzIIScEn4sZMjMWvQahIpw6N2e4B/8yjY6/dc4RrM0Nk57xDX7BBjWt3VdfX8zrSyaddrgiW1dMvvkPuh9gObOd6QAwQxKjPQRtHDIL+S4aLN2sdhJQorfpcZWFZj6gArfi5KntgjnbN+S/COHWRn+EdmtXZBm5q+hDnw/o1asKqwAalMsIlHDvmAq9FJHqwY6VX+9lBsibC6xRk8Y0Vkj71FObbNPxjkpbSmF4q4zhWakRnqs4QgI02+1K+cUqSjmh3Vr/VNuKEpRfBbQhSRoxMRbzHI/NCs29WlIKaokKKMNqygJxz0TzOIdDAssoVmS/ZPpP9hggO90dSqCdpUk38J4MlFz2F2Z48kJRyf1ZmDpQVXnYQdTn4E+LAzYc4+BJbaZFMQsS27Fr6/k1EZp4KZSIWdCIyiDKnCzyOPf+wpvMEkHHApNMP/EivJnoaXbw9jEtZT9uY/JlZiH0idMLNNBevPtANK7xprd1sdihUhrBBHG3D0TOLoiqLyei+wN4hs9B/NUz8qVGkYbxUSJSmca+YAF68AsLKd0ZytaqQxPcN7aIJ3TK7+MzGl96s8KopGqPocezKrXjeHSlK6PeT4Sg8SYKfoSaW5FPi5zt76SynzNYvGKDxPGxIMRMLgcJJLOpqEqVhAxLHPfh0JQeQQogejcg4oxwzGvZqxj5y+fCiZ5zv3PTZPzdsC369fOayX+SB6R9dafdNJTgiG/cRvvJNb5SJg71nCjanu+gjfeT0WP3YXChvQo/RAHspVnLzi6rWGcB1i6e72mjjUGQtteOOtSSRIJAzffrIB0BSOnMOFE5IN0u7YFSDnXCVV3foPBQRP0KU1OnDd764UBJx+oh0mE/SNYz++hGpkAagYDNG+x6rdOj4OLX7vyssXmocggk/W7odsIvxZuA+3IDG3H42+k90DpcYuxY/Vq/OEsMewdPN7u7S9pj269XFYMq34wM2FVxNgyYxONGzzTAUU+AH7Hl2z7llX/UQj78xczhPdAxS3xljaFKUD4L6VH+UUZY5BHL+ui2xkOnWpfNu0BzO4ErZhVBy0mX9GxfWvMipmRb5iW9Sb9phXG4O3Dc
+    properties :
+     x : 113
+     y : 8
+     width : 94
+     height : 48
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_Static2
+    identifier : 0x21f95c9735364852
+    internal_properties : CAAAAAgAAABYDa0I/ZhxqBclkkoNR+grcFUTnNuEnE5LXMbq82ehoD6g2jGr2j6C5bV26oCi7jAU2q2a3leH9bNLJ0Zr87saa6p1Wx9ajHgoov8dvkNFeLykVrMBoniGeCFBKrSaYbFtjnbi2OruUzAlnHHlxwD69WyRX26hfX9v0yR301C8ePlT4jXv1pgYDM4ABeyVECGdivebPuTaM36oBsePaWvyqmBNauifKYKNiC0UqnltnvA0MBRRWYYr2mO9Yvidb54JSEy0H41qA6948bolMKV7jFwkzSdtBUko9JEJBGe+86qT//CFxC5vLsinlitmVZV3qJ7eNq/LZEWllP0A5Gotu29LpAGJWXXonSCt1fk4RNuFVNDwmFIX0a1M1YW8QH+p+D8e5c0wBueDBU7Nph7wIRrwCZS3bbJXl0TVsXw+GcfqEjUW6zHQ0MU0VMXpZqsHyFDfxxnNd52YnVsS8j6Bo54s9UDmjpoEd00wiUsgZbL08QyHGLhGt60sKa7wYf9CmCKbuexD+tA=
+    properties :
+     x : 19
+     y : 72
+     width : 282
+     height : 64
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : EDT_Vertical
+    identifier : 0x21f95c9735374852
+    internal_properties : CAAAAAgAAAD35fgMCT7hg9kODjLguSeGRZb4tfoa9NvYBsNMX2qTtTJV0sckWY9VvV6zTecH8OLyJpk57ePCd0U3xwkOGep1dFWEr8Nn1J4+TChu5L5C/N554b59G8wzv2CaqgOnV1LLmFFL0XRuveUPPTpcMxxnXaWT7Y6NrFZXgqUMSsnfmKUSCWNMmjkeCg1Tbf3lDfohQnX5mrFN8pGNbwaqzdhw1j7p8sqfYHWRn2kUnjTAyRBioHwB2pbTIduixWJNagCC1lcbcaVSzDMOb4hL20DRRUMHHBvDqPu6ibLlW8XnV63HL6QEFdQRCirLapoiTFrsVrWazVa7C4Su9tzbnFLGchsjLf5ddPcjWPcz/jEWe0YCoPliCCvpGJg7ZIqI9hK0OUdBw1mChYuw/kRJf/hjPzvs93hyTIPtn9SXesuNwMmKQqXpv4Aj7wNA0Qsnz3oFFxt2sHO8sqyORKzmsK/4Du6Dia9XdBrQdD+SOvA4Z1iKRLga5OOeQEk6sfFibfU/eXvzO7uGGDZv8BV3aejP/0kKh+ubxp2qfjduQt/7lf0FOS2oetaGSWoPw3S71I4XasoaAgFuxEmACNBfjni0Ss4jVBO6CydHuWhCpYZonlAaUWWRn5fyCNwUN2O8UWGJl6UvnmMw1sfwJmEQQcZctXrn63mFMyVFFNxNzJZaPASeSnBwT+Jfvw348O4slb5pXdNH3dgP86pqlMQRB+0Q8WCfoSL3KRn5j14JuKVqYhiX8z960NnGowwpHMmCalOyPK7ZcA1aOXOdiH0WigNvS8likVLWHAyyGofdjCPYjGp9D+fi+Db9cCwU/fEtvsKp72Nv6NRbHWHHlSQKED40xFs30ohn/ww52vUqCcNl/6W/+dnHJetx31QiwsojxmnQid0/y6sVKHNL2BqJHIcxPnDt28av//iya9ufrkcnuMbinTptVOP1t8fv08KzjvKQlj+UcDEbp+eczXTmXoa+MXo9U1vEUtjZJ87z2mnnJDu5TvuDBvYFbl4BEeftAuEr7A171KOrNTBXqzB1FCFmh4iatKnBkd00wTqxqNgWtu+FEXbo+VyzxS/2nGcEjoaEMIREgMoCARBSflxSZmcNk/h0
+    properties :
+     x : 217
+     y : 8
+     width : 94
+     height : 48
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : PROGBAR_Power
+    identifier : 0x21f95c9735384852
+    internal_properties : CAAAAAgAAAB1pbyI3edLhef7OaT7yDTpXlZgknthtdMvVgOMcag/p1rPdvluc4Gn1gBuhAnDelP578Hu7I1EtlvGCPs3bj7cQXZ+P3k/N1xoLABfvEBlIMWl8P2JlwiWtTUzPqsXirJPvFhz/NYsLJrgBFYUWv+M3mLaLXVei7l7YAWjPR5/rcPaY3xgl/I9bnImOpOk7dfV/jXOnsD9HmWTvJuq3hKi+gLx/2dr5hNBlXmrIIWyGup4Hbhq3oUUiQGk5+kkwzOZadD5MMTsGsnNvDVQRC6XwnQK2oM54tW1b+bxTz+GDTCLEhfBl7SjC9WK/dCEDAcBOB58v4mI9iwNB+3SKzFVxOfa5Cu73UWn9UXwD4GmzETBpnhyuEcm7Yhq5yzzorFgyxa9z8yZNs2+vRWCSQBso6foA/BZIrNF9cpNi/M9Ti8eABem+3CEa5zc01Cb40hR/5sHI9DEN7zrvpkEfnAsXeAQfXsUYKDvaul83ShfVwyMrRUFEQZu/af26ySjwgQ+z3lBzmakaFzeGq0QpSEARh3bCpftaBGCBPMJU/RgCS6KN+u/wOh/a/qujsWRPmGJXolAZ3OXxftFEzjzCT4TcHLR6n2P0vSS/ZgfVrdDh2g2FbCReYK7mNZ5i0K60hrZvKF2w5fsrJv2dgZy1UNz13iRKK4sx4dzgEmX+E9luiu5IlTBKGbwHej90YXp9PmA931TJKywePFIi3R0DPZkal1xGoKo2eJMKMvRpfGS/yd7asVSz6uuHMwX1vAK5uJ5sMXVQWJhOuEscICXC7ZUGp0dnfkE9tlX5nbSz2gNgeNDvmYRKW4=
+    properties :
+     x : 86
+     y : 147
+     width : 49
+     height : 188
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : STC_Note
+    identifier : 0x21f95c9735394852
+    internal_properties : CAAAAAgAAACIC5CHvAPUBp/AP44DcfxA/x7bBtBmewIHH++4xacpGfXGwyUNRBSj6Y7zMrYx3YUjEJRmB5DV4JEhhJiRMnAuFbvJADtKR/fgBzcNYIyLHSbltD50P3F+/Rd1plxBk/85PjdO+1E0dP9PMpzgpP/zyIscZaw0UZvZ7vSUjpD7HbCCVxmO/KXQKqJNKMplxOI/owM7chK0u1jmLydAgvsXb6qUb84xCWn3UxBDxYhMgHxN4bL0RsbXN60twDpG6Ux+avBor36YHFraOetpBxJg074hRGEYyBmh7qdxiej1Chw45lvJ0GY8Ha1PiAQHuRKYhIudkdiw97CkNoKVV85rY7V1x6CXROAwhddWsYdrANDDBRhG6nxgWdCspJCMuJpsRAG4TupWA7sCvjB7hbPHca++j/8XhQG3WxuPoW+RBw+RE/3T18fzfua8SVtt2cq9eQ==
+    properties :
+     x : 150
+     y : 174
+     width : 141
+     height : 56
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Comment
+    identifier : 0x21f95c97353a4852
+    internal_properties : CAAAAAgAAACNnCLC7iIR0gYnC38QTmF411AuQsbuQGTSHX++7jWqQqTzw628M+xHlDV5InmkKVj+MaZYbmCX/MzJhlWwH2StcS2AyUqsaLRiR318BoWn8SmPv31WMJxA1qMywKOWPWnjBkeiLhTMu/+MBTCRChdsXmi9skANxl4cf+5bzG0SgX2J+NvtgSXx3p/mqVSSLPEgvm3LgHd0QceyoSPlEknYpvXBafkSRoj2MrZPo9RrgM7ouBCXBufGkyS8we97q9NgOWUKhDBP2dQBfsyG6IMJV3KASUoYKsdrB1Cpf6EOjRdNv6Ze84eT0x9iyvggffloklYObSasYvBEn9up9CC3Vg1HKPgAQg/FwmGwLnwAkQY+n2QM9qhnP5AjsuREB0uoQHbIv7Oi9WbNx+WYJdLoDHSdgqpvSOs3YqPaDg==
+    properties :
+     x : 150
+     y : 251
+     width : 141
+     height : 90
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_Reinitialize
+    identifier : 0x21f95c97353b4852
+    internal_properties : CAAAAAgAAAArc6RQdFc4ujde8Zm1ryJ4iRL3j0aK4QJ0DIkqP8uJBOeOhqGCYoOjaIzcWdbhp+BZkohWxe9RFVSotqDZ4MSpgWBMzluIr0TphiX9FTFM+gMwhaD6s4CwdiYFuO9xBsYWbvqZCR60+rvg0Fm9XqXR076G/+OT75swQMyJXLPOjthzL4YGy5O8AfAGr20wopS5y8bq64eRI2vNpJWFV1UJOR7X4JQHIttaX49n/2QGLE3QhOD7QqvcDsf/xW4ILSAkCvJOEIKOX8mnVMKSccdUJdUaV5DbhOkN8USnZwK9HrKfC/SaLr0jEzhCgTGDZZ7wkAZ5z0uHw6M6DywTdkBQFepP7MjHRqfH6nmi2py83aQYVeUxYp+UjtW/ywKArkfah+F9DMmfMs8MPrx1g0ZHmAoSvejqAhzd9rs1wl3WpdobzxXCRB/MF/nf2lgJbg4AM9LKKbw5jr2pZBax8mPJwbs5kM6mmHH7XANs9hM4+HxMn0O1TraRqSrA+OqU/NcC3IStMj+qsRyJhEXUOzyTUzH73/P2fTW+r5CbW1mOdUvEBACUmESPBvRqcrXchdSFV4hhjXfxv/zPMFLcV4XJxaFVAW1RgbAb82vEqvUK+akXmpIkp9MEk28iTfe+JSQ3DGiDhVKLstbOfIR3YmDikMNjQSs8QO5WApd3Re5M/PDdB3qC4IyUwV7BDdDLPFkBx57He5SezL3268wrHLjRAriSDDGzKEgnYVngEB+hKYoERD9w/za9cvE+/jO6Xji+noKc/W5yfQoHTrkRvMUOWCaLp45JwTC9OTIyC4D7bBR2lWPrgjLlLDMbiG7THfoAEJ0Q6S1fcmEF45TgwEJ4Cq2UsFI7uGa0JucqCN3WM3jidpIuYpuwRV/pPacDdNYi4YmghA==
+    properties :
+     x : 72
+     y : 359
+     width : 177
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         InitializeTheGame()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95c97353c4852
+  internal_properties : CAAAAAgAAACtiRSigch0RvC3fm9BV2vN13aZeeirXCgNVJt7scNaIuqPe+2GCHFkB94Up4vUxejJLzL3TJSuYObpT0L5cKF2nHkADgrTmDNjqxlmC+gBNeMntrDZF013sjaWsWI42AW5I8gFBcvKs/+52SVHJG21Rys9HsQitN7ucSc2ZMHz0oDsNPkjT8u1V/yRGR2LqXz1QLCwoWcXJRg3Nqef7FhJCy7kqIbvQXFK/g0OO6dWCB8X1yL90Gw8xYsJ4UQdbtFKaNqWnjwxIBPcIry7hsOkKyEMISjHZT+9btM+gb1oZYMk3AKdsmPGHnSlFZN6kw/+jRarM7bYrrz9i3bcnFi10VFYV9EOBchDex2SjG0ZW2uquMyl0/YyPnjetTwYItTVhw+cPqjFA1RJdEtwWJHBh5qm
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+      
+      
+      gnMaxLateralSpeed								is int	= 0
+      grAccVertical, grAccLongitudinal, grAccLateral	are reals
+   -
+     code : |1+
+      
+      // Update interface periodically
+      UIUpdate()
+      
+      // Start detecting the acceleration
+      SensorDetectChangeAcceleration(DetectAcceleration, snrVertical + snrLongitudinal + snrLateral, snrFrequencyNormal)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      // Stop detecting the acceleration
+      SensorDetectChangeAcceleration("")
+      
+     type : 2
+  procedures :
+   -
+     name : DetectAcceleration
+     procedure_id : 1295168171493050450
+     type_code : 14
+     code : |1+
+      // Summary: Detects the acceleration
+      // Syntax:
+      //DetectAcceleration (<rVertical> is real, <rLongitudinal> is real, <rLateral> is real)
+      //
+      // Parameters:
+      //	rVertical (real): corresponds to the  measurement of the device acceleration on the vertical axis (Z) in m/s²
+      //	rLongitudinal (real): corresponds to the measurement of the device acceleration on the longitudinal axis (Y) in m/s²
+      //	rLateral (real): corresponds to the measurement of the device acceleration on the horizontal axis (X) in m/s²
+      // Example:
+      // Indicate an example.
+      //
+      // Return value:
+      procedure DetectAcceleration(rVertical is real, rLongitudinal is real, rLateral is real) 
+      
+      grAccLateral		= rLateral
+      grAccLongitudinal	= rLongitudinal 
+      grAccVertical		= rVertical
+      
+     type : 458752
+   -
+     name : InitializeTheGame
+     procedure_id : 1295168171493115986
+     type_code : 14
+     code : |1+
+      // Summary: Initializes the game
+      // Syntax:
+      //InitializeTheGame ()
+      //
+      //
+      procedure InitializeTheGame() 
+      
+      gnMaxLateralSpeed	= 0
+      PROGBAR_Power		= 0
+      
+      grAccVertical		= 0
+      grAccLongitudinal	= 0
+      grAccLateral		= 0
+      
+     type : 458752
+   -
+     name : ProcessLateralSpeed
+     procedure_id : 1295168171493181522
+     type_code : 14
+     code : |1-
+      // Summary: Displaying the game
+      // Syntax:
+      //ProcessLateralSpeed (<nMaxLateralSpeed> is int)
+      //
+      procedure ProcessLateralSpeed(nMaxLateralSpeed is int) 
+      
+      // If the lateral speed is greater than the maximum one, change the maximum speed
+      if nMaxLateralSpeed > gnMaxLateralSpeed and nMaxLateralSpeed > 1 then
+      	PROGBAR_Power		= nMaxLateralSpeed * 5
+      	gnMaxLateralSpeed	= nMaxLateralSpeed
+      end
+      
+      // Display the note
+      STC_Note = PROGBAR_Power + "/100"
+      
+      // Change the comment
+      if PROGBAR_Power >= 70 then
+      	STC_Comment = <§$0000§>
+      else
+      	if PROGBAR_Power >= 50 then
+      		STC_Comment = <§$0001§>
+      	else
+      		if PROGBAR_Power >= 30 then
+      			STC_Comment = <§$0002§>
+      		else
+      			STC_Comment = <§$0003§>
+      		end
+      	end
+      end
+     type : 458752
+   -
+     name : UIUpdate
+     internal_properties : CAAAAAgAAAAAU6ulE8z2T7NxaKH1bduq4k3yAC7oLCQ7OClVongR2b4wI0npbgfPVKLmXo69L0Jt2vs0c2zzhK9GEn2ZWFLFVHq6BnYDtxhkl0mH+PFVBxQhgisBDlobpXhKoaczIlSPTBzB85eCgknjzcN5cmQoXHToMjyw/XmzmzTB91jNnqcJAQ==
+     procedure_id : 1295168171493247058
+     type_code : 14
+     code : |1-
+      // Summary: Update interface periodically
+      // Syntax:
+      //UIUpdate ()
+      //
+      // Parameters:
+      //	None
+      // Automatic procedure:
+      // The procedure is run manually, during a call in the code
+      // It will be repeated in loop with 20 hundredths of a second between each call
+      // Each following call runs the procedure once, without timer
+      // 
+      
+      procedure UIUpdate()
+      
+      // Display the speeds
+      EDT_Vertical		= NumToString(grAccVertical,".2f")
+      EDT_Longitudinal	= NumToString(grAccLongitudinal,".2f")
+      EDT_Lateral			= NumToString(grAccLateral,".2f")
+      
+      // Process the lateral speed
+      ProcessLateralSpeed(Abs(IntegerPart(grAccLateral)))
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1f4d0475016cd347
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Excellent!!!
+     index : 0
+   -
+     text :
+      en-GB : Good
+     index : 1
+   -
+     text :
+      en-GB : Not bad
+     index : 2
+   -
+     text :
+      en-GB : Can do better
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

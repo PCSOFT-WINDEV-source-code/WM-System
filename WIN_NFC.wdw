@@ -1,0 +1,273 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_NFC
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_NFC
+ identifier : 0x21f95ca13c0c70d9
+ internal_properties : CAAAAAgAAAA5ug2s8DX1N9WNU94bbQR8bmJlR02POJQ9SHYX6/flyf5qM8oEvV31vUPVV5cvvBGdnJNUgvOpEdr/kpEnkxAQrHIbUXayVbDA/PPT3oG76nM4/qN52gb6+gezd8D0oc6Kx9tarjNxm1U2kzYrX42gSRnuM+3MCTVpimjsg6aTShXPE0uzjKnqG7Uol8U181J6mlPj1rwlozkIrvzm+QH7I/Hjo/0ODJAtMl02ndkfp4w9W2Uf/rLn3gnfq+s23sxvdC/2tpjvKPPKbDd+KDcdJRSF1HnFfQBx0ayXoneFCO+oioYFeutaVGlfE0cN7aeD78CFnb5h930t06mlcPEqxT2P64oMCq/u4ImGtgsmkh5asC4HZdPFPlUwFk01/ghaDgRD4Vwu0vciIst/dlc70WMWU0BL2hN3eohXjDrq2CpEdygCIJZJmLG5GBUN92wip/lCXxLicq3Q36c5f+ZFBjOb1wU3ItekhvlgvV0gj2I2AlZP/EXkGyrMNep4jzMZY0MIMdili6YUFSrp4WP+elVrp/JpAbDv245xxPx4/wITQGTuA96ifxSrYKmbZ667UVFREEcod1XW4geAiqnswHVk/lnGs1YcLrdCobrwaYFhEHS15vg2D1Av/Kb+WFkFJbTmQtyllu+cN0SJq0+qUUxmd+ewaziZ/gWwmQNTbNFoNjQufGSpAmbZW6rqQQ/ZFFPfAK7shNClEeud5YDhFeBLaf4Zl1owGGXw5ks/Dtym9fVVFrs6HYAaNWtPZ/RpIpAEjcyojnNVtMAWTeAaJ4BhZLq9SwpaETBv3m6Lhbuh5Myh5ZJ/ctTjWKKO5x7KOv5sY3aLKgU/U6LC2zYqxiAxok3PVMRoKM+G6FnLFGmSHO3Vx3El+bCHNWoyTA==
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : MZ_ACTION5
+    identifier : 0x21f95ca13c0d70d9
+    internal_properties : CAAAAAgAAADNJwcH3skkVg03GD1qX3sULpAR+g+6iDHUkpdt9N6SThxxotDUu5vWHetL7o90f/AiDi971N9AJv+hkqi0V2fttC0HJupSHHjR0xDFoG0aE2mCUwGxoCk3pj5wTlZsrx4euktiQq2FlopY6K2Di4ua0nXxNVXVwuG91jOaAuBrps2/6Ul8W2mkhz6mtNTL6seqblDa1AGNzRHMo8bumNDXOAv4y0bspMloD+Sfq0wk49rFK6FA9slBCbkOOsd9DPPjen93c8GA+06S/4zomdyMdl0PNBtHntHl4lN9Xt02pBCiqHgarKn57JoRxPdP9v//qI9kzn8Kksr5YMGvyJyVCj4/Gxqlhlxw7pFGMA5S+w5BRxKcGDF+vlEtMJPV14fr4pyYErRlcHsUFpeH/piMccwab6/46cOck+YqnqxxE0rzziBbKTyv3L3e+oytTejN1enKCcah+MmPjyLjzOp6waoz8iKiEexrPNMgr6DAuenmnQA9ivU7yMHfwDnclJp7Lb8JE46hQxPs+FgsX/3A43gFHCjfVcHf33fJi7pMjBDqrQbVT5j9gqBk6rk2DMmZt4yJeSE6gzzFqjk2mKdxvqzjSIeC+2icamNKrw1k2At/wU7Ik5aRrWTu6pF0+w+U8693kWKFsF6taE2PitJz+/P/byofolUj345JOWLfmYVjby5C6+dTkh0Qa3tPvncctRbs6/RuFQ15dmG3cxlE4I9uMNMnYKST5oEN3ve70+OQB67An1XFLNq7xBdRtc5oDlIIpOxtB4yM7zagd1vP9MW+n0sAInNosc62MTINbDMrU5EFHGFNNwF+SETvVBlpr6Kxn+KGp6eg4AJyGxp9tmJ6GVN5zg==
+    properties :
+     x : 103
+     y : 35
+     width : 115
+     height : 117
+    rows :
+     -
+       internal_properties : CAAAAAgAAABNYzM1G+eEAYG93WF3l78E61ouKUji4P4QHI1M/kjVxwSlzRQrcdt5Xvr6P1vAHSc2Ym6k4RHcFJtWdvVc2IVDNywkqDoLeeZBE+hWpXA0JfkIYSQY16nWSDLF/ie1nFUEFeYLPCf54jnbxJEPfQf/MTrG
+       controls :
+        -
+          name : BTN_READ_TAG
+          identifier : 0x21f95ca13c0f70d9
+          internal_properties : CAAAAAgAAAAXSiGHLQ9FXGcjYq692RG5nS5ZJ9qL4vYKHREjremOHiT6+JdeAp2DFMr0DuyHXghq8unJLZtwvjRBlkPpltqmVQkV0re853rw9pyyMJUZJdrrHItgIj0WiG+RJyyuCn3dsKD27Hn+5kWPowQCdGbIRC0htE18DmgY31BIfRB16UiehOKBOq72xIVZbn+CfSR4NQ0rxyz4LEr9tYDbTBZ8smvuvvsFlA640JrIgvB0bOjdbasOpjQYSzmQ112dKaAizdQH69THg17Am5fyFXylpQbreFUt3v88iwsbxF1jelI+4Aw8O4pGFyrd4kEHrYXH6zEQZLWIdqxj+NPkjIIagG0N0gHTdqarP6MNmfqM2qdvldpmmcMflumlCPCMzUqCsBYNQFFynZm9c/TXOFjm5tmV6MZIU/HWq/AjgpXgaAR5JBjd41WL1fDQIRpCxQ2nQsPbQMmTLpjHam1nG1+KUmzlLcXmm6ehYiRwWV6yMNDf5Sre4vePDPhIT0XXF7aAM5zYJlBUawZ1g42PS607gIffvX6meHALpwcW6lJJ56tSk4+fToJ/D8hmVShe0AzZpnf/9KDwUcz2QqANk/DSxAEfeDn3nhGtHp9mTKlRY4Lp+37D/bqz/zeXdMT8F2fg+QT6vi68+aNq6y1zLL6/H0Lr9o2vkBs1Hld2ivt19Ney10ffwaM9dmGlL29YdKgCKXwZE0q9rNSuN4jassVYcbRUjV3lGwVloGu2Uw1CktAn/lLm46LHOuDf48sPv6lrPzgCBst9ek43OzabRvo3EGmZpuwdoPqD1PMDe7E4XX8flMH3ajSdNaaeMROgx35+6zhNvN0hZTHgiqogphMHxUxkvF4H/sIBVMZHz1LF46W0CyqIINBTqjHUO27MABaaiG1unIzaqH2/S1wsWHOXX5vwxj2o/EtR5Oi8iC2eQtyX+s0=
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               TriggerNFCReading()
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_TitleAction5
+          identifier : 0x21f95ca13c1070d9
+          internal_properties : CAAAAAgAAAD6rJn+4n9nxOcowe8DqX4JYglmOiyRz8aZ+9dYe1RwbMPZASnI71oELV37Ydn3xNSlFlZd3Ovbmek365bCYtYbeRl1CzIFgmz80JpuJemsNvRWEW6Jj6dSBDqilAVGkMm7S+Mbh3z5kC8LKdlkHMANn4jsbdyd0EfsB2DvkD46VEPk1rIL32yNRNIKOFspGBExqZYkdcX6PDNW1zPoUw6Xmnr5rTnpeIbXnekkuaJZ/lx3isMUZLR3UqakqvNkrsW7x3miFp6TiOgNeeBqV4vWjuCMXO4quh+ab883QTWkboUZBagTC1vpl8MPxEWO8yZ0mpbzQW2efQFHFe3musxtzvOttzPOIwf8BJO6GlXpE/AZw8GhkKulwXB7WGbJJy4NyBC536KMh/cV3dcmw2tZQb/MtyWnCZryOkhoLVdOGDA2TmxWIlGZC8fgQc4z0CoyXl6MstVVv+k5iTPPmtLem13boVzp9bnbdYGNOSqHK/0PqvSyVkNrVOr8GLSa72npaQ==
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              code : |1-
+               
+              type : 18
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1-
+         
+         TriggerNFCReading()
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_ACTION6
+    identifier : 0x21f95ca13c1170e9
+    internal_properties : CAAAAAgAAAAcfFzUY1eBXCAyJbH0Nu1s8rX/RJyVRKzKwIzkgoQbT/2oBRjVxx15npAP0QohGkoZVTz+O9D4eOH01QefxuDBFS3yxb+1hH50dY8MamSTeIrM/Vxipo/RA0cJc72hZm9+pbbF12rw4E0isDhZdzpIb9XME87QP2PINob9Vs86japDqmjzdRtOXsMoLa0kO9GRqMYBTIWPRWwASvyHvEFcKOSa+155GOS0sRx3bYyoJwcWD61edn9iKt0UrcP2IECC8u4B3qZqTHPkc+dWjEMRXB6rNu2PyxQrE1svQFlXn1vKgl7+cpI08yq8ZppdtFVT1UsO+I4KZcndFFSs51tAohqIfOtOr5GFgn6AMHJwJ/BeCzhOpAA7mP2DMUpr45qGcssryEVmgxfl5QI5sx3n/KqGGblRTLxi/Lh2aQbXKHl3o57UbqDnmHCykDUnFt1ze+lqStBzESkchrjUriooQ8QEH9NrMHRHmjgLX/1dNJr9kXz402HnEFAatRioQ0zzGuihreBXXPsoZO8oSp0WuAQmBcV8tEBM5NSQuxjKof3j4yDLGy5kwh1QPwf5CR57YhiXjV8eZrxI3TCORp6weULdCYbQnfHHYrgQWAr2vQAJTsbwHn2znqG9fLxO7BYwmFQ9BlQOZbZbzP2KcBQw6I3N+GEqMby58jP9uCYo31MCgFlWuNgux2El7FL6hdeU6otdyMUmQRecvcxPb6XH0sqlTSIoq4mlzbQnj+To7I4gTD7Lqa0hYMRS6KoYIERdc2AQoa2qqWuMLXGGlEynsKrWo3xJvcO3l6LfbxEIFhloRUNYABGyF01wOs/jdzVnYOVZ7qYjqfYyD2TZgKbXBQvQ9lgCs0vWAAS+DFG82Vstoezt35WckHfguw==
+    properties :
+     x : 104
+     y : 187
+     width : 115
+     height : 117
+    rows :
+     -
+       internal_properties : CAAAAAgAAADGSBouLFZrGKaE9Gh6usJJoJ/xYvG9I7HNGznyiuxBJYSLo6qBGU2RgtCmDc+sScWwdpCG10Xy8O/HmeiPs0B2EFdv3+GyGvkwgE8tfBeP/H6lGP/Dep5N8+0Au+To4x5P2CFACRLu2SDy66pgDPboGCE9
+       controls :
+        -
+          name : BTN_WRITE_TAG
+          identifier : 0x21f95ca13c1370e9
+          internal_properties : CAAAAAgAAACQ+9R6qxXrMY/Kl8+D9mTuLCbCfOxTib5T0xnYGTYyMaE7snds1rI93f7EJeo4KJSBTxPWO4Lxz8tNb5EEIZjqTTfdfiEOb5E3+I7XXILKrD+n7Mw/+ci7gMhMarb5717G5IEck5Gr3wkKsKzZdNwgYgAW2IVazfim6GbVC44auxytZJr13UtYLAn1dHdbtGgaXpPhaF0jsEqy3RyckSvgqqjI+yhW62w8vP7PgGbHjmGE0uy8r3FDEcmOjN63e6If9c1ryDoxug6gODPfxfhKpu6gXxz+6mz3JUXn8K3/Mku9qg2i+nRqB9nVPPSvwMwpseLMtMkQUdR9IXPbFGXnpW/BXCZ9jNHtGI6sXtBcFwQUoLtX1aFzvv6PXyj43FRyjSp9MGRo3+67DlX9kjUjxVetE9wVsSr0XIKupjNoMM6PoR6O6+EtDoRC2g8UAPVgoGqU+aS+dPNnfwwU0KYz8i22mrmqfFe2Gh2d0/XgJMDgiMcCBian1wJZWC8mU/BgGp3neoRRD2lN2qqlRH6ElXuxpwuhlH174qn+GSLo4ibQJxdKe4yAOdUs4WVwRXlkLiVnY1F2DmijACZoH33fLTGpgrjQomK/pyEytSla2Nuvb+r6FpQ6id5HwpMkfg4DpRLel8VmWNk9B4HcdKEKJFrtgHpqWJqd4+OOBZ/k3+heNccuciUW1g65//4Iuf1R3V7X7HGtjWgBKSLVTqjnjrQyscz2Xx5799v8RqNLc31F/gitJAK0uLFJ52oX9qBkdm27zoMufLHbphn7B4TfQiYgLRztrd6+CGgkLw6KmYEy8S7VBOVliC6fxLWvv4yqapXy7rPyx/wUdS0QNcMF6yPV5VAV7TqUaJPsdxvhEfF5ZlkIgBlTI53ZogOGe0kFehFG0ja0dfeW7KajP4VS+UH2r8KFXZOdo3dlSpqxhZQ=
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               
+               TriggerNFCWriting()
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_TitleAction6
+          identifier : 0x21f95ca13c1470e9
+          internal_properties : CAAAAAgAAAD4UetyTOoUNp1FbpjcjOmFx3hwtvAfpnsqFWCzygSaTIonBPTvytm99J4+wstLJRiu96IJh1xWx/u8aUWs482ywuG1izaKOuXWh38wyCledDN+l6FKWNsyu52h3yzsuUcs23vIgrzHWMfWulkLdcGCY2j6UL1hhu28S+O/xZy35gXQ98M5XDo54QyiS30bdjF6faOnUdyDDB+gdhlA+Kj7XYgvp7bft14RFigYepW9KiHMAccrcMzsb4Ayvjsj5ICAfbqxwPo/C/FBri5uICohBDOgGOAeqy+lCkJMykD1qcQ9e2sU5KXKRnl745/fiyle4pwOuSGmNLkspHXNN70yu3E3cB+7Zit7+Sxi5PYeC68995BNuQZYR61Klxljkfer6WXzucIVGNWZixzMv4zsvVoYkSLaZb2ZUDKzMvbmulpZ6r8fXdNCc3yePig7P0WOCWBD2+Sg8q87r8dKb2t61dsUwTG0Eiz5mKrMrqbA/UzTFNZXWBe43DksaM54XHe3OnEPSNORjTlCNJX4PDSa5ZIKic0RKzxZDG40LgIrhHnQ9YI=
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              code : |1-
+               
+              type : 18
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1-
+         
+         TriggerNFCWriting()
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95ca13c1570e9
+  internal_properties : CAAAAAgAAAAqLCoROy8u7KCFJ+z00Xtm4i/0juHInn8X2DtklhfeOrIRBp6K++ym/BRqt1ny1T8F6/N1sDrdHUw13lr0jU7ipYaW7fjmKrIeW8kHyb83RhGfrWDGHaDhHI5iHgx9IVMPoLMewYjgJZYl8ldOY+UeCO+2Yx3hhnTZIm8QPgpZDaLK4sFH2CIYDWAGc64XMlAM/uLZLXj/O0YqBjl0/JeSr9KLu6CiAgMeBgRNkQDYon7ElUP7ZW3OJLlFLSM02MtSBUG4sjoxEap1kXcHImzG4U3yzIGjrG79GdzmpmvYFxG3plqIyGHipfj1T2V3VST/DrTRRheZzwJLnS/CXnCYIDOiSmIpsGTGni/D6NhM3l87POWYzq8QoJXR6zOwnFXumdxoN2VISzywjWUlBLDZOTk=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure MyWindow()
+      
+      GR_WRITING.Visible = True
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+  procedures :
+   -
+     name : TriggerNFCWriting
+     internal_properties : CAAAAAgAAADSc+1l27zILXZ2NzCfddv2OGWqZdoHudA1z1rEuBUgjz7X7TGnY6kYueozYUgcrsmkf7EQitzf4n3t0izpwH9yF00FKpqYTUw1NhSXLWAlqnGOzVSXGq3uLE777C04RYyR7vyv1JEYRYqe9u0J
+     procedure_id : 1295168214446797017
+     type_code : 14
+     code : |1-
+      procedure TriggerNFCWriting() 
+      
+      	// Writes a url into a NFC tag
+      	tag	is nfcTag
+      	url	is nfcData
+      	
+      	url.Type		= nfcURI
+      	url.Content		= "https://www.windev.com"
+      	
+      	// Add the data into the tag
+      	Add(tag..Data, url)
+      	
+      	// NFC writing
+      	NFCWriteTag( tag, procedure( nRes is int ) {
+      		
+      		if nRes <> nfcOK then
+      			ErrorAsynchronous("Unable to write to the NFC tag. ", ErrorInfo())
+      		else
+      			ToastDisplay("NFC writing successful.")
+      		end
+      	} )
+      	
+     type : 458752
+   -
+     name : TriggerNFCReading
+     procedure_id : 1295168214446862553
+     type_code : 14
+     code : |1+
+      procedure TriggerNFCReading() 
+      
+      // Reads a NFC tag
+      NFCReadTag( procedure( tag is nfcTag ) {
+      	
+      	<compile if TypeConfiguration=Android>
+      		InfoAsynchronous(StringBuild("Reading a NFC tag of %1 type", tag.Type))		
+      	<end>
+      	
+      	for each data of tag.Data
+      		
+      		switch data..Type
+      		
+      			case nfcURI
+      				
+      				if StringStartsWith(data..Content, "http") then
+      					BrowserRunApp(data..Content)
+      				end        
+      				
+      			other case
+      				InfoAsynchronous(data..Content)                           
+      				
+      		end
+      		
+      	end
+      	
+      } )
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f6009e8b50
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

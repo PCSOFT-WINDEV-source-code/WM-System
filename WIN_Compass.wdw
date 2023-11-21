@@ -1,0 +1,146 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_COMPASS
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_COMPASS
+ identifier : 0x21f95c9936624f09
+ internal_properties : CAAAAAgAAABLog+rT8rEpmWQebkrb5dARfOingmlUCGKo5tIw54VlyuUdjB1jKy/b5VnzRI+AHdk0p3XIB4eRBjISrPM9nSA/yeI4/jWV7gnMMq49qKXvc+4n6C4kwoNLtLwNxLjkHwfsXhTEgQE2iUXqLS2r+RMMNxwggxQ+VMgyUEzA+NGtIjlkUkrS8YV5HxnaVjr56ULRRLEa1dcJGQNKU6zUZamppBpGxKgy0tZ+CinABFoODAQvkJ7t/VoMreQvytxudAu2A+pzrWQNJ14/GPjRIVeBDtgh3LhC7ynoeaorspJMa+8DQBWcK+NBkHbZ+5ayW6wuJu4yKx+L4NHijMcMKba2H2e93eUBcLviAnELl1xvWHElLBPKal6MhGMJATelp70JsPNMtpB6HMIbhcdbVowUOyJc+/OrXet1I5PUxwEuup4hIUFOVCPp8W8J8vkqJP4aFkWt75W01EZCB2GR/D+vuRj40lVImSsPyJY9s1u6izdGqorvh3pi9N1C0EOYbqBtMVi/6R3lMIJOhy0Dx2povz5vfTBRQNZQqX9ge6q4GJwngpwSV7T34HIGBjvQx0XuqPryicSeAex/d1vbndTNg6U0t2OVYXiUVoG9jo+YJXY/nIHlpInTY++DDVgtKSROKgG8hDpOdcpdAgGJ9ljm5tWM/vuqx0vVaxC+pHjLze7ICbUfmqoVM9i4/lkWdB7G8MTfApK7dK+ajfys1bmHUtdm3wt4WKThgP7cldHCWwUDDmGtcMFqCVaIbAEQ5LCmk9MNPutyC8tIPbsuXrMAEWyCmIEY1fzfA9xpyCu/FTXt98D4G+ngKhJJ6eA7xOBHm+wti51F3HRImOLAZDywwI2z4AdC/fh+MO4knZRxLe/YE2sJw==
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : IMG_Arrow
+    identifier : 0x21f95c9936644f09
+    internal_properties : CAAAAAgAAABOoGfa68FrhOdMSmVzrPWh/RQMFKGCnA0VliNIZ9RHQItd+GKVRgV0K1PBS4pTYo/odNmT01pEj3eb91Rsb8zHLd6BcWPh1k9EJH41LSjzFQEXKXyqgejxKX8YhvLybw0t6YuBHZKinNLm5mesC0ovxRKNR5aQouDx2ugxL/8Cwm+Dj+T8TlPq0X74uoRB2e5TyXsy9WZX+63dsg6ceaNP+/jSD7gNT0eYpvw4NGdMvEeh+gE/NE549pZdnjqS8MkJ89SyZQeHZcEMrQnw6hEmUGhcl5TddOViW8lc8kjS6XXuYlQMJnWAVbkdRJbK/deNIH4CPKTiKyX/jrssfh+XBriRTSJjnWTwmHwLyTS0fU8CbJNmrmChknA8ouBaw1v5S3n8VyOIksKwwvO1WEQIDYIF8WDnhMUyWAvpxYet3EqlNz3y+EdamqqGo/yXK4X1G/g6yiVoQbmF041t1RKOwVvVxt6XJnN4CxwEqjaKWV2OcV8GkgJPEH70X4Oiry46/DvEiNAwO8BqVXxp8QGhtcpm+7GaWGVlf6tmHpaODcs+kvz9PP9HVpXiKzhShzKKAgdUy7KGk8mqFAgh9dC71RmA0s1UM+BS6OEasZK0qZc5J02NipMaWEDh+ib+CHewBtQa4OE4mxweqtdCmwLrFo+jUcrVd8HcKznuY9GfPYfzRyGU9gkO85On4jVmVHpmSj/wfi1gD+tsHCqUiE6Hrn5g3J2v2aKCRZgMfnKKLuE2vcCiPLr/jak7/Et1bqLVwLz0YEbwbUM0/rk+y93UKgJ4nUPAzuTRrCC7Y9DbsUWbmZGFWQrsDah17mAjmQ==
+    properties :
+     y : 13
+     width : 320
+     height : 320
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : IMG_CompassBackground
+    identifier : 0x21f95c9936634f09
+    internal_properties : CAAAAAgAAAACozf8L00wudN9URjvJjA05HgR4ASpRrM5VuHRTTyB6Z8G6h7jyq+bvU8FHSsI8pZZXQy69SuvQdnRN/Tz7281AdkMDn7IDm3fADi2L7pGU0/VMlQZItkwvpduXJjgKPE0SERzPLg25YbbDeGKam9MukFbWn5gkl5BuD8Rp3hVSMVk296ny9TZ1TooP+1rRBMacCNUGi0j2hbEogi8v7LbsvLvmNAMWh7wjVS0N0IEKImeKQ0Mxjjrm+Ahn9/h6mA89E9fd11oyTvGHC/pf80Z2jGSTnauGxHOuBlEnv7hPZkaTxkhHB4garVx/PMrZ9xjuVdkpOgUAq9BMRgDP53T4MdFqbPTXRN2gWuDcjEwdv3AHzPTa+q0o5maxsT2pq7xJUySxfPUzhtKzaCoGSMqIGFsNzhwaMYZLf5+Qyt3dvH10zVxVxalSvdBgjgcpkRigDyiQIOkCCYrZD5FAZ9j26XM/9ksYdHvkg5Uiw0Oiwk2bp03ozwZn80GHWxuxGiC7UnafT7YVQxoblT+JsEYxvhaGUELpIXpaLou9IXv7OIPcfI/khIgm07SsyMVl0KyJU69xWF8m54RKoUWm4AYLTdc4W7gyBUzkqkHQs0tJpVUJzaWlNaYSSUZx7XvGs7BaUeUdy2qoWsHkeNC5Gp9xiMGalLDyDr20+t/elErhUCI34XNd1phVl5K9lNYvvMUPdEhJZX+lwvY7SUOkiZkr+ShCxvAG16dmiUmZPyLTAtdO29Ox/j0dMRD5dDwoWWScS+UF9Sj6QQ2Hv1umHfVfEEw1c7pGycL1GbI1PM0B3fNggSQUifbfGYuiEGp6iQb6OCEyq/zAg==
+    properties :
+     y : 13
+     width : 320
+     height : 320
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95c9936654f09
+  internal_properties : CAAAAAgAAAAVYWxq2XDszmgvpoeZP0P1b57BkbDDRID13NODWVsCunKnk3X+kIlMX3YcX6O83XDh99ovFEzWOE6RxyqhCElO5Pv+qFqDKFMLG3Gmw7iBHRO3Hmhhv+UP0q5G6QLgoIXxK9hFZRsaY8epIfUv9P2dxxu1FpxqbDZuybdOFMn7EljEJJkzD/tFrwxpyeW7yfR14GioaR9PfTj7ErujePRdFxo4BLqD5cUmoqlSfxPinJuDu+4R1HDAUQ+FRZj5CvUmFD4SErDllE/wzpCPUv9YRz1gXWy7SaMpkp8CVUn0af+goM5RxndK+ugReQeW/3NiBZ4TW05wRgQ1sw60NMCdOTmwjyn27bB7ozW69JVxs8MCAHSNK04KxvBGDVTwynx9L6d0VlBtqwyx7NP4oMn5X/IO
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+      
+      // Arrow image
+      giArrowImage is Image = dLoadImage("arrowCompass.png")
+   -
+     code : |1+
+      
+      // Adapt the size for the execution
+      IMG_Arrow = giArrowImage
+      
+      // We want to be notified when the orientation of the phone changes
+      SensorDetectChangeOrientation(DetectOrientation, snrAzimuth, snrFrequencyNormal, 2)
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      // Stop detecting the orientation
+      SensorDetectChangeOrientation("", snrAzimuth)
+      
+     type : 2
+  procedures :
+   -
+     name : DetectOrientation
+     procedure_id : 1295168180084231945
+     type_code : 14
+     code : |1+
+      // Summary: Callback procedure called when the orientation of the phone changes
+      // Syntax:
+      //DetectOrientation (<nAzimuth> is int, <nPitch> is int, <nRoll> is int)
+      //
+      // Parameters:
+      //	nAzimuth (int): is an integer corresponding to the angle between the direction of the magnetic North and the direction of the longitudinal axis (Y) of the device
+      //	nPitch (int): is an integer corresponding to the rotation angle of the device around the horizontal axis (X)
+      //	nRoll (int): is an integer corresponding to the rotation angle of the device around the longitudinal axis (Y)
+      
+      procedure DetectOrientation(nAzimuth is int, nPitch is int <useful>, nRoll is int <useful>) 
+      
+      iImageWithRotation is Image = giArrowImage
+      
+      // Make the needle turn
+      dRotation(iImageWithRotation, 360 - nAzimuth)
+      
+      // Display the needle
+      IMG_Arrow = iImageWithRotation
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600a08b5f
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

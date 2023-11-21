@@ -1,0 +1,95 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_MULTITOUCH
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_MULTITOUCH
+ identifier : 0x21f95ca53e707e27
+ internal_properties : CAAAAAgAAADlxLr+2BWpuUJOYawPPkgbaaNezNTOSo5FLLCQ2owZ9lpChUpAoedrSM1+g04vW0iKVDRnQKgeMg9EW21ztdp63zPQVt5uH43V8ovxmQ7lj6dw5il3hZ0kufBmGrnIlG8mnv3kR8ppjp+ih+J4uK7TdbG3TjaW6U3Hh6TJh2e6uJOPsXMtV3+4TDIslv4JzQeSmEolqLqrIZ+/S01E75nT3Hp6QGlaPRTaOynQ5/cjbJiqXC93/M4Ug1z5gwn3KkmdkLdbvErsB3ZF7DHtDazfxmyrWmPJNVgt9Kz9+1cVaDd2n816n+kpWZF2SfAuQiZTAc+CodmfsNEaqzZuPH8YD9OyfFlxNhzxLIuzQwBKNY1fMcC/zmyHxYmvhZ5he8hcS8EOFlPE+5yy72XOiYGDLmMQj1rgku9FFmMbhn4Ms7fgA884DmtqMInhvjeNwHnbLODujXKwR5ZauGlDe/iDBgR3I3Z6ome9BiITIvThAwk/f0KBtjp6hnWD59pvDTczDs46LldBWTR7ifeyVZoJWQom7D4DHFdNZd8RvOC0TAmlG4nFYW9BvICOPrHtM9rZ8PxGBpZrklidPP+4Bp5ZBeLy4IhNPumC7iyWedE52qUqXykXbYI/+UMNbj+14Ctp+AnGMDJi36fIIAF6egtChyLQQjohRocfVnRREN7UBq/OiNwFbLTWEztxjoDtAdqfzUI9RFsisTpf0k3G3msGs5eQRFtIrI2cJpxIUmgqxTZnQ1J/Y8cOhplWfAenbhWGjZKtqGDbVdBaQBmX8eZoqLP9VZgqdKsj8JTiC4uIoUwHwxAzum8vTty+P53i6Tx7PTPNfGZ+XAGbX0P3i/r7CAZw94OF72FGJWNfKIQ8Pxxp1ZdHq4yO4AfGwZ53oheOrWSyqWdzkAR6ExpUeenvMXbp5z92Vd/o+06z685ZBd2mHrblhNRl
+ properties :
+  width : 320
+  height : 568
+ controls :
+  -
+    name : IMG_Photo
+    identifier : 0x21f95ca53e717e27
+    internal_properties : CAAAAAgAAADgEq4hEZRLJcbrrVc7Valopmd0sJ3hN6CyEyQXxe0aM2s9c9mouevI5dpDxnBtPB4ewQ+amgUUtpDm5nhGRaL7ZUdyJfI4XtFuDfIClpJBCp3JRwjPIEN9u/ujsOhWvfLnrVNs+0AenBQCyllPASp8bmkrpiMEY1VfJOhFjS0/u0FPohD4qMMpkbx8cf5UICuTEUw8TnwsUG9yYdXtj7wcwEjZI8Oau6Q8wGxCqnp6JSDKwkgTO9Ow6EIk4v6xNfaKZlnut6h1tA8KHm7Wy3ZesdJKP2tXHPmh83kuFQF7QoCaAnWbkrqhZJ6wjrQzeLhO6jqCmp2Fhrw3Oxmm5PSqAFkm2Y76JEK4f989SFZpMil0vDDuI8EONvhZ6jsjQwz9wqwKXlDFG79/2ck7T6NGqvIkERKc/o3wETnCokn6z2xIE/sN1H6M5gE0ndtoeKLl7ElIZGR6QyJd7w9HIljCXc5gkqrKhCkRFSPaLIS8Uu3ntbu20Vt+KVyYmfiZNYAJhqZuUcxgtQ7chebY7pEox7EqAM6WggkP89fcl/Iwr8r1d826FtY7m4fbUjfbOJ3wfwW0whxffqtK/yM85iI84q8zsBqYIG/n6RRuRonLfWAMDJ5zHzzBqUTdZ0FTW4Wi6XAzRxUV8Zu7ayAzVar/BN7WsjopU13P4b/cIRd657kiVjLO4mXQOCwxKWFNNBZmpmuXDo5p7oQematJDITn3cOaG3ZdShwSvphlE+WuSKs90xwdEMQWUZcQcWQOYNRYYhkAsfQ8z/ilrS1tsGeGEMyJfL4ZWfcRydsObyCQLvjjGWkyRuNm
+    properties :
+     width : 320
+     height : 568
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95ca53e727e27
+  internal_properties : CAAAAAgAAAAnOFuz2ynGK2tprOIFDkaQ9L5ze2OrAKW/OLNhDt+YRyQ22ee2fX8GI2Fye3yzUIDgtA2RylnI/prkfCqyWXie2eNoArg/ZH8AHPc1yqLAfqB6XEi7ADWqkV+lGVFRKVdD0GLUBB3TC8Kwm68axfYFCR378d3+D7q7J4R16QhqvstOIqOHuGEouv0qPGbEsfLNeXDet3ZH49leyYon97TK3aKRr/qMiwe2cTg/mVQ2O0PJcr/rcaxIGzzUEhzwbBjgYO/bTrNFiInJ3YEvHUXflc3XyOxGfz0Fb/8mII2VBmcywWLwGOCRa4jT2PoaiNU0V2jWONmWoOwGvAFc4Ax8yzMlxc80lXKTzSDRkrjJPQH8gZvfhJWSaDE5Gg7HkIk7U7qVzJtLrUQi+8harcm2LYmKvQ==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure MyWindow( gsImage is string = "" )
+      
+      if gsImage <> "" then
+      	IMG_Photo = gsImage
+      end
+      
+      ACTB_ActionBar.Color = White
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      <compile if TypeConfiguration=Android>
+      	WinOrientation(winOrientationPortrait)
+      <end>
+     type : 2
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600958b21
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

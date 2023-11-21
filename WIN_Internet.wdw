@@ -1,0 +1,123 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_INTERNET
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_INTERNET
+ identifier : 0x21f95c9936ba5255
+ internal_properties : CAAAAAgAAAA7DrsAxrYDFnv8A9ylX62Mzj5k/HJ36xMk3PDy3oFgN5v4EEeHVNeXRVf8XyHitDd95WpuQ0UX8iTs9mFLt++y3xro1AAJEVcEXUz/+GocX18Ovn2eVbXrs2V9N6ifjvJ4juqdq6aQdGdfvDhiavNuIbaDyEFWE3YSponjUi59aTrxAlMEKOmm71KwI7OWdWSUBvg72Ri/2M9Yfw2pAEETcmh47sQB8NdiLTBs4tLhMtchEd9H28DmLtU6EHFjeORJMJSElmkFTR0jZm8ZlvbXz9nBSQ1L2T1i1mlAZbhC4nyUk2BPE2730ap7CAj0V5nwj9ZOGoPxq7RgMmcLY6SiYWMoEiB41tgkeeFCG83lZGo34SgNSKiLhR5t9kbxEb0TRtUrhXsLgbYTGHmUaBfAD8UTrMPZ9VSl06MKGRQppq2DbzIeRmYlat8K7vD1aLDWCyU8PDvOHFu/tIJtTH7HyDMbRdzQEimCEdJ9jyIimaywPPbiz8FOcW3JoB5N0a3z8bl4hiFBI86ZYHcD0EFgbIPxrxssIayj4MkunBkcVbiLCI7dONaMFcuAW2Os0RCte7vxcwbM82n3UWY2oW94DA9WNmBn8WASlbBR8+dAIRm/xmj0v6JyM8EKwQx/eL87DxaeWYMbJr+NjrMhXqloD7Kkf5pnVwipO1jt9ZS1mK3+1PA/I9DDKI9sQLQTA0W/PFvN/c1QtEBINh7zsMRNQUrtUc/0Fdn7Qo0w13rouQnmlyieXRYVx7BzK0KQVv4z2GTtfp3UkTokd6q6mycOjP0xwxt7kTJ3pA0b2NVseWjky+Xi7W1k7kKBcqZvDSCt/0khxKUk5qfjLGel3YJrNFuWww+gs2GNM/etx0vNWAYxtqqa
+ properties :
+  width : 320
+  height : 504
+  heightMin : 577
+ controls :
+  -
+    name : HTM_WEB
+    identifier : 0x21f95c9936be5255
+    internal_properties : CAAAAAgAAABr43ahctW78Lc+yIVtZCBKbN68QWH/B6SSxsV4kHIKGtk7s2HQTfDU1FrMUaP+BVt+GkVGAelaef43wIJi6JoPeFn1IK42O7Ao8o2o7swuWOHSRLG7kpfBBOsiod4ohPBW1nUJ9JiKObTxLXD6cSPaOCuwi3W2U0K3fgsdCnm5BAuqv0UiiF98vTSzX/dRWrMLq3e474ZU5D8gtuIH65EpH7GHjPyZp2J51Png1LmJg+KzNaLlu/Ykxm9PiEfF27tKkZ2318yqFweUUmIpgW/N90/zSIRFMz0PpILDMCzqFsCLFMUXxRTLMv/PSTFTdAxDUTrfUGfX/WRl2efGoXhE5TF58qAXjbN17RJlRdukU2f2TZpcvyxrP/NoY3LuGhZMLYTBFZyiqxYwupJ4hxqaePg=
+    properties :
+     width : 319
+     height : 496
+    type : 23
+    code_elements :
+     type_code : 36
+     p_codes :
+      -
+        code : |1+
+         procedure ClickLink(sLink)
+        type : 266
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95c9936c25255
+  internal_properties : CAAAAAgAAACxhQAOvQYWkN6dkDGvPSXzYZB3U3b9Mk6fHgH2BF3wPkRT7srQfCUkFPH86SKlnNth+Tr7Ozu6GirdQ0ZbOfh1DcVlyHgHJywPKRsOpYrbYOGjhF+VzZFZIeTgC3imcmNLFSYfwysKM79ZGeXnxA21Zys9PgRCtB7uUee2hKFTkuCstNmj7wv1V9xRmf2ribyVQLBQYcfXpdjnBnevXIj5e550OHb/UaHa7l3ei5dGeA/HJ3KtYDwslbsZ8ZRNXkH6mKrmzswBkKMMMgzLdjMUi4U0dTT/nddxyppp9NSDo4sIWtvyQ7q/V30Gg9jLPMxkcQNBtGR0Ctjpx/TWoRDNVWPWbM336bot9GX8dAfbcEuIOihp850mbih6xRQ8BjixlxPk5tzxnzRhYKOQDGUVe5aq
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x21f95c9936bf5255
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Option
+     identifier : 0x21f95c9936c05255
+     internal_properties : CAAAAAgAAACj5XSltuFhsggIlLWP5COVNHKHcmkxdasqbQZzCXMh9Td7NQxLGFQFVkudmfvrgo9m/pu08YW78NJv+xSHsxthDyRuPgbpb/OiqrXDdknXQ/lWS7soArCOu7ZM3e4ZXL4wXAcqMfELrrfCH/xcGxfuHoOQogLaV2tEHrgNVnXDMR/w5gB7gm5kcXVT4vD5xT/HE1u2avv/Q11UHTwNoAUEOAxIvXy8XpBF/wDxGaRYN/TXYA6ftM32ba8+KilPVj/UUpPDcsgxv/2L5o/w6uEPfGeXbpK9mirEczXp/6/VWHIwaJo3rIJaSUDpydVpIBD8ASohvEiXWD4z6kapkf1/BX2HEOQ=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          // Start the navigation
+          BrowserRunApp("https://www.windev.com")
+          
+          
+         type : 32
+   -
+     name : OPT_Option2
+     identifier : 0x21f95c9936c15255
+     internal_properties : CAAAAAgAAABhkBy8iNR+kmv7Knx1mvaueRsUf5IXirjek5LBJf08k2iokdEMEoLrxuG/TkVowX8RUtJQ+DdBdidpt05esY+Sqi6Z5L4nIGJC17kqVfB/YQdGSg7+BEmFUkKSQEPpjsYx+MshgJuQ0qoP1MO+q7mVPkGL6XKb4Nim7dDaQUGfnEd+8/kgL/IptviASNEQFUUWPLfUy23ZoRQ4aU882j2tA5xGYYKOq4Ta95Z6oODpr5MWOrBDY4H9W85j+HtWKe/rpN5JOl+Ez0Qc5QeczGwhB4Dn96tQLnc/yhZfVVdIFqZwYnIOPlDqxFId3aEL9zd3JzjqE+svPjecNijHXVTZEoE3515F
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          HTMLNavigate(HTM_WEB, htmlRefresh)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+   -
+     code : |1-
+      
+      HTM_WEB = "https://www.windev.com"
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600b08bcd
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

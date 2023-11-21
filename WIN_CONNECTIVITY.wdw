@@ -1,0 +1,429 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CONNECTIVITY
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_CONNECTIVITY
+ identifier : 0x21f95ca03ae969f3
+ internal_properties : CAAAAAgAAADs/DfFZCcm6NOYGOQWDRJsxpCscnyJ3WlbaJEsiQTduqtXPRQCXIDp4UoLmZevjHekQcJh7EPz95ePQpf/O6Ibu89Y8PBHKw4Wtf2EVKBxh/w2umx29NmP+ABUbl0JbcpNjDspt59eGWDXlnlM16IafErfYOqH+JTh3nCu0McRtnO4W5/pAGu1M/sdroqa4lmO74L66IuZvak5SrOgOlJsjsr5K94xUSv5MqnbQZtT+kOYCNiDb7RBJCNYDH+qYNucPo71SfQe2Qs2qDfdkRbXxyvtfsKNYpORlMIo0lM+DfC1Z5AuF19s/RzeGQ2gVP8JnizuGdb1d1BQvJN51pKDeInqfqzHTN3lB+8lgBqDixdkxgwo5iPKe9Kq72QVXR6ys90AogWIssb6rtbP7Ay2qBEVzFNIlz/z2Eh2VPS5ieS08B3TBvTHn0l3VDxpu3OdSf4EEl9qIaUcuywhev3Z7SqXumOu0ahZOdCMs+hRBMXHX0Rzob6jNmO5zQDLJQtVzSmfbh4jBzZe45lqbetCSvlLtBXlaR5lofgnJZNhGv0pP2gFoN3wWysS41gWirOSc/6V6/vOZXK2QcIHeR1EDoijjF9RBGUjSL1ZorMCe3e3wVzbfZzaKwCChTM6oKIr5Ub16YgjaNmop3t7fUhLQ9LDzfFEEFj2PMpl2cJqcRCigSf2EpBYT4g1lbL+0M6g9PNWsGRA+saCVQRXiU4pmEt5HCcr87jF9wrN7nd+KbuI3dv82tp735dO5mxaa4XC84owirE3HO3pFIELsidWCln7Q1S2ivvwHKR9tA/GSa0n+kvShpPUk2dtQdZ55rtFm3Pl9kIXNgiUFAZG20xJonoW3swkAHa1kXzgpKtDEsKroD828yDheX7eagfmRiPc5Pcz2c/+idJ90QwMWo0+l0y9U0qw9w==
+ properties :
+  width : 320
+  height : 504
+  heightMin : 577
+ controls :
+  -
+    name : MZ_ACTION1
+    identifier : 0x21f95ca03aea69f3
+    internal_properties : CAAAAAgAAAClT5+PVnGs7nVPG+HFi+AqlOQnr7WP5sFbxqUP/CJmWiFapsDQs5veIcd7TuuUV3juqnOLWDcIdpOFSmhon6/fhwBk4zNpNaOMRgs6Yd5VICAJ0FL6B6K6hUWv24cZErMVIcRzz1RCzb2rh2q4LAb3Sfxm/rLkb1Dg4aKMuRhLxqnD3ZnYyxkUC5quHDCryqeWCtwa8JkVLW3wcyYCoPgP/CfMIyqUNLnEQ4z3F7Tk6+75f0HMduERRTVO8ts9POvfRrv359HIGzqmB9xcCYSEgvnLVDfvdjnJxnPlgtUG9IwGJEhmdOFJ2EZxTGPfho/rBMtEuqc6wr4dSPn7gAxlngJzqybVbtzkchHOvC6Si7qlE3oQuIGOQiWFQHctZyc3zvi4LjTlEN8wbjejjsC0ZXCeH0PggaNI/35COszRsw5/Og45Rxppmv+oQP5bG24LB5sAL+TnAlcR2agtkqh4HwytiIAIh6bRrp1OwQZ2V0eYP+5L8Eu1diuxlivKophhL1nvabyvLRkeau7uFZO+4RKfCh49o5NtOelPZWgagm68jyzjda43eMLeMLs0Ko/fUXYXD1dAZVLXfN9QZl1v5O5N3qXoIQrCdD2Q2fsSzsmpm+RucazrS8YAqIuSMeUK5enNbwiTovw3KtPZcNAxYT1RhUgFgLdBiTBva9B1F8MF+Syg4fVFgDfyKV3zfFu43/iIX3Tw2fGDGMf1K9v0MK0s9AfTJoQDlD+vmM8Nu8tmXVLcx79xGOSNitkZV1bQlMgMcBhrpZ5qjWC24fVhfuu0qW0qrJnCXzzwp6yP7r2p0RuHW2+3LTNoiC69F2T8M+ao8KNzLrkeb+tqEyIFPurykevhNg==
+    properties :
+     x : 37
+     y : 24
+     width : 115
+     height : 117
+    rows :
+     -
+       internal_properties : CAAAAAgAAABbFUVPDfGWsxsLZ4cJ6RGe8Uw4G1rUmvhKyq7aYMrnIYLvnxZ9Sz1bGIikbV1SXG1q+OymayEieINpBx6NCcqE9mMZ2byJs8AHcZ7AFz7Ww69OT9Z6tdPwotx/BC2/ikcWJ/Bx2kEfiJNlXj/9bxWJu0zQ
+       controls :
+        -
+          name : BTN_INTERNET
+          identifier : 0x21f95ca03aec69f3
+          internal_properties : CAAAAAgAAACQGbUJZpxQfUikqA3mP65Rk6ReFAX/qz1KzjqiFt399IsX/WurMVMqFYxIqYVvRz8d48LC8hyxMVXXGpVHMtDCwuNOKdpzm75fkWeiRCRLW4ZGh0wazoPkN58vIi2DsPcZQ/839b8OU9JFOT13o3Yi97sKYJByDQlZnuqhEZzQRTNHELmonVb9BOO0GBruX/r4bfK06+T3/1A3hwyoVOQ/aDgyTOXbEsB91s4+pBOzQT0od5d6AM8uoCKSbwbAVBHG8PpIVIDmiiU4k1gd0wkFSgwdOTJIdnqeBUmbJMNc21egqt/Y3l0MpVnGi7GpqaFmfvpzwb/SSs3lurGnmxduhxuGKF6RfxufTHUG1aNykbMvY/uaqs3zk7tYobzFZiMbeU+iXKRItNXwh7eD/uuy4wDO2I2VdPGuMEzuL7/luFS4t18gFQFEqFgZFd7KpfzDF25F8d26UExqzpHkGuybDMtkval0HPYJcsEINZ2NtazwKwGIPcKhqHW0vHQQGD+7j+YmubvOUko/k4h5fZqIXjT7ZsuR8iZZdI1ZpLHFmmlO8iwwkPUr3FvqDPnF9xTnVVuhT1GY7moxKpuPor7KQ/vYSqrI98QM3N8PPqW1LRLG/2OWzRJD9NPjbuXXqmEqyLoe6g5COv6R16ySXHKBPssEnNI4g7319N3wEGCjsxnHL2EpjlBruimFv5JiIwtle3dcNaXkwifB84m825e8X2mdkorINjcXpLCJ7L/5sGy7dE7AEKYWDF1FQgYkeLElcfiLZZS2bwx3RTZYP6L6PVpjFRXrdyvZdtYImAKlkpyOmdqZZhvZno2fk/LXOYalAuaoz2wSf0BnVYATSMILBMRHclHp5XMoVl27OyFf+F5l/7H2YkCXh0CLnt+t7dyowRQhSOiCg0Ggh9dbj9p1bm9xIawvqc7x8mVrLsbcbb4VAoH/b9dPH2lS3x1qJgH+h4C9cD25eA==
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               WIN_INTERNET.OpenMobileWindow()
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_ActionTitle1
+          identifier : 0x21f95ca03aed69f3
+          internal_properties : CAAAAAgAAACuNnLEaL7n5uByIfnw9nDP2rRMJZ3hZ/m5CipScJp9jJLWFqwRgUQg//Z++Id8ZT+C+yd5sefrg8KCC13tYnJ5ZwaoH90xTHYKb8rB3KE15nNHHra48JJ/JT6QF1Alwj2tfPQZos1pRhHukI0rBxfuMJWoGfHoKPf3rh3+DvoW5RUkVQ3lbB/jBlajFg70TyyW53KMv9pG2AS1vx+cVLkvkJIqIyVwbVruPMPDWbXbglsCv1TFZJDzgPUkGjbBFMlzK6puv9Y32FDZVqT7NgMnViAFZlWaFt8iI6K/VrCYS82BcjwOtyvptY+eiEADsfFOwNs9ZFsc8yvn9lvto3Y6Emu8KWw+X49M/MIgzxCpBDTnotEACl3HxTTkjD9QEyNjZiGbRJzuZSmDNmf7Pun699FlGupDSRJRDC1YvBLYp1VklYAX/IoBPad7Ez1O34rTw8OL0mUp6UfebGRPOs4aolIZDNKTg++LotZraKyDi0676AZHXniEfg==
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              code : |1-
+               
+              type : 18
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // A click on the MLZ runs the code of associated button
+         ExecuteProcess(BTN_INTERNET, trtClick)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_ACTION2
+    identifier : 0x21f95ca03aee69f3
+    internal_properties : CAAAAAgAAAAmN91gQVrPpw4Jx5a0dBEIQk7/P3PTGDM5tgucx8X5ZmCxQ+o6Pfofzh4GJrbTkY+uHZjHXHBEpYrESZTxdG55XRxind9v1RgWXd7m67TQkHU09qqaom+L+jVJ4KhI/qkwOxF/SuwGBwy+3Vg8oSpGvrRoybRgjlYKYyqlO0QoSKPMxRXLRyz2vK4lxb0KmvAcsNA81YI1zgvs7UDLCNTsKwGDmzvnsTs4JBTNIevTP2k1CvA/yPvdAN+C6QnvDug50rGUYYYekPPmk/s+/MW/ZwWMbyQvMScnwPbYvAXmksYWDAU79YDATIYYwWGWL5SqftUWtDZOGnEcFP7XeM0KY2if/Wuf1cjwH8VMBgEh7i0SVouE3PraJx8EvNruNpaKIom5a2fX2aYX2M2JLpeUg2FcnIo5e8jufpZJHyR94sVHJuoC/hNZFJtNe9zkP28j7zgEME14xsnNMofbk7ghGUI0GHWVWvrT0sDTGedkgkmInq7Sl2JNuMMOUfsB/jXvWzrvZNsmwX+Cmf+CMP07zS7eUo0INie7rQrOlV9KSQS6HDbmkCG7WsZtUdHlGoprOdmVrFgdT+I7qzgmoYVYNgw+jnhPyH6AjlIbRfC4T/MnmEAxyBl7+e7V85vTp1BudYjPlIUQeGy5HcDLJWTk5Rkik1OMLQc3YdEOL4vDOJ2x+jS93kAz7GU5YquWssZyzb8aMGUbV2k3BcLr3j9JdL1faN6ys3C1xDjW6Ab9wsGarug1zNZbwE7SbYvG4x8SiJvYGd3uiSDciO0StOm8Cjn5M9wdKwVUkb1nKzHvhSNdtB8i5HGDR2PnLfrKCYuEilovAYrJBP4t8HktV0j5gpanjNxLsCnkTA==
+    properties :
+     x : 167
+     y : 24
+     width : 115
+     height : 118
+    rows :
+     -
+       internal_properties : CAAAAAgAAAA7dVXt5eESNxMP+4cJeQXGoVA4j+IkvuyalhqiwLJzWSr7z5qNM3GnOHT4tSXKoD0QHNwGi5GC2KNRf8a1YWKcnk9XH/pPvSqBc5TGHYQIeZXgnaQY0+0KjHaNMhMtNHXEQU6XEA/hSlUnlP07zWdZGyww
+       controls :
+        -
+          name : BTN_SMS
+          identifier : 0x21f95ca03af069f3
+          internal_properties : CAAAAAgAAAALYWrPFSyeZAnK1egbj1H7m5ohds7BQcAXoC+fEX2GW9Fz/w9t27JrO3cz/1SYRzIUWTzvNg/tsqF9Y7pdN/BSnDcgbvO/lKwRcHOb8ffOTeyjSpnQeOj42H00hRyxK2vo+JbZc4/zA6rkVWyWf1lJhPJYuMKC0HBBKm7/0U0euu4qhnl/iJz0I6deaUEooRle73SBPtB+cb6a8Tht45bOndcjX8/oqVBdNynU7RCDjbA0FSwhtgM6zJrQPofJnihY/xUtovk2l4RkxlD/5wnJcRKzh619BX4Cu5m/LnGe6oZI8KBo8Guna/KIYWIEjV5CJOzwfI7W7YNTaZ/1u5TOFYIZ3V4a8QlFnIjMMEetvAcivcvE4zwIMawZK7z/FurNvtOJAK9eoAQPpuRWaJuuYzYuH//NNYErI4jVyFWi99Nfotagn5fg17xHkFC1bK+0xMUXsWnjudUPMRax6T177lQ3TBeurtdSLqjmqX5vU5thKr3H56qUZCaJEnbLmhHCXMu2poViy9SkCI5TzuwM/RXympwzGh2NO8bVlA6rUEzr/YhvYDMoNGDp2utirXhKuvRNqA/YzyJs57dHXU4ELiCR3BmiR6OeOU6lmNbP9X0zHi1VFxIEsAxKTMe2gHfRJb+k3RbIoxJwxOxm56oVr/I5ntl2ixDRG4yozPGtATAU2JN2PJR6bogIiXgRmUeyDhhEUHU+O6PS8gU0tnfaMNSmMOXwzJpPHzm1dA5t2mnGScDV1Oj31ACGlqabxEFUYoe1vEbarn5uQG4EFugURCPYFSizhUSfsYUuOlcFwjXx/ux2TFPsrB4sWw40wcKSsTWiNjQsxuzANjYN917JiwHqZuBh62bQIbQ3E4RBLqtkvouTwiZoJzPe/oPID6hRNC2/KyQALgHjVFeXjtbOnOP9voMdF4fEYvJxmMjmKfdIcU5E2FW+dKzu4YKyBgjXJOg=
+          properties :
+           x : 24
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               if InSimulatorMode() then
+               	Error("Feature not available in test mode")
+               	return
+               end
+               
+               // New SMS
+               SMSReset()
+               
+               // Prepares for a message
+               SMS.Number	= "0467032032"
+               SMS.Message	= "This is an SMS written from WINDEV Mobile"
+               
+               // Opens the system SMS application
+               SMSRunApp()
+               
+               if ErrorOccurred then
+               	Error
+               end
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_TitleAction2
+          identifier : 0x21f95ca03af169f3
+          internal_properties : CAAAAAgAAADZmlpN3AaooYjgvuUOvEN5rfGzXAYPRA5r5FXA2oCCqPkLrWRMOxP/Q1YnGIOMbPFd6iLXXqUIXKLYvpWgvFNff7HBNTENpfz+Qad0dre5lpU/fEIqWTDhX+rn4kKRgTyIdXNX64Xxyg3X2zczuWR6Ut47nbPKOShiM44ImL1LH/Uow1XFfLuVTzXhrUOXBF/EUJ9r91Rx669/FjzP/AbYYvq3oyVEmfPdj4HyCu/2ud0qtcHi/1wZ6zAzuPmifGRGd0zSEDiGO+B6cnwYhe3Y2+KJnqAko+SgeJLtczcyLHJp0G5lnejiI3BiwgPkI6KvfEGF69fDikH+IGGwHHh1C0N6O6f2SEg256oICjF7JbOTgIX14PzeE/O+xiYdyej4GK3J57bJMCuIJhmSazMl0t9R4n/F2DCHS50v2Kr0lHNAtvnl2i5t8+Kme1WEubfw5SCVahtbLfH7tLxW/sCJUTYd6FOEacs0uTYRpkg7O6I/3Js=
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              code : |1-
+               
+              type : 18
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // A click on the MLZ runs the code of associated button
+         ExecuteProcess(BTN_SMS, trtClick)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_ACTION3
+    identifier : 0x21f95ca03af269f3
+    internal_properties : CAAAAAgAAACxQmXdBSsBOeOuh+bqc5jOdkPIyT21Db+EYKOGWLPtWbCg1N6p5Qx1lQiaQ3G9eQualT6odWOc1CXhzL8V6XDjNVm4nTrDAycZSVNASJRwir/qYVHd1ZtnS99apk3sKM2NXMtSx5xPU+yWNCMH0KTJbSv2RZhYofEebV7OME9XMKy2qt4ubasPmKs0//3TGs3z3pqvVd1V4XIQGasL49uRM8WtDYNtWherqt1CisqJeT3vOuj04KCHrtkGbPiZ9KNE7nM1VE4r9Zl2PVRJqN7JO3zZraQSQlF0LjTIE4TTaxcff/R5DcUcbNp7BqgGLOSaHQb10+eqg33vIgWOOMXISthEty+35QBklkjkuKpii6i9Y9B7ZOZkxY3gYtA09db8g7QXqYwbsFfqFa/j83XROuIMvysMgh7llzYSbg+ZiPnuPw1HKyOKvOAexhY4ht1zCmUTOyb6XauSL6bpX5tp/cH73V5gHDF3d3uMUYWTWuX1fUNPxjiU3BTZomk5pUs9mEMiM/AK/oddjh6AHHSlr4XJIxAJnsBjEpUXM3st+3i7rUnXE3kUwNtYCk/JXYCdRMyGlRMFkCAmnumg3TxCaEnVAwsoVj1ODSkg90STsbPWj5VGN3PmObHMGLX7skIcyLk6k8pI/wbU5G09TVOWD4jJaPqx2QQ5ZOBTWfeYOlOyf1seISg8MAqmSaM8gwYcoGg9lSzJ6unIpM9f3Mr5vPago5V/0W/TY6M/pu4gsDG9B1u2/6CY1GORkmeMGPvIi+bJjuxQijonoWjAZFzuBpZISF0AKS6+aqyU7bFCX5WagzS5I44C01MC0MeNo8php8mQu6yLylm/UhncVR6fedS3WHbmWJk=
+    properties :
+     x : 37
+     y : 158
+     width : 115
+     height : 117
+    rows :
+     -
+       internal_properties : CAAAAAgAAAC596epr+vopS1pmT2jU2vAH2ZatSSOPOoUYPxEBgB1p2SFrfRL0bsZ/toaX3sgArDku+ymayEieINpBx6NCcqE9qTSv9qrGQahswh2hZAUBdlowUT4B9kWvCbJ8tMZMOm4QZrHcOvFLnWHcC3jiXNrna6y
+       controls :
+        -
+          name : BTN_BT
+          identifier : 0x21f95ca03af469f3
+          internal_properties : CAAAAAgAAAAY4S2R3oYOW06SyiO8rXDj0RKUghNBsSM4bHwQE+K452bAzR8GtU6Ii4LSXyu1OVFDech44C6fn6N9RKPVmNq0OHEEB/gF8dwlJ+kgslJFFSzE9UKw4JnaRX0hdU2DcPeZA/+3df9OU1IFuT2343bit7vKYBAyzQnZXmohUVxQhfPHUHnondY9xGP02Bpun3p4rXK066S3f9B3h4xolGT/KDhyDKVbEgA9Vg7+pBPzwT3o95d6wA8uoOKSb8YAVNGG8DqIlABmymW4U5gdU0kFysyduaLYxqpu1XmLlLMsq+dw2o8ILm08Nak2e6HZefH2jmqjcQ9iup31auFXS6c+1+v22E7hT8svHKU2BVMCocN/U+sKut1jo4tIiaTNflvjEReaDNQY5OXgF8czDntC8wAOOK1VlFHOsEwuT/+FmHT4t3+AleEkSFiZVf7KhRxjV25l0d2aMKwqDpGEmky7bEukHck0vFZpMoGIxc09xXwA2/GYDVIROEWE7MSACM/LnxZWicsegprPIzjJbYrYLgTrVlthgpYpBB3J9CG1qjleopxAYIW7rGv6PCm1h6QXBYvx/5EortqxuguvYh6Ko1tYKkpId6SM3N9PniWVbfLm/wN2DZIj9FNj7oUXCiGK6Hr+Cg6CWj7Rl6wynNIBXuvEvDL4g5319N2wcOCDs7knr8HJ7vBLGkmlH/JCw6tFGxc8VQUEoodhE+kcuzfcPwm98iqo1hf3RNBpTJ+Z0ExblK5gcEb2bH1louaEGNEFEZhrhfRWz2yXZZa4H8KanXoD9bXLF4s5Fnbo+OLFsnwuObo5Rrs5/q2/c9K32SYFooYIb8wy3yAH9SDDbJ5j0AifmqFRkTsEcnWjM30b4IrJpxmGmiz/O7RrtlcpkXzM7VQB6FjGk32c96db0x7tgAE/Qw+3Y6Yfwg+DVuKQrXJBmhnXrxsPcz26rz1OOgHi42hF+LUx8A==
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               WIN_BT.OpenMobileWindow()
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_TitleAction3
+          identifier : 0x21f95ca03af569f3
+          internal_properties : CAAAAAgAAADTBMIW/8aT6k/7ninB1B68ej9dNzM/xEMwLcbyGzzO1eyibpQ5o82EBzVklVKO8/CKivXhEzR9+5Lbdro4Ipek69SpK5fw6GyoK9RIu5J1LTxKsr8z3w/xmZSd3clYQBKsbEVcPZ0tc7XErnfSbtLbghOYcXdP2jhYOt+eeekBdylm3IWmTDKABGI/jmM/kXjLSDPxaXOJbGwSe2kO+6W/1IGj80HtrrUizh68p6u52esn4OQTRSjG2IIGKE1O4c9VJRP/HinPVJMUGH/WOeZyqk8Pt1hDum8YSpqOx8yEI7HbgW4+EZ6ldlGkDwi3L+D2inx15oF+wH8et390Oyvpz9VeHwAvytq8OyWtISXPfqXn46ELfy+lxer0niksH277teUE206Snq9Obcjksu55+ZHzTAMuR4eRkgPWLa0bmE5lfmp1tRYSimZr/hQ1pwrQ0ieLNw6nQ/d9S5AmtYfoPvcp6kYH3eYcLnywJTH7IMPN6aUVaItpdp3gUyK+BA==
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              code : |1-
+               
+              type : 18
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // A click on the MLZ runs the code of associated button
+         ExecuteProcess(BTN_BT, trtClick)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_ACTION4
+    identifier : 0x21f95ca03af669f3
+    internal_properties : CAAAAAgAAAAk1YhgznBylGgjKWHTZLmkZ6QPKuyG8VMETNVGS/1cvHLyl1O6mnU+BL+JrlyeQh7xiLMVJuA9ddisN9og2qUb7XlgBYq767+Z0ROwqFSQKo9ywdFVVbuH059SfgVUUAXFHDNqF0SXS3zetAP3oBR5nfMWtcCYgUG2zXW2mFc/mDTGghbexVOHmLOkT41Tus0zdmqfHX2lgZpwYUOD68OZy3UldaP1ci/Lcs1yisqZWZ2Xmuj8IAD3BqmOJBCRPLuMvtsN9MZz3TnuXaS5OK7J21RZDczCsjGMTlyAa4wrI49fZ4zJFW3E/AJLRhhG3FTqxVY1e7f6w5Uv6o2W8B3QwlgMDz9/HYgkfpi0qOoiy7i18+DTdDYU3e0IeghsbW4kY+xvuYRDOBcixT8TI7UReloc/3OsMt4NN+6KNidREFFuB5WD7+e+wBTCIvpswpH/Ztmvl6rOoe9WYyKdYxc96W3fqQr0YEUbO0+oZTnvLtHh0Z9rigzoYBjdXl0toV+ZBFc+n2Q+QtthgmpEIPAZK3FN/0zdchR35vnzp+85n3S3EdVT1x1oFG/c1hM9WZSJoIBiwffJFKS6MmVUAZgmpEWpP0csSjEyob2MizgfNX8SM3FyK1caTbXQFLkfbqb4JI3Wj27sEwrY6BnRwb8Ky5R9FDZFfbiNmJSffcs0bi+ew4d6JSwgtI46BQeAT6pYbByZQaANnl18+LtDUAa96FKEX+EjlbMXV5dLahKMdE1Z+3eiMyR8KLdlPnuQtC9E1zpVCoDkLp7bzzIaMuRMlia65jFMfeRC7iLW79Oe4eFmwVYBGU1CcR+fKWGELWOBDq6jLoe8ZcVvLEmc1JkUzKeCDcNRzQw=
+    properties :
+     x : 167
+     y : 158
+     width : 115
+     height : 117
+    rows :
+     -
+       internal_properties : CAAAAAgAAABrBVX/3SFGQ8v7F3cZmaFuwbyIC+rEysh6eqQACuy9kwgNgYynbRPByhLauwecktQsG0iuT/1qOL9LZbyjn0wKvOY8mfxNhxSnUZrgL0LqV9umGyYa0bc0Uoyv1P3P+jdm98AhKjEP+AMVjs9NP8U5y1zg
+       controls :
+        -
+          name : BTN_WIFI
+          identifier : 0x21f95ca03af869f3
+          internal_properties : CAAAAAgAAACrPP2IO+vBaElq2u6ZKddhGqmz9h23jOP0njSJJ5Fl4qyY1W0Yt4x15Bt1gTJWTup7uFe/wo6K+ck2X2YBiUdFeqtexNe8PniqNwRdWBQjrU0TQKAJdHE4Y4bqlhox8U4FBcLsn9ZnlU4TiG7zJp7Ncim0sLJqiumKRaattDXDjIFrr8u+YtQLBFmlBJt4uJfn9uqv8XYjb8/cN3DMKRGE4vRztBrr8f+/s9NfLlGCtqDTeeoDxwcyehyBkYC56SlPZFC4rLozMpj/n4/fCZbEW2wskle6DYSsZ/pJxGledC83bUXG7IoX/IRU7ZWARBS4uopoiw6749XvJjzeLylrgfRU0HJiuan6mE/kUN65WoT4ljbmFYEpBZZAp3qrptJDYlkHlj2Qww8iNJ5HiMt6+b1oOG2+5xnoSEhvVeUBJKdKrrsy0ohad/yvEOwz8xNy/glj2ut23gPu2VUyWyh0yNzaJcXBwJeyY1TcMo2a/lC7v3/igJ3GeEX5Lv8i4XLp3q58Ax4VzUDV1mbk8f8VoBWLlMcsNSvBPP5Zwc+8dc+LNpquA/QIimnZDIq1LHXl7LW584C79e7lvV+ykPlFdRTwwPSDuiXW9sapaYHuALLP86l4CjNYouGc/GBtDxQg36hKFie7d8ib7ADNoF9I7OB4ur6xXJ5lxDIKncxEEFXaEZUXVwVOzOvSQZmQBMrDMMtyS1hHQ9GLCsMboQbdgXI5tOCH+SpNSoOn6YXgN1gQFp66E5V3djegoNGYhZ6X1DoPkYFr8DaxIJqXI9Hh152p3ePcgCxBzqF+BeSqBbpN4ZStf9wofo1C5yOZbldNiWBE9a1/+JiPZAKisCMqlm+fdIvoQCpioHp1Olle5WRE0+/MV02S+5RKiKYrZiPurqjLXpvVtGWEmK26cUnjJ8HImId5Zd50u0rpCZsCz7K6Dqn87ie3T3e/4mmaC8+w86I4DA==
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               WIN_WIFI.OpenMobileWindow()
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_TitleAction4
+          identifier : 0x21f95ca03af969f3
+          internal_properties : CAAAAAgAAAAQXDul4A0Mx3W5X3VllMmjC7dYu985lR9QY12QRwe2ddFXdCkpKcffMP3tHygdv9h4J+Cop9YyIt+hByPuGn5bjwtBMcyD9ozfvo8kHP1jJ5GNdXFPTF2vY9/ud88v2tnTq36Vszb08rJnegiUO/ev7RHWILGeQnzhbf/QrZetkWEHNhDmdV3a9SfqJnTu30d7dtnHfU0aH2LxI5NHYEXELoIm14bkEe7lMAEO7MbmI6LTXywSE7L/ziA5Q9gMa73PDvoj/RAjgvkG9kKUnMpQbKgK1wEG0s2eRioRG6Has5VUmIxJzP5nGC0cNhS0WfbAr2PBq8wWcskq52jiYs911/IZp3n+Qvrwe3E6W/rTGq1e+NnW4D9z0+4EY523+1ztVrTqxH8Msqf0V7teAR4RdcQchuS7Oym7UCVJ85GZ8sxlKb2BBd4gmSWMx6+8VVxGlEuqbFDMvtp65BWm7cpCswDUHHW82CV2LbQMWn2tOmhvBY+XyItUl7gbaYk=
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              code : |1-
+               
+              type : 18
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // A click on the MLZ runs the code of associated button
+         ExecuteProcess(BTN_WIFI, trtClick)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+  -
+    name : MZ_ACTION5
+    identifier : 0x21f95ca03afa69f3
+    internal_properties : CAAAAAgAAACojU/292gd8fxf9XxrjsUMQijtGQgRtdMQlmlSL3QolSqHpFcmH8DZopAAVFi9qacWqyrlppriO0qq12Jj5kpewGsdnCJq1gn/UG8LwlO3aQjT2eFt1RgkgwgO+VtzGUKrNvSCGQtvNKlFWsG39P2T4e/LeH+bQ/8r2qaHGyTmXqGk6cFfo5TSHn4Bme2ygM6mZAR4tcJh3g3McdA7+AICWQnPo1eTUetuaLgVjZe9GXfF7tQPGP+Jil+mtW1LLL4TxoVMqfZSuBkKb6dmtAeJ0clwS7CbuWOdRK5IZHV4HKCKpHWT3eSYxk6cVd1adVoc4lnazC6KKv/YOGZrxOckiahfBW87lbQixxG8FiGHRHu6+g8EVHbaNYtAmLbKREyA8o0Zj2OP4fj3RJFV+qmWVUVA3IopLyD8UsJhy5inPC/7kn4C/5DMj9DIwAsdNA5aiPvBB6bRsdSKHYwinBHgVA8r0Wj6w3WSw9/MDBThLbR9la/FlGtckxgR1nrC3zjGXNVce+yzHOIHfFwxaUqSvBcJp5wJu8peGoXLjED7gHcPG/+5xWZuUe+kGuzyNy1iCsS6AxHe3jmMenlhZk6f5bVp0yeYEVF7u01ghKmxXuYU19mcRZK6NOuQONpU9H89XsvEIwYdz49OWB1yTm2n3AIt2Ao10mKibuSzjmSIE/QKfXEMvyk6/9rkL3pnQ00bEshBg5pWAMqsjsnmE4AMOaakk82zMonmyXEd23tWXfpfL5cAOcGMBffviOKfGObTNcwXXLI56nWVNShHr0Tpf5By8i38itpllH6mbLimGrDEVT4rFRsonHjfHOQWVTeu/0FlfyvqL91yt2rQrfInUOR1vq65Iptqwg==
+    properties :
+     x : 37
+     y : 293
+     width : 115
+     height : 117
+    rows :
+     -
+       internal_properties : CAAAAAgAAABOYDI2hH4DgH48XODyAnrRuIf5WpmVC4k1I348UFpb065F2cRXx58DGJZIj/2iHKuIuaAG11UyMM8PsXAXa3iu2GCKzjlmlqUg0HMtvOuzGMplxE9jnnppm0Xok7wAywZX4Dm4gZp2YbhaQxKI9I4AMDnF
+       controls :
+        -
+          name : BTN_NFC
+          identifier : 0x21f95ca03afc69f3
+          internal_properties : CAAAAAgAAAAJE0Cuq2pELmB3Vmmb8pHnCeAEB18RfkcZfrwajbLdXZG4VY+1B+lsCpow7L9SN9WGPiF8ILCHiOAe5NFeq3URlVzRa6tfVJPrdWaLeH+AkJugYALdxKJ58G9gQhYuGuIJSpREagUSL5ZUgPMNYh8GkYYBPlm02joZU951XGR2/iK0t6ivz6UX2UmYUCOCPDT5t73kfp4Ftr599VTSSjacwbQilHo+ixPdyFZFOqE0JXTdmw/cfgLcjRXtMWFx7k5EaRtAEXwnk6YYCL3tK7cwHV53REJjosylmIV0HBKE/nQEQt9uGPwQb2l6FccxJUP8q27gz9emZuGNUU2wrCNucBc4vd+uknSrevus8FD/HCil0Kvlvp3amNuXkBQUpMPJNeVUKOJZHWH5i6mUXSXZirZKUOCZTk6MRU3wFguQMP6b+NEpymOVWdupQdB5izfFTHYmGxvbrMrnxYZGgjJXvV1WWiVr1Jh6uOrP4XMf0iKH/h4jKlNZ3mCNo0LcRJYj8qMpYKy3WOTcxKdpN1YL/CGQceZeo6aFBxge9u15y98dh2fNU9RZKrCDswFrUcX7DF7utFSn0pDUceT37AyFW+SXu/11SFgc74bgGpM1UJiX9D71Zufl9oTQed8/VIzW+6tt0bd7Tsj6XCdWxpBAVmbdU+ezCodb03Ad0D4zxE9w+sYCHX8lRASqWtDqCy4tyHr57DZ5WmF8wATiN0GHdUQY99NnSa+X7TcCtIHXQewcOdmDhSPS6tDWOf7SWLzb0hOwAu8dJUpcUpkmN6RP+wnaXpzscGdnlfNzbMhv79ZpSslkK3ClMKhslqKRkUMLV2vTREclax7eigt7KlbofjtASc7k9A8uex76T2cpJU7SWqZL5T/Zu8cgwVvPZYv4fOc+5csVH0kTZih1DyjLjaFnW/sxEQseFh1HgYMLxNS0pz4zL1wPa470icGKU/gEEA==
+          properties :
+           x : 23
+           y : 8
+           width : 68
+           height : 54
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1-
+               
+               WIN_NFC.OpenMobileWindow()
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : STC_TitleAction5
+          identifier : 0x21f95ca03afd69f3
+          internal_properties : CAAAAAgAAACHsg7GguL+uaqzOwnu1TqSW29XYRgdW3QRxwGlASiN/mwriSW5RuNGDQCKOgTG6smYJQIcOW+dOUSL1I45/aYzTO4FZNUMopRgfAwQNIfSyuXvNbFlKTQ5xmbHNBvgdlNtiHgQNpt1ihXiCu2sLtpE1o4YpHX2MRq7UBmd94REznHjxwRLZwp5IhXHnnFBAosyEkAMoYbme2pxwCcSI901Cn0YzVBwRqjvs23yT84WpK1nc/aQ6e7h4YWVJ/6MT6AZU6zKrJiErH2qOZkRoF71IjPUFpjYB8MSRttSgL0WtCVZ0qn06DPHBnvV25eCm2+SKBfG4kLhODkCZosBFF3cT12j9tzIKbbGk8L7OGidDaeHaNgJFIwPPaKlsNZRUe93Gdhd/Y+FoOcqJBTFn1jeWweKWWOripFRkrRo3NEfc9ZwgUQcYqP82Pgy4rzqlVYNM5jFq3p9sIZWciKhIM69/K19OgrLt0GAuiBJNSKx8t+hdNBFu2pUJc0=
+          properties :
+           x : 1
+           y : 70
+           width : 113
+           height : 41
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              code : |1-
+               
+              type : 18
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        code : |1+
+         // A click on the MLZ runs the code of associated button
+         ExecuteProcess(BTN_NFC, trtClick)
+        type : 33
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95ca03afe69f3
+  internal_properties : CAAAAAgAAAB71OHMI8MomGaeDOtQBA7pUofDvXofGYdz/IwyihbyTDgSXaIB5CYFCrNX/66EVnWWDi08wDWcgmIF9ZulFUhBZ6qPsDQ7PlI85m84879Jw2/nW9Njo02Zi1Q5XJDt7AV+KCEZDPUowDFHq+bWfIQdgC27/XbEgtGySPt2BfCuvni72bnt6FbdqaeUpABMk3tvSe+NFbq2YLEzZUrJHunx9vdVKjoT3Lr2ex0x10OtiAjy8BrXKH8Bhz7rwKwZwc8vg32QPowWh0v1pjH5tIyEgiGYwCtApZpCmjKXcRjcuFX7YwLBgJ6zP2RmShxfNaQ43AfcQb+cHnnSu9BNTSSGJ/nErgb2ebN5HPPYoTgSMSodR+4R78jE+A38SvKSIjQQBHO9jSTMYKKxLRt/bouykTpdw4Qf
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure MyWindow()
+      
+      <compile if TypeConfiguration=iOS>
+      	MZ_ACTION3.Visible	= False
+      	MZ_ACTION4.Visible	= False
+      <end>
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f6008a8ab4
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

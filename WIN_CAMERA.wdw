@@ -1,0 +1,226 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CAMERA
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_CAMERA
+ identifier : 0x21f95ca43e187aeb
+ internal_properties : CAAAAAgAAABYnXlYCjx0bX+EXcCbTlqVUV5kIxIn9CiCn/OBsQdew0N/9KwfmPy0Q+lz8CaTcFWdAr2CHRq71QLYVt9aUVm/PWcci/vMdKgv/lwpSWrgJWcn7bTDPVwIs2nPJJtnKRxBgowW1K5B2Id26i+0DtpRC12DLfkgDhGpnWSCmi7/pWzUwgNdw1va1MExzP7pDOdZm/SuFlcT9XsaMFjps5VoAGRdMrsBUbWJOLalIor5CTAd4K+JIOScqHSkzASyZKBW07Rkae/yfhXIAJKLChgPGODkd2Aqe/ThKy7EXNLCX0nJ330d3ksoeqddvyvSo3615F3P+EdOyAFtLWr8H/D9EJogpTFQ9df9H78RtFny5ntSmjYqr8U1WMmcNk97XIU771inq589jiUWbDPEagY8spBI/TjOPcTl/tB82txpbV4KU20BIDW4Cpp9DVwDmseKF51hrFJJ2VVET4n3ijjESOXpaAiXwZ76Vv3uj5xwImLcBGO6XFI585y6HWatydRLO089RMp+ftii536RRqvpAulb5BVDFOVZ1aSFtIfmJkoX8vL37HIL4c20EMMr7s4LvoHeRFDK6QshPL7Dg0ZQp/1YdyLUtBmsG0ibTg+fV+JSpCGA/lBZ7WB6TGhFnmv5BzDVYWYmTxmca/4UyppEB8Z51VEeHeHoIO76yONQUu6cRbOe7j3Bhy6jAp377zuX2gJ0ccDQrKeVZQpwbTEHI+JZ9bTgBJEZPKb5TGeTX9xAt6AiFO4Lt5yS3DTPyxzvJZleYy2/8NzOym6HAG3jgYHET/zhJaaIeAJonagj8HkZXIazR/FsAlO+KMbrPywGT2ypva0Ic2alNrd+k6ejdnv6+xYalehBuqhtZTfjNdQ=
+ properties :
+  width : 568
+  height : 320
+ controls :
+  -
+    name : CAM_camera
+    identifier : 0x21f95ca43e197aeb
+    internal_properties : CAAAAAgAAABl2oqmK/Nx1gxpWCKDPFSpAjdDHLkKZcpEdzWcDbaZrNLxX4lekj1Jnx03tJKUuFJxJ8BOXmBLe9b3ONOIKqMuyso3ruX8TA3QeDmfZSf+Kt7UTWuv9Vt1qLwLABk5wSLc1pklHlTTOMWB1U6em5n4eHdyPg6cZOnVYt4IoM96UGWWyEtAkpCQN2aYn1XtM0KTxbvtOWzFOFCzDGHPCprMHdoq9mIQOdc1i0h9QAiQt9LVdZJGeinR3fWSCCQ2VYZpcqi3F0lsX0qWKG4Q37HkJxyGqq2/a6+G7v+6Y+kCt6jPtSc/kcOlX+Tz0MkTqF/YjMs0VgDA/oho1bGphvCSBbNiKbTKu+4s0Z/FTm52NnOi/A8ZOx3cI12gz5IlMQbXfk2gcE3VgbffR1UiPK+tOpjTU0vD3SwZU/njF8d5lUSjWYxKkuCNhH5D0zIgbf3VGBqvk9JPTg2xqccOz2ZE+HawWJK4teEQ/s+CiKBdX6PtXb6rlcBaucQbPpxQpZHvCEUvm3taFPT8csRsYcj4U2vNAMQzqCinjw==
+    properties :
+     width : 458
+     height : 320
+    type : 24
+    code_elements :
+     type_code : 37
+     p_codes :
+      -
+        type : 237
+        enabled : false
+  -
+    name : BTN_Photo
+    identifier : 0x21f95ca43e1a7aeb
+    internal_properties : CAAAAAgAAAC16Rq8NAvFf3CG9ksUU4hCiSzK6s135pAKWLodxL2FohC4mAg1Q9x5xkLQgLkfKShruwxgQjOdeVQfGjLMZcM9oO0yKArYdFG8FWsQ29+ZNdpA0juykRKg1REvSBg8hJjn0n/anfKiGXTVqp9gq8aQJU86yNqm3UmYUswKV+1egDvZirEUVZOUdW1rv3dK0qIJc8FTAg4wSeg+YsgJgiOkUloI+cFlm2S5KtNcS6a6yuXsyheVGohw+IyWWxx/AXsLcLPs3i9qLQfw3MFK7AiDTQsfbEHGQGCpHJolTOu7dSKuPNlFNqNFvImnUJn6/A6L5l58bzlChi1TNE7hwNlTdYThzhIhCpugi5/RBpn75K4EpygRcRCqSeGIIRImGZbSxz+pOVkX/P8+p53DJfytho965Ne9tSUpaAdVd4E3Je3xCt4vU6d9R5XXmfupmnoiuKPJtLHQeyTSaoJNUX1cCSFKLD3WGvZzo42qH6s4i/WMoSkw8Ar5Wj4jhhJZW6S8OUAT41yJs/3iFNd68ENLanCcrXlH1XXiYC7LapHYEPIj1LpMKVEILO8Y40g9bfK4tTojVaEPRiuctaMrlQeTaKieYlnyL4ecjgP181rO6O5RGknSxfqsLRrTBIOxQDhn3Tgm65U/41X9TRm8habS0kmIqm+PsJA9udQwxSg5I8Wf7fxszQaPk3S3MnEXshAL4okOG7LV8XrRyiftACaaJTz6xE9PXJ90xxt8g7PsVMEtzfPR6xjmnisFraekmvsoKzIxmQDKp+FO60K6UXdf7xTu3iiLAZbh3y1uXk7e5jL51pt+Pa2/uBu+kXTnoUiojVFNCl+JrOtKx0sb0t71ReUr7NEIe3eYksIsZMj/keaBm8mp8AqZa/jIgeI7suGZUMeUVlp5ZptK8B1iNgeRAsp2hC+yOJEbswi8WhH5A39ALf+aJdyLVF9DxicSy/YlZK9imJWTaREjsBcyOwuhopS34DZx34b9AmOS6sT2iWwu9Fd0RVj3oxlDyzvDDm9knKBH
+    properties :
+     x : 480
+     y : 105
+     width : 67
+     height : 67
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADk45AOEYE2SIcGS67+44yrzyBFeSixBCaNk697YaO+C/M48G2BQUcnkrITcYFe3ygzYBtjh3tHPsVSoGvN1hXZAu2wHSicdYrz06AGozbz+5hXaqNTo/9Fjf+97BKFkFc0W3ktHJsOF1S9VQ==
+        code : |1-
+         
+         sImage is string = gsDirectory + ["/"] +  DateSys() + TimeSys() + ".jpg"
+         
+         // Take the photo
+         VideoCapture(CAM_camera,sImage,viPictureCapture)
+         
+         // Display the photo
+         IMG_Last = sImage
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_ImageBackground
+    identifier : 0x21f95ca43e1b7aeb
+    internal_properties : CAAAAAgAAAAjRr8XZpROMTJbd3EHdFTnowTTJTYum5RpRhz8s8Y3bPW0aJXgUJW0x6qx5Y7T3/aZN7X8rSt45rD237HqtZgjOA7M/hZBgDedjqS0uzm7SxD/BRNFKqZWC+JehfvVdW+NLqNigs1mj1PI4ph/rX1LZNbJVtAh2AP5L5IilgnM926T5fH362X/rsY58UWRBEerzcWjy7Dy6jbOtp/1IVljuH8EeZviDqSZH3gxfYxYWwlOp03RGLWlhb/1ymfe6nwCpxo//yIPGrS/zZ34MohTgMbG6/PQeQ7YVSaAqTJegKhzNLgMeAnnDX6B7FaAjI2STYredlaH6SmCT2qcRnOvq7SOGZgZooqJZfBiQEOeE87euaX2X9zOL9Yj7HbkjQxl79gvCvWeW1nv+tSvwlnq92vIK6+1ZB7WaZwwiq8eib0gthBPThoMxWv0qcFsBiwxDG9axTm+IQ3zbxXyFwelKq94582hYSyN0sd2PAH5ahCHVv9NKXsoRXGCUEJCPZQyZCcbcePtFz9wPWej1A45Ya59scS5zNohF1h2hySCtWEVgD5CqqD/dad/GlG1sRXB3idoiR0tigWAoEodWbg93yGJSEIbGkv6Wl6W69HjdJoYwMJhr4ryzcDdv6vxs1rSyeTP2ZX1Mjdoh3EIqbPysMKTiGfOwqF5l1okWZu1G0/yBvmaoFlsKiEmhhm9P044Al3CDf95tPMtkTTfJgw80lwoqZJHTyrh2nMUlnMpkopN6nsDOBDoEW5cEFmfQ5FHfGVR812i36Esu8cgTBuOSu0voQtOV3IuRgaFOSna6Qs6MMTAdNak6T0iKFBwEVoy/z0WGG22
+    properties :
+     x : 466
+     y : 211
+     width : 94
+     height : 70
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Last
+    identifier : 0x21f95ca43e1c7aeb
+    internal_properties : CAAAAAgAAAAY/Jl40B+GVo1n2qms8+S8yFYQrGeacQSJN5EpLSNSnK+vTGGMfkasEcYeRKimLbw33MLSDq/CP4oRVsArkBkpcR7VKDFfjklwDe5T8b7hXUG3nLqrY13POBo+biMMcWEtMYgq62tQg15R7tiGS3b90hJRO+uC2p2rP16BN4nl2U2M4SQpsbTs8+SKwZx0wGRlWOGSiKBwUgMqTlXIkizAgwBfKAkqct0jyHSdTViwjO6zGkqGFBL5cJmYkgNQteEc5SYSA01b+3vz7LSdQqR1va3C8Neox1jkPdPo8Q3SXBL9AWEJpy1TxbXC3byD8bI66kPPzJrAUrk9wAEPgoHt4tsbf7R4l5fLFJB09vbBhgUep1Jg5kwMF6DwQkzE5F0IBbHNkUMXtgkMD3N2LhvildZvwnP/bs/0u8SI/tV9DESvtwNG9z/VyCPY2/+Y7zgx4vmj3NV8S5EisTfSwk0Ra1ivEPKwlLuJ1UBmQFjSJoHJ91Cjoil2eBMY+rCT99aLg/IYSa1rkIMHZwntSt2WGfo8QpN/NwGVHpjWqV9+n5/rKUlRMaBqGum49tZ4d5OGlZldR8uQXS55O+8CWnAGnZaqqr0YYTZFQnJq5jWS2XmcNslEQJvAFahc7Ez7KEPOYlY3BBA1PDW7hdBlC6W8JP97yvIsl8mjUW/uQF/RxM9H664V54FozpBew3JnPYLsmDKTsrRHxbWg2hFERIWKYuN4ivKp0SvtE3p3oDpieKNrC/Z7ZzFFz4jTPrvpDRI=
+    properties :
+     x : 468
+     y : 213
+     width : 90
+     height : 66
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         MySelf = LastPhoto()
+        type : 14
+      -
+        code : |1-
+         
+         if MySelf <> "" then
+         	WIN_MULTITOUCH.OpenMobileWindow(LastPhoto())
+         end
+        type : 18
+  -
+    name : BTN_Camera_Rotation
+    identifier : 0x21f95ca43e1d7aeb
+    internal_properties : CAAAAAgAAACmrfcAKnVH+aIoirI07XTvegVoWTSal9QD8Qpvgn0hSvKu7aseLj3GE0vcfLeBtd2eVm/9J6qeJvEzrji/FGYvW6YVev2GnJP7Lrv6brE9s5vDTm2Ce1mboFKfd8f34lQBKtw0pzvwVWStY1NF3baPBqoTyvMLJZlU8KuZ9+c67CTuZr2XWpbtbtYpOezAg1v+Z6A0dGW8/GzBliyKMaepKktAPUE1tSm+hingb2B29ZsRAi3JJQ8h4OOyjT7Q+epNmJkaRJc47Hdhc6iPZywLyHAb9N7fZVBb08rXURqvr1Na9iCvylISCek0516YXTD+007PHf9alvEpG86p4VNTpvzmLeagdmtaYj8LH1w0zIuP7m3hAmFt7586wehPz01HD3yoxlNHPof9Psz67JH05xwt4Qb90drshzbYubj8wL0RBOy/qqHwz3jd7k52Jd92KvuPd2DQP/NjKCT5uwbhi3sMq9DlO9jsEOL5UV7yZ18Fii/QrKRP7IfpaDKSAT2oeHI+EsIdfcTVHWPLz3vudXh0O7lNAA+V9Y7P6kQ7va8m6DsqdlDqTw4/gdXf9Asdn63ncgq8p0NtVdMJuwcHL8CCSx5al2pbBM/Byd5ENrVAT3phnQ8xPSwOONOVHKPwU/UkaTQHMwZxfUtJJBe3JP9wNdYNCW5DwkctqDr9HpZvGG+QVgI26LNg1bBk3uQrhZdqo+zSNOZ6VzN0HQxxxS1PIzMY75m8XG5qUr4jlRh7D6rEicLX/ueMp7Qt69R/cjV8kpmli4B/VSt7nzf5J6lCfDhnMA384UlWnqqasu0S0gSaBn0W9fQl+SF2bNk4e37+dbr8NGqNNN3Mgqmq
+    properties :
+     x : 489
+     y : 38
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         gbModeFrontCamera = not gbModeFrontCamera
+         
+         // Rotation of the camera
+         if gbModeFrontCamera then
+         	VideoParameter(vipCamera,vipCameraFront)
+         else
+         	VideoParameter(vipCamera,vipCameraBack)
+         end
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95ca43e1e7aeb
+  internal_properties : CAAAAAgAAAB/gLMLo0GuA1PBxEqdhs7IPBbbY3uTGG33AFt5Fsfwbxwesb/+tSe+q9nqo5RLuBgIbFW5wsFABlJsRCJaQVBGkSvAoth/ZD8QLGeVSuKAvuBKvNjL0CVasT8lSWGBGadz8JI05J2Ti7Kg66/6ZRYFKa17IS3Of6qbJwRlGZi6TltOckMH2EFISg2a/KaEEdJtCVDORwb3U7k+YTJPH3zC1YqZBzJEM2+eOVAngTxe8xsxmtfDSZRwwwSsGgRYdBB46HezJuuNUDFxVQmXRa1XbfWfQAR+x8VtNzeOiPWdfv/6afpoEOjZ0zCrIGJC8E0MrzCeYPGuuPQeRLkUWJSE89tdHWdcvRpLNZhZGgAB9VlUaaPHnK2qcAkBUka/mJEjuxLNhCPTNdyKU7BC1SEOhWHS5Q==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure MyWindow()
+      
+      // Local variables
+      gsDirectory			is string	= fDataDir
+      gbModeFrontCamera	is boolean	= False
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+      <compile if TypeConfiguration=Android>
+      	WinOrientation(winOrientationPortrait)
+      <end>
+     type : 2
+  procedures :
+   -
+     name : LastPhoto
+     internal_properties : CAAAAAgAAABKpVYgM57zySR0m7lGWANaleLOIrbVkbZ+QIAZSd4yNwCdKzpJONTp7paC7e6WNY5s3Lz1No41UxiUrS6kZIw9N4h6omxKb2oGXuooipu0p7QJ54/7XOH+iifCPPESbNFhQNddoteDvM7pt4gJAQz1Glhu2/VeOV4Rzm2Z/hb2J7MNNacEh7YTyabIMBWRdGWn5Hd2qSI=
+     procedure_id : 1295168227333274347
+     type_code : 14
+     code : |1-
+      // Summary: Returns the path of last photo that was taken
+      // Syntax:
+      //[ <Result> = ] LastPhoto ()
+      //
+      // Parameters:
+      //	None
+      
+      // Return value:
+      // 	string: Path of last photo that was taken
+      procedure LastPhoto() 
+      
+      sImage		is string
+      sListFile	is string
+      
+      sListFile = fListFile(gsDirectory + [ "/" ] +  "*.jpg", frNotRecursive)
+      
+      // For each file found
+      for each string AFile of sListFile SEPAREE by CR
+      	// If the image is more recent, keep it
+      	if sImage = "" _or_ AFile > sImage then
+      		sImage = AFile
+      	end
+      end
+      
+      return sImage
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f600928b11
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

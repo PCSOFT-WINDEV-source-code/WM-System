@@ -1,0 +1,233 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_TOASTS_NOTIFS
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_TOASTS_NOTIFS
+ identifier : 0x21f95ca23c937434
+ internal_properties : CAAAAAgAAABL23KV08ZNfy1ggWIBIUO7kDcFrlve00RP5i3Ad2llHGA+OoJe5DhOFczoXDXyiRcU9LD+I4PHqR26V5G7GBYvaqaBobkEzpdNmyGIru6DAThNHoYMtfNazbIa742r+uQ5QxG5un62POFvuG3nnG5h63n4uJhKrI+V1Lm9C2KY+2b0QuQ1t4PjrE9l2QYiIg7GO+L+VU+bKd7onuB8QidogVjTrRELtaCtI65ykXiMgF8xMlyhu/M08BqRFrgKhYwKtJz8FwA7FT3z2CQJubtx8vygIgVPsq/LGdP3equVm0ea1id32jbUsSGGxlb7cfivJzaaFAM/op6406gcwiZw95B/rELYLVMRwvXq19J4IlZnAXKT0Fy0VRdBagWCd7WRUuxIMTIPePqYWkDdEswSsE91R4bNMVtTiPbhROtrm1yjCDzUzZlOOao5UuHty25rLzeE2YnE36DWQTU8ecWJEPxQ74wavIy3G6PwXbzcw5qJNIlsUSVBnlV2N0R7HhT0QXp896jm9WpQRtMq3Y4xO+9yya4faqYjs0ftqb3Ab2iRVntECASAdWUDL85cu9CRJ1uwmi8tL7KwwDwTK7pxfQJWEbDXJ5/Lmrrzgt/TGgw34AF0zXM8S46Fk4Mk5VGwtQX8ZHakDp2KFiGjKaGs8oa+dtZMwWAI4pV5qzB5KBF4Sl4ZFLkWnxAoOTAQpVebrFgP9eiRlIrqft6j830uN9sENXTXNsRDO3NHrQCHIiQChi2ILShaeQWltSakGwCBO7qpJBJUL7KXHKBQsm+R723wnRAsDpm5n8ViVYNGhOQrC23d4CCOX0/7cmFihd6YaZaKXex4XAvDs4DkxUqFWsuPTTctF00aA/DONOJrNmPKAgOhxxgtuEKEN8yrEMn2KCgmaI/zqwUq0+0YVFH6t7d198bNMx85p9ev4Qza/iE8wA==
+ properties :
+  width : 320
+  height : 504
+  heightMin : 577
+ controls :
+  -
+    name : STC_Static1
+    identifier : 0x21f95ca23c947434
+    internal_properties : CAAAAAgAAADum3IEsZI2uhlorVSuq6l3vcgFb+0kYIxdKqvolGSN7aOa2g3bIBffC9/gYut47fCbsvG2Jh+rFXwCpfKxp6DZPBgmcX4uh2eEurQfnWJjjp+b2fqzQaPiAZJKAQ7MlLKAxk44tHzPGnsaE8FfowACJlDkCX8J9PW++Awapbn6u609NUegQfAiYGjoWs2+xBuLZ6QMvMrTchXMyi9ynhfc/34WXV4ce7duKRRtDwDNf8NTrGF7F6vliQyI7dxWaTdSDTVDCkONDrZR7j6XS8C1xMYjAvHQwhxG4k2LUmVeolckcBHfCuYw5BhtR6zJSMrx/FRlGWNuOGowADooWTQsZu52f4oLj07fJEAVpNUAyq3XR0FPLgQJj7m3ZQfC8ntFbBjwlpEkshzRWbPOe6JWk0d5816+0rZBghxXNDRmSxlCoMkIEjxyWr/N47amBvDgPSKWbLcZWWmY+QJLJ7V9jWxYu3L/52Y=
+    properties :
+     x : 1
+     y : 331
+     width : 316
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : RADIO_Position
+    identifier : 0x21f95ca23c957434
+    internal_properties : CAAAAAgAAADAo215tZcXcm1+UHLTHF0W18zqh7cPXCsA3H3HxR794Z90KY+L2A9PJ20dhRO7jKdp8xs1OtFSxdVYCFZohlGDjq9FGxt1C9HpatwDPvFI6lMypBXJXq2tv8FekkI3Gm7m89JPowqGyVdA7dZXD/zpuijWgt1UEQKw5aj9l731WGsnJkt7l5tuGfUS5Sklg+H4qDQV58A/AdS5U5TsSJFbYYrk1gy4C4Hhtzc5VckmcwwgzgNuep3UC120v4wnhv3eGudBlniTXwcOwW7PiFrVeZv2M8EgEbLJpJPzSPcGXNpa0e9VGYjy5g0UeRzj/kP5uPyZqCJSMBEvItDjdy0ipzEZgFErENs/V0+O7rdfP+7232QzuHM76hXA0k4/vFfg4tFSxBBw8bEdniLotWHesOaWvQpRxw01WNLw14uVPf1MQrGhkeSLSMA+VYjH6nsXemQa9jRudsIyXj6bsyDHb82j4ICoKcCMiw+TVu8pTkOOKf3UvOY7sDgtvcZMecNkEjg5GoYUOtp7OBT5yxkymwGVPYzf2XSNIhff9ZuMyH/QL0CYg5/ZXdiz+qUZwB5OFq78m0OD/zeNg8CLs63VHIoNLLsLPrO+v1mokVo43KE4AtaDWW3yU5jqxr/SxTbhVDbNAyiuNtC1oPQ+kAwvqz6THSXtxWRUY3Q9CEDw/uhwGocks9vrjc/ywG9YIA/MT3uFAikTt/W3IIgXh4LzA6rwYQserwNW5WZuN/Ke+YB1lufufjLAW7NeVey57/dDiz8ODImr3I4xSrjdeYFmaDjNZn4Tw/bdUdDZGsijgxR7Y2DP8bhEF8T2esMyE0PVwrJczKC11IskswAqbpeSEpK6maPyoGXHH2RQkgQ1zSLQ4SB5KwUs9ceCSvsW/wWLXQa9wIWgzxMvnl2Ne2aHGLVHuTwpw0Y=
+    properties :
+     x : 26
+     y : 32
+     width : 268
+     height : 259
+    options :
+     -
+       internal_properties : CAAAAAgAAADpl/HnrX+56NhfC+SODlUV9hnIL3Pf8a0w7q3DY/63BteUlezRdSFOeUnfCV1/DCMEt7veGJotLdEAiP2fgoOG/IP03wLYHRCg3nEkMmOsUah1HD91yjrCiBMV9DtNfD3HVkzRbvbGN1SwWA==
+     -
+       internal_properties : CAAAAAgAAAAI6uNytJLus9wDvjFQxYtqjvOcKJnALQJW39eBoRSnXMo6+CaFlINsz0La3lH7VEH4cfUz9QN6n2aD0v2W6oDd21Guq8NwWAjjt1suI8Wr1qlXWlc67DtoHZbpJpw9oyLAjJaIJf+hsXNN9K8=
+     -
+       internal_properties : CAAAAAgAAABSJNl8ouyIjd5xiJtK12WkGF0a0h96t7zYdXkruwaxbjyMjjicLu+sEbjiOD0XviM681cT98HtMPUyXUSfwa1IFCpZUvADXw7lia2cUbe54FP59M2wdsHulxBTvGpPkQwqdoiGO+GPn213rvU=
+     -
+       internal_properties : CAAAAAgAAACZq2m1cL52mMJQO/wxt5tWNG/9A6YbmVT5EjJvhzSesNwX8rilu2P39XD6j8z45uqYtYH90GA9oE4eVBhT/AoITYzWTp7i1ABm6yA1eMKXONvo1zUO+F5O4+JBOdTa6k+TOEdRDe+Kjw==
+     -
+       internal_properties : CAAAAAgAAAD5C4lV0B5W+KJwG9zRV/t21A/dY8a7OXSZ8tKPZxS+kLx3ktjx+yPH/XBylwRgTpJwJelFLMSRVHJiGOSn0GbM6Rjabn7CtGCGywAVGCI3WPuId5WuGH5uwwJh2bT6yq9zGKfxbU/qbw==
+     -
+       internal_properties : CAAAAAgAAABZ6yl1MP422IIQe7xx99uWdC89Q+bb2RQ5UvKvR/RecJxXsnhd24MXpbC673w4tlr4ZfFNyDjFODam3NA79JLwtXS+Dt6ilECmq2D1OALX+BuoF3XOOJ4OoyIBeRSaqo9TeAcRTa9Kzw==
+     -
+       internal_properties : CAAAAAgAAABZ6yl1MP422IIQe7xx99uWdC89Q+bb2RQ5UvKvR/RecJxXsnhpmyPH7VCy97Rg3oKQVZn1RPzZLBoqYFxPCA4UEcCiDt6ilECmq2D1OALX+BuoF3XOOJ4OoyIBeRSaqo9TeAcRTa9Kzw==
+     -
+       internal_properties : CAAAAAgAAADZa6n1sH62WAKQ+zzxd1sW9K+9w2ZbWZS50nIvx3Te8BzXMvj1G6M3tVDab8wYJqrYFaH9wFAt8P5OBOiDDBp4/Twmjl4iFMAmK+B1uIJXeJsol/VOuB6OI6KB+ZQaKg/T+IeRzS/KTw==
+     -
+       internal_properties : CAAAAAgAAAD5C4lV0B5W+KJwG9zRV/t21A/dY8a7OXSZ8tKPZxS+kLx3ktiBW2OH/ZDS90RAzlKwhYlFnLSBpGISSLQXIHb8WYjqbn7CtGCGywAVGCI3WPuId5WuGH5uwwJh2bT6yq9zGKfxbU/qbw==
+    type : 6
+    controls : []
+    code_elements :
+     type_code : 6
+     p_codes :
+      -
+        code : |1-
+         
+         <compile if TypeConfiguration=iOS>
+         	RADIO_Position[ 1 ].Grayed	= True
+         	RADIO_Position[ 2 ].Grayed	= True
+         	RADIO_Position[ 3 ].Grayed	= True
+         	RADIO_Position[ 7 ].Grayed	= True
+         	RADIO_Position[ 8 ].Grayed	= True
+         	RADIO_Position[ 9 ].Grayed	= True
+         	
+         	RADIO_Position				= 5
+         <end>
+        type : 14
+      -
+        internal_properties : CAAAAAgAAADzxeoRrY6Shk8cDwpkr0DJI738DIjN03sf0vOAWIWv/wFsLtjD4NF9OHPzxMhmLT732mog4LSqTNY1YFVo6JbsZZksU21EQCA8Jho0HurQIkNxMAuig87PGEBFHB/5T/zNnR/pir+murwez5Q=
+        code : |1+
+         
+         // Local variables
+         nVerticalAlignment		is int
+         nHorizontalAlignment	is int
+         oNotif					is Notification
+         
+         <compile if TypeConfiguration=iOS>
+         	
+         	// Position of the toast
+         	switch MySelf
+         		// 
+         		case 4
+         			nVerticalAlignment		= vaTop
+         			nHorizontalAlignment	= haCenter
+         		// 
+         		case 5
+         			nVerticalAlignment		= vaMiddle
+         			nHorizontalAlignment	= haCenter			
+         		// 
+         		case 6
+         			nVerticalAlignment		= vaBottom
+         			nHorizontalAlignment	= haCenter
+         	end
+         	
+         <else>
+         	
+         	
+         	// Position of the toast
+         	switch MySelf
+         		case 1
+         			nVerticalAlignment		= vaTop
+         			nHorizontalAlignment	= haLeft
+         		case 2
+         			nVerticalAlignment		= vaMiddle
+         			nHorizontalAlignment	= haLeft
+         		case 3
+         			nVerticalAlignment		= vaBottom
+         			nHorizontalAlignment	= haLeft
+         		case 4
+         			nVerticalAlignment		= vaTop
+         			nHorizontalAlignment	= haCenter
+         		case 5
+         			nVerticalAlignment		= vaMiddle
+         			nHorizontalAlignment	= haCenter
+         		case 6
+         			nVerticalAlignment		= vaBottom
+         			nHorizontalAlignment	= haCenter
+         		case 7
+         			nVerticalAlignment		= vaTop
+         			nHorizontalAlignment	= haRight
+         		case 8
+         			nVerticalAlignment		= vaMiddle
+         			nHorizontalAlignment	= haRight
+         		case 9
+         			nVerticalAlignment		= vaBottom
+         			nHorizontalAlignment	= haRight
+         		other case
+         			nVerticalAlignment		= vaBottom
+         			nHorizontalAlignment	= haCenter
+         	end
+         	
+         <end>
+         
+         // Display the toast
+         ToastDisplay("This is a toast" + CR + "multiline !", toastShort, nVerticalAlignment, nHorizontalAlignment)
+         
+         // Add a notification
+         oNotif.Title	= "New WINDEV Mobile notification"
+         oNotif.Message	= "Creating a notification with WINDEV Mobile is child's play."
+         
+         <compile if TypeConfiguration = Android>
+         	
+         	oNotif.DropDownText			= "New WINDEV Mobile notification"
+         	oNotif.DisplayLED			= True
+         	oNotif.Deletable			= True
+         	oNotif.Vibration			= True
+         	oNotif.ActivateApplication	= True
+         	
+         <end>
+         
+         oNotif.Sound		= notifDefaultSound
+         oNotif.ActionClick	= ClickOnNotification
+         NotifAdd(oNotif)
+        type : 17
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95ca23c9f7434
+  internal_properties : CAAAAAgAAAC/CCWIZ/kOuqyk0iXmEpznmP0Vq9xpgwUtfvY52lYfuoa7zUe5THXqmdymuvZk0CE4UTC5ZhUAccUT6q+ugeJxPUR+xJR3DJwCZ5NPQ7T98zfdxxOEaTbBM9wj1CsxLuuWiG0d2msAJFNh+1ZGFjRV0kf5p94ugsXgHp9GPTqWthIl/2P59sYhK8E8/NDeZ6MZI+2Plcwy7EfxlU1OTyy2vziUaxdMfd07eNq00HDEYXV3j5NEifBg3IvoLzF6JKTkGHAF3yGjgnSmV0BWVWutTwbzlVQZeuGHUBgHwag8GcT3N7IrUhC1bqsyskvsgKElwwGccq5hwQ5OtwM+i5PZenREp0ogh7cZGEBIYFo1nawlZHlLtVLht6KwSorOYuwkIJdJDbiEGAadyUuvKnOazf6ZB0Bb
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  internal_properties : CAAAAAgAAADBIvzRMJA9Ypdfs7ikdbsh2AoPKdj4gEJglzqRqi3Rpen4zCdP1gjLq+IaGUHh2K+3zNoCJuGiqKykuptGcj+5NWglLfad
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1fbd44f6008e8af2
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : This is an Android toast.
+     index : 0
+   -
+     text :
+      en-GB : Multi-line in addition.
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

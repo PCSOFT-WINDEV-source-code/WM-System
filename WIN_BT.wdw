@@ -1,0 +1,401 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_BT
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_BT
+ identifier : 0x21f95c9f3a3166a8
+ internal_properties : CAAAAAgAAACp45IH2s2/YrRXPtb8yzoKxk48J9iRwnLZNHG1Arb2v43gnhOpZmn3f+wTsKm8A7ATaJLA2LZ3RkWPBSYetA8l46f/LJEqAayOINxuv1pT357fIJwo3Rp/0kRgSJcDfyl2CCAskQIAnySE0E8tI4VR34ejuN00NkDWjIqnsCWDfziYg+MAdJgBdbnB6DwFqXetMF8u/DVAk1QGhNRjF18Hbav3rVfgl9Kv5fdPJQGgFKvyNRGZX21n+INo+kdOeKU0k9DO//ICWU8eI79Q8GFMj9xpQb++fxHJnQX/YG7dpIv8iPw2JCVsAnIBzVLKKIiLIdjhoXTWFCxoTW6/I77CExRxs8h5zdViW83mkQrVYDfflYFfIAr5rFZFBzYTbC8KaEI8dIpDFBxVCdEhQ7rf/hF22sZpiO9dNPn4R9NQ2ptbxcluvnpybpPbbqyGOINRYI0+flTFNhibjdJp9b6A9SAVjXSXu1E1WxslSw1gCEdVUOjAmjb+SG1+5JxE+2iKwq2OkKKQgYMdsT8hAy0p0RI3y9tRLPoU5gQcwnwSIA8ggLS7VQmK/v21PaunR7Guhkmp30+zJTYfdoKuqkcLD8JIys5C5laX/3dbP1K0Ymq0cBRKkGGGVFNV70zCZgIOYohC0cSK6ihh6WlzQ2O5OKn6o5D+oOq+7fNh2S315foL3E7T4EO16eXr8CrwT1ogJ6XN66LrFtn4Hww1w5IqNu0nHReZaLV0CDICz3UPT8XyHJdDPSasFrjMzdHckB24DwLBNcLUT6rM8myScao+YCtYG0ar7Op8xPk2mICgIjGPX5T7sukOUhdR6j7ahed5Wq7rIG8sD2p80nEP07whTK4cBr4H4QtwUofofeGFoFyY
+ properties :
+  width : 320
+  height : 495
+  heightMin : 568
+ controls :
+  -
+    name : BTN_Activate
+    identifier : 0x21f95c9f3a3466a8
+    internal_properties : CAAAAAgAAADYgb5DeJkHUps6sJoR0zJyxQjWZAvmqQ2TeYmxICaj/63XAaklOheNrCQIH5cu5dH71DK1t3Mog5Y2CYkBqfUVJ0hXzJZ0hjVBRvD0gMqk3vbY2Jzg7jugg69fIFsAA33A/wi8uwh0JXAn3RFG+kysztoqNEOsy+z6615Np2yiT2hb3sAhcgUznm1tBpKKH2zn2CxjBGS1vLioWrSjxGBYVbixS0HXxB1hpwIaJOYMTYT5yn2aZRZb84ctiHNVDP0740gqNmTCt1Wm6Oz31xIQcskMllpxqZtJCznZoyua8TOe6JcNcuCAivylS61QVOnGwhjVT4jFpTGLU8pZVFkcMxHJVZDtydFqzapf/72uOwka28POjykaGtsbMAzrDL3exmv1xEzlpYMjKVzI3SkRSLs4GIH9VQndnBxcWxHTxTEIEhJgKVA2OYy2m5MMUzAoKJYgVy/5Y9Wm+tjFHNktBjXNjjaUC+8zaoep8TfL95bwpZQYDEP/AAgp8w0XWbViAUeNVnhs45nL4YAH5q6cZBlmrdp1iDQkZnHj2Sjo+Qilm1d6mGdHJ+o3oDYfdU60G7WX+v9jq9UGCLUDyGOxOneOpUtLtvQOOjWf7Kefe+XUzMed889Ev86pvITt+JqJKmlQw5UG3AS/7NJGEf97DCard9jNKzHRB0RD6UL5Df1JD+/EA5DBqpE5tUQ+TKz4Oz+WsCK0/mv7J37Bvuf3uXDXsc+GZbubMc2lEMFxUFUsXQAveZwTmjo1AzjR6VTZFCVqjzd8H/vZQYXppwZia4N3YlpFx2sSxZY+r9xgs1NCAio3jxwKNSKRh1cZx5kyIO3DAm3XqvWzjcoojsHN1jimmdQDNiQnFq0nbEslGxKqic0iLOksS7r2P2diugnV2MBkbi5Lp3urzCaiaab3435GR6cC1x+6XN3UYeIw3en/xyYnvA==
+    properties :
+     x : 41
+     y : 8
+     width : 231
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAPxreJBaOkg7/YBXuU+BzFuPIgduuQR8EbUOrksCdL/7itAQGWneuvDPfkzf/iITYX64H/osMYYzojw6x10f/eGnbQqjH2CJJyq1UEfJwfFtB9JGg6Vthf6itWgiZAG/0iXslxcwamLVfCk9j1CGYeGVBA0GojIBT5blJr+KmAgw==
+        code : |1-
+         
+         if BTStatus() = btDisabled then
+         	BTN_Activate = <§$0001§>
+         else
+         	BTN_Activate = <§$0002§>
+         end
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAA92bkn25nucVDMiSZY9BolyLgK6PdvJCnNrpx+Op1jodQBESHgr43TEj2y35GYbQzn+62L6Fmm2xiVFeKzizOMv6ODZ2a92+2bhFzdFxGg99X6rx0XXUPmT4DZZ82ZsBrD71D6JI2tTFyWzpm0eefdqM/FG6Zv9HViazUYtZ6ysQ==
+        code : |1+
+         
+         HourGlass(True)
+         
+         if BTStatus() = btDisabled then
+         	// Enable the bluetooth
+         	BTActivate(True)
+         	
+         	//Changes the display of the button
+         	BTN_Activate = <§$0003§>
+         	while BTStatus() = btActivationInProgress or BTStatus() = btDisabled
+         		
+         	end
+         else
+         	// Disable the bluetooth
+         	BTActivate(False)
+         	
+         	//Changes the display of the button
+         	BTN_Activate = <§$0004§>
+         	while BTStatus() = btDeactivationInProgress or BTStatus() = btEnabled
+         		
+         	end
+         end
+         
+         HourGlass(False)
+         
+         // Refreshes the window
+         Refresh()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : CBOX_Visibility
+    identifier : 0x21f95c9f3a3566a8
+    internal_properties : CAAAAAgAAADRtkMQnS1IvNJPD4Q9hd8UFdvYrkJykupok6BwyWJ6hF3i48rFEDiPA5BYzSZK15O2R/Q2yTMxelq/X6/PXeuy8C8xI8yay4pp5YhOD1y2CAPyLzAWwvvAoNiTTYGcAE27NvfnvSicK6xqnVbwESre7uk1P/y1N7N7A6cYkDx6hVLxwbJju9/LTodFtODnvMKAm9VpbBqJvih57t5o+eVnT1qv/l5zN5tzjbGmoNDcx7YZ876MJBZvtvp6cD1EfD9HWHhM6e17VGVKv3KlUi55WuPctmtt2kIBJZntH5mzzH96fB5rKRIK/zM2MnoXZdRWNL1O/ght3UaxJaIepGKhxBgYerNTp6aS3wIw+zc/qgEkqGwu8WWhl6bhQbZICpyxrIQJW8y+d4h3NFCIkT6+5WLwA/zUzQJbhiQrgu/58IpA599eURIplU3Vvi//ezvAhRw8JBGq9EvAK4dYasKhF7fnmySN/+vJPmFMq5X0LSfU1rwxkpOqMRO/X//lzq4pPErrHAydx77i/CQ807Zrld0rkAk2K5eP1hD8m30EFSCqXWEuT0SafC6DbZcExSl/vYYxjjQ/xfZnRKmectL7ZUtt95b5IGJQK7Y4DC9IjKsiUjowSts1fsbaUq7uBvjLPSyW1IAfhohsLzGhVBP7PJ1RufhXjIeSOCux3TkKU/DqFs6HOqWzV86GyUhQTGa31TvHmaAy84vXVabyYVf6SPex/nGOH0vhejVaH835F3bQQ44NQ5E4pASAP9gukYVUzKLZacrNeOFSw4+S6UfXpPUcNI4yHu0o0Iw9qFgexGXmVsbhfG+zWxkHp+lm9Q1E7jezMqpp1G6i/HPqiBHVKgThc72fjFLw6fHkCZujA/im8LbDoAepXA7PhykSQR21HFAW+mmQsPIsj0qd3EVrnUBbteLoC/po17+Q3ewFZGrHFquMv9IjRhYM5kxKFiUKuCKK4vK41BM7
+    properties :
+     x : 41
+     y : 64
+     width : 231
+     height : 42
+    options :
+     -
+       internal_properties : CAAAAAgAAADey2Z8DmyVDxTGvAgu3WD11hlDUuunxfoDWGxPm1iU8QAEN6oQXLjsYT6A+ksxhpww+hm8FicHYhxaYxy8pLzTI4r5+IO4r/wwyR9NDwUeLGLZ2oPgvvck/7re7Vlm/xNioR/JVNhHiw2l9LB71dKi7BRpItZ5gFxyMdmnUY5tBx3eXl+Hq+nJU+oIlw==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         
+         RefreshVisibilityCBox()
+        type : 14
+      -
+        code : |1-
+         
+         // Local variable
+         bRes is boolean
+         
+         bRes = BTChangeVisibility(MySelf)
+         
+         RefreshVisibilityCBox()
+         
+         if not bRes then
+         	if ErrorInfo() = "" then
+         		Error(<§$0005§>)
+         	else
+         		Error(<§$0005§>,ErrorInfo())
+         	end
+         end
+        type : 17
+  -
+    name : LOOP_Devices
+    identifier : 0x21f95c9f3a3766a8
+    internal_properties : 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
+    properties :
+     x : 1
+     y : 121
+     width : 320
+     height : 374
+    controls :
+     -
+       name : STC_device
+       identifier : 0x21f95c9f3a3b66a8
+       internal_properties : CAAAAAgAAADtlXDDRDu4ympxbhoFNPETdgQIyMl0kSTKOoTHpEzUzOlBnu+vVLreX4SFCXhXq6L+eRtSqagLNp1wn8VNihU4/nCpbbLRWxJ69ud7WYpmfJBEZWHAD/9wqFQMbtmAV7YAZh5F0uAxjePo1c12x3JZ4P+zRlqTcqHfozgBZ4A3o7KvyWzAW8FIaYtuiwgC0iI68w0A1UuY+07ROfTjaxN7u3dtQVcupE+kTgFbzNQMsRnoBJk05iUty8RZQOoYWcsrUoz6CEQhu6ZxB1EXzIlu1E6fTKZt3w1gk9ua0Y1TMAIg/cw4eEzCgRP6OE5hEvT9Le6GI7TJ8UWRDCg//H15S/HN7rZlL5CqAk1YN0+vmWzcaboj3JNLrJpX0OCbaiz9Ki5od+MhRonWzP05AOcp1cR8fVbHHSBO0lbIs6wSf+soxepr7q5ZpxGPdt1PG9Ci/e0slIZ4DCM7ikVXHo9KAMJNJljtyilgASQlTCKi2/XcbA==
+       properties :
+        x : 13
+        y : 13
+        width : 284
+        height : 29
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+    columns :
+     -
+       name : ATT_ID
+       identifier : 0x21f95c9f3a3866a8
+       internal_properties : CAAAAAgAAADnZ8/z59xYTFzQmnQpZg5bTUpdgZVGwaPK4fcwBv8tVx6NQX8v5prsLmMXIouH+teyXunOSjruSM0vs66IWbs4o8MkrpgE2bLPbnENK80CNIek8I/KMLN8+MUOQeclc23JXird
+       type : 3
+       content :
+        identifier : 0x2557a4ab0eb0cc94
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_MAC
+       identifier : 0x21f95c9f3a3966a8
+       internal_properties : CAAAAAgAAAAHB28TBzz47DywulSJxq77LSo9YfVmIQNqAddQpp8NNzItyZ/PVqLUFnN/QvMfKmeKNq3a/k76nNFrZ/p0VVdUR1e4jrgk+VKvjhGti23iFOcEUC8qkBPcGKVuIYeFkw1p/ko9
+       type : 3
+       content :
+        identifier : 0x2557a4ab0eb2cc94
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Name
+       identifier : 0x21f95c9f3a3a66a8
+       internal_properties : CAAAAAgAAABDGRqdBLfGGTTVbUzMLAXPmZu3wpOjIEA6d31i08uKHGcN2jHNeKraon/68xWvE6xhdNMLqnsZ0bVpUoaLVZssojyqxshgfTpwsQN1ERMe7OKtCNV+ENd0DWh4Gftd7aecq9sv78NAerJzB2xErvSqCAw/Mq6RVeJwQtf8
+       type : 3
+       content :
+        identifier : 0x2557a4ab0eb4cc94
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x21f95c9f3a3e66a8
+  internal_properties : CAAAAAgAAADQpCGpGDXxu3+AW0wi8AystnGadOuYkfXAaRDAZuBH+S1KsBRdta6pwptReNQVhisI7nMyd1HbNVWa/L/Wnf7NZ/v8ZmwzqicLXRlwM8ClIwtFfH7/348netBOP/JotCshgeYzs6eQL4uXAVsbAME750nHJNpSduYG68t4NDGfINCKJpuJf/WVs3o5Ny17Sa6Z6l62r39JqVgkxb7ua9vIsFePX002yjhBB3jBrsK9fzzo0oEM17VHgEhIoDuk8VDbhfmJud/WR0qFvb+GKYZrsO7jhMtySjKoHy7RpGAvoMStdyGMsaS5LXmc1BJ5kg73ihuWxtsD2+kquAGnId240lJZVlCPhMlA+JodF3IS0uAnPbdIcInHgz0TeP8lH9fWgHA7nQkk4HFWAcbr3Qq4nLdL
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x21f95c9f3a3c66a8
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Option
+     identifier : 0x21f95c9f3a3d66a8
+     internal_properties : CAAAAAgAAAC3rPSlevJI3qXVqUWs8belXOxFUTTg++MEl/W4V/j1IXO/nDIgulAtCKoKq8yUSGV8D7M0m4MT/uSg2++w9SkzUnUogxtckxOltyk1oazDdP1jl4gXcSvykiVhfcYWpyT+rNFZFB20M1EQhYo22vWTgo02H0wkir9AkS3t8MrG2rwOcPxpL1DSEtlEdo3661hE/0d2Nh89gOyz5gq2qlBl8mCZSaniKr6rZaMrojZTNsQoN3iFtB4SHA1kFIovgTmNWqSm3SrkPFGB0eV0CtttB9K/ExsoXp8=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          
+          Refresh()
+          
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  internal_properties : CAAAAAgAAAA4oH9u2Z4N7GrBK8MeWUhlBtWPYvoAHvNWtAhC/VWZZlWRow+3Bf8tOwcUdSAxaAIxq1mKXMBlxBBWNhOTDMnxbJUUaNFBmiPLsnYM7koxY0MKNBoNnM1Nslbd2mZdUy66XOJKwTz+JyOtBlulEVBnGNRUIL9gvw4ptXh557EEjUpBetLa48jFlVD14gUyTFuBFWiZbGDFw15ZjLeV53BOLyijg8f9Juk/SxxPQTJO
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+   -
+     code : |1-
+      
+      Refresh()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+  procedures :
+   -
+     name : Refresh
+     internal_properties : CAAAAAgAAABi0stXkhFDcUAz7tBFvEHu9eCnmSvQru9WxioW1ZlECTCIqJzPAE6yqI7vrAAhQTv6E5GIb9Or1uUYhDN6isDG//ussXKlK6tsW8uDjesxvcwHVAODhnOAAq+qcCOsdh+9dIMp0vW54iR/HSrTKUJnkvB2G7memb63/AsvrJgINTCCvFgZqvPemP3PGZz8iTn2mz7XVn5oHtM6cKq1xBJecOgQhJwF
+     procedure_id : 1295168205856007848
+     type_code : 14
+     code : |1+
+      // Summary: Refreshes the window
+      //
+      procedure Refresh() 
+      
+      if BTStatus() = btDisabled then
+      	BTN_Activate = "Enable the Bluetooth"
+      else
+      	BTN_Activate = "Disable the Bluetooth"
+      end
+      
+      RefreshVisibilityCBox()
+      
+      DisplayDevices()
+     type : 458752
+   -
+     name : RefreshVisibilityCBox
+     procedure_id : 1295168205856073384
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the check box for visibility
+      // Syntax:
+      //RefreshVisibilityCBox ()
+      //
+      // Parameters:
+      //	None
+      // Example:
+      // Indicate an example.
+      //
+      // Return value:
+      procedure RefreshVisibilityCBox() 
+      
+      if BTStatus() = btDisabled then
+      	CBOX_Visibility.State	= Grayed
+      	CBOX_Visibility			= False
+      else
+      	CBOX_Visibility.State	= Active
+      	CBOX_Visibility			= BTIsVisible()
+      end
+     type : 458752
+   -
+     name : DisplayDevices
+     internal_properties : CAAAAAgAAACm6U4eBqjNikU6aUWNqzUjTVEStTI1CPAi8GoQqgaGxkskTlkbh0EeeyuBQ53o/PIcKktXMP/oLzB7TgrOTyN1cgJs4oqPRKcPn7WwovruemlDHp6nG0F5UYuf4Iv5Mzbp2oE6ANqkti4a1Yk5Lh5P30y82NO4MBZh008B9suXNbC2
+     procedure_id : 1295168205856138920
+     type_code : 14
+     code : |1-
+      // Summary: Displays the available devices
+      
+      procedure DisplayDevices() 
+      sTmpString		is string
+      sListDevices	is string
+      
+      if BTStatus() = btEnabled then
+      	
+      	// Returns the list of devices
+      	sListDevices = BTListDevice()
+      	
+      	// Clears the looper where the devices are listed
+      	LooperDeleteAll(LOOP_Devices)
+      	// Fills the looper
+      	if sListDevices <> "" then
+      		for each string sTmpString of sListDevices SEPAREE by CR
+      			// Retrieve the values
+      			sIdentifier	is string	= ExtractString(sTmpString,1, TAB)
+      			sMACAddress	is string	= ExtractString(sTmpString,2, TAB)
+      			sName		is string	= ExtractString(sTmpString,3, TAB)
+      			if sName <> "" then
+      				LooperAdd(LOOP_Devices,sTmpString)
+      			end
+      		end
+      	else
+      		Info(<§$0000§>) 
+      	end
+      end
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x1f4cfcae00dd7385
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : No available device.
+     index : 0
+   -
+     text :
+      en-GB : Enable the bluetooth
+     index : 1
+   -
+     text :
+      en-GB : Disable the bluetooth
+     index : 2
+   -
+     text :
+      en-GB : Enabling in progress
+     index : 3
+   -
+     text :
+      en-GB : Disabling in progress
+     index : 4
+   -
+     text :
+      en-GB : Unable to modify the visibility.
+     index : 5
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
